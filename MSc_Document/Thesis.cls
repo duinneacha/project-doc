@@ -162,7 +162,7 @@
     {DEPARTMENT OF MATEMATICS}}
   {DEPARTMENT OF MATEMATICS}}
 \faculty     {\texorpdfstring{\href{https://www.mtu.ie)}
-    {Faculty of Engineering and Sciencessss}}
+    {}}
   {Faculty of Engineering and Science}}
 \FACULTY     {\texorpdfstring{\href{https://www.mtu.ie}
     {FACULTY OF ENGINEERING AND SCIENCE}}

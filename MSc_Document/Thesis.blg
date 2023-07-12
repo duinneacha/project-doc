@@ -17,46 +17,50 @@ Database file #1: Bibliography.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--empty year in breuelHighPerformanceOCRPrinted2013
+Warning--empty year in joshuaDevelopmentImageProcessing2023
+Warning--empty year in hazraOpticalCharacterRecognition2017
 
 Done.
 You've used 3 entries,
             4783 wiz_defined-function locations,
-            964 strings with 8645 characters,
-and the built_in function-call counts, 3514 in all, are:
-= -- 325
-> -- 87
-< -- 35
-+ -- 46
-- -- 16
-* -- 216
-:= -- 558
-add.period$ -- 6
+            957 strings with 9314 characters,
+and the built_in function-call counts, 3408 in all, are:
+= -- 276
+> -- 110
+< -- 23
++ -- 53
+- -- 24
+* -- 206
+:= -- 520
+add.period$ -- 9
 call.type$ -- 3
 change.case$ -- 6
-chr.to.int$ -- 78
-cite$ -- 3
-duplicate$ -- 212
-empty$ -- 211
-format.name$ -- 24
-if$ -- 764
+chr.to.int$ -- 63
+cite$ -- 6
+duplicate$ -- 208
+empty$ -- 252
+format.name$ -- 30
+if$ -- 747
 int.to.chr$ -- 1
 int.to.str$ -- 4
-missing$ -- 29
+missing$ -- 33
 newline$ -- 39
 num.names$ -- 9
-pop$ -- 51
+pop$ -- 96
 preamble$ -- 1
 purify$ -- 3
 quote$ -- 2
-skip$ -- 255
+skip$ -- 239
 stack$ -- 0
-substring$ -- 183
-swap$ -- 195
-text.length$ -- 9
+substring$ -- 149
+swap$ -- 153
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
 type$ -- 48
-warning$ -- 0
+warning$ -- 3
 while$ -- 18
 width$ -- 0
-write$ -- 71
+write$ -- 65
+(There were 3 warnings)

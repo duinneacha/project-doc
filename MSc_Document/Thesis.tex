@@ -101,7 +101,7 @@
 \acknowledgements{
     \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-    The acknowledgements and the people to thank go here, don't forget to include your project supervisor (term one and two)\ldots
+    Acknowledgements here \ldots
 
 }
 \clearpage  % End of the Acknowledgements
@@ -149,17 +149,11 @@
 \pagestyle{fancy}  % Return the page headers back to the "fancy" style
 
 \input{Chapters/Chapter1} % Introduction
-\input{Chapters/Chapter2} % Background Theory 
-\input{Chapters/Chapter3} % Problem
-\input{Chapters/Chapter4} % Solution Approach
+\input{Chapters/Chapter2} % Literature Review 
+\input{Chapters/Chapter3} % Methodology
+\input{Chapters/Chapter4} % Results
+\input{Chapters/Chapter5} % Discussion and Conclusion
 
-\ifimp
-    \input{Chapters/Chapter5} % Conclusions and Term 2 work
-    \input{Chapters/Chapter6} % Conclusions and Term 2 work
-    \input{Chapters/Chapter7} % Conclusions and Term 2 work
-\else
-    \input{Chapters/Chapter5_Rsh} % Conclusions and Term 2 work
-\fi
 %% ----------------------------------------------------------------
 \label{Bibliography}
 \bibliographystyle{IEEEtranN}  % Use the "IEEE Transaction" BibTeX style for formatting the Bibliography
@@ -175,9 +169,6 @@
 
 \input{Appendices/AppendixA}	% Appendix Title
 
-\input{Appendices/AppendixB} % Appendix Title
-
-%\input{Appendices/AppendixC} % Appendix Title
 
 \addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
 \backmatter

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  8 JUL 2023 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  12 JUL 2023 01:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,6 +535,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
+
+Package hyperref Warning: Suppressing empty link on input line 84.
+
 [2
 
 ]
@@ -585,77 +588,112 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
+<Figures/start_pics/IMG-20200219-WA0002.jpg, id=226, 1204.5pt x 1606.0pt>
+File: Figures/start_pics/IMG-20200219-WA0002.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200219-WA0002.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200219-WA0002.jpg  used on input line 16.
+(pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
+<Figures/start_pics/IMG-20200220-WA0000.jpg, id=227, 1204.5pt x 1606.0pt>
+File: Figures/start_pics/IMG-20200220-WA0000.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0000.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0000.jpg  used on input line 16.
+(pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
+<Figures/start_pics/IMG-20200220-WA0002.jpg, id=228, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0002.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0002.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0002.jpg  used on input line 16.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0003.jpg, id=229, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0003.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0003.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0003.jpg  used on input line 17.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0004.jpg, id=230, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0004.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0004.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0004.jpg  used on input line 17.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0005.jpg, id=231, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0005.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0005.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0005.jpg  used on input line 17.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0006.jpg, id=232, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0006.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0006.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0006.jpg  used on input line 18.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0007.jpg, id=233, 1204.5pt x 1606.0pt>
+File: Figures/start_pics/IMG-20200220-WA0007.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0007.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0007.jpg  used on input line 18.
+(pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
+<Figures/start_pics/IMG-20200220-WA0009.jpg, id=234, 1204.5pt x 1606.0pt>
+File: Figures/start_pics/IMG-20200220-WA0009.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0009.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0009.jpg  used on input line 18.
+(pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
+<Figures/start_pics/IMG-20200220-WA0010.jpg, id=235, 1204.5pt x 1606.0pt>
+File: Figures/start_pics/IMG-20200220-WA0010.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0010.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0010.jpg  used on input line 19.
+(pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
+<Figures/start_pics/IMG-20200220-WA0011.jpg, id=236, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0011.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0011.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0011.jpg  used on input line 19.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
+<Figures/start_pics/IMG-20200220-WA0013.jpg, id=237, 1606.0pt x 1204.5pt>
+File: Figures/start_pics/IMG-20200220-WA0013.jpg Graphic file (type jpg)
+<use Figures/start_pics/IMG-20200220-WA0013.jpg>
+Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0013.jpg  used on input line 19.
+(pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
 [1
 
 
 
-]) (Chapters/Chapter2.tex [2]
+] [2 <./Figures/start_pics/IMG-20200219-WA0002.jpg> <./Figures/start_pics/IMG-20200220-WA0000.jpg> <./Figures/start_pics/IMG-20200220-WA0002.jpg> <./Figures/start_pics/IMG-20200220-WA0003.jpg> <./Figures/start_pics/IMG-20200220-WA0004.jpg> <./Figures/start_pics/IMG-20200220-WA0005.jpg> <./Figures/start_pics/IMG-20200220-WA0006.jpg> <./Figures/start_pics/IMG-20200220-WA0007.jpg> <./Figures/start_pics/IMG-20200220-WA0009.jpg> <./Figures/start_pics/IMG-20200220-WA0010.jpg> <./Figures/start_pics/IMG-20200220-WA0011.jpg> <./Figures/start_pics/IMG-20200220-WA0013.jpg>]) (Chapters/Chapter2.tex [3]
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Background
+ 2 Literature Review
 ------------------------------------------------------------------------------
-<Figures/successkid.jpg, id=240, 614.295pt x 408.3255pt>
-File: Figures/successkid.jpg Graphic file (type jpg)
-<use Figures/successkid.jpg>
-Package pdftex.def Info: Figures/successkid.jpg  used on input line 23.
-(pdftex.def)             Requested size: 292.22987pt x 194.24945pt.
-[3
+[4
 
-] [4 <./Figures/successkid.jpg>] [5]) (Chapters/Chapter3.tex [6]
+] [5]
+<Figures/SVM_Joshua.jpg, id=263, 376.40625pt x 261.97874pt>
+File: Figures/SVM_Joshua.jpg Graphic file (type jpg)
+<use Figures/SVM_Joshua.jpg>
+Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 46.
+(pdftex.def)             Requested size: 250.48637pt x 174.3416pt.
+ [6 <./Figures/SVM_Joshua.jpg>]) (Chapters/Chapter3.tex [7]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 Problem - rename to project title
+ 3 Methodology
 ------------------------------------------------------------------------------
-[7
+) (Chapters/Chapter4.tex [8
 
 ]
-File: Figures/successkid.jpg Graphic file (type jpg)
-<use Figures/successkid.jpg>
-Package pdftex.def Info: Figures/successkid.jpg  used on input line 33.
-(pdftex.def)             Requested size: 200.38528pt x 133.19643pt.
-File: Figures/successkid.jpg Graphic file (type jpg)
-<use Figures/successkid.jpg>
-Package pdftex.def Info: Figures/successkid.jpg  used on input line 34.
-(pdftex.def)             Requested size: 200.38528pt x 133.19643pt.
-) (Chapters/Chapter4.tex [8] [9]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Implementation Approach
+ 4 Results
 ------------------------------------------------------------------------------
-[10
+) (Chapters/Chapter5.tex [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\OT1/cmr/bx/n/8 Frequency/
- []
-
-[11]) (Chapters/Chapter5_Rsh.tex [12]
 Chapter 5.
 ------------------------------------------------------------------------------
- 5 Conclusions and Future Work
+ 5 Discussion and Conclusion
 ------------------------------------------------------------------------------
-[13
+) (Thesis.bbl [10
 
-]
-Overfull \hbox (0.81276pt too wide) in paragraph at lines 23--24
-[][][]$\OT1/cmtt/m/n/10.95 https : / / web . stevens . edu / hfslwiki / images / a / a0 / ShareLatex _ Tutorial . pdf$[][] 
- []
-
-) (Thesis.bbl [14]) (Appendices/AppendixA.tex [15
+]) (Appendices/AppendixA.tex [11
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A Code Snippets
 ------------------------------------------------------------------------------
-) (Appendices/AppendixB.tex [16
-
-]
-Appendix B.
-------------------------------------------------------------------------------
- B Wireframe Models
-------------------------------------------------------------------------------
-) [17
+) [12
 
 ]
 ------------------------------------------------------------------------------
@@ -667,20 +705,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 591E6E5716130AF204C763FECEB32259;4965.
+(rerunfilecheck)             Checksum: 2D1F76944BB386EE476A35AB39EBF69C;5185.
  ) 
 Here is how much of TeX's memory you used:
- 14765 strings out of 475551
- 230912 string characters out of 5763027
- 1932238 words of memory out of 5000000
- 35658 multiletter control sequences out of 15000+600000
- 568248 words of font info for 73 fonts, out of 8000000 for 9000
+ 14804 strings out of 475551
+ 234583 string characters out of 5763027
+ 1927238 words of memory out of 5000000
+ 35716 multiletter control sequences out of 15000+600000
+ 567737 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,81p,13205b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (27 pages, 857735 bytes).
+ 78i,13n,81p,13205b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (22 pages, 2049797 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
