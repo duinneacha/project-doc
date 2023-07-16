@@ -1,6 +1,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Development of an Image Processing Technique for Vehicle Classification using OCR and SVM}}{6}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Bruel's illustration of the training steps of the LSTM recognizer}}{8}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Li's Architecture of TrOCR}}{9}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Architecture of Li's proposed network}}{10}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of applying the Rule Based FAHTA Algorithm}}{11}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Development of an Image Processing Technique for Vehicle Classification using OCR and SVM}}{12}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Rashid's Extraction steps from screen rendered text-lines}}{13}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Optical Character Recognition using KNN on Custom Image Dataset}}{14}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Flowchart of Template Matching OCR}}{15}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
