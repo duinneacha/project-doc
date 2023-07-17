@@ -24,6 +24,18 @@
   file = {C\:\\Users\\USER\\Zotero\\storage\\KS72STPI\\Ahuja and Chaudhuri - Detecting Vehicle Type and License Plate Number of.pdf}
 }
 
+@thesis{anderssonBenchmarkingObjectDetection2022,
+  type = {Thesis},
+  title = {Benchmarking {{Object Detection Algorithms}} for {{Optical Character Recognition}} of {{Odometer Mileage}}},
+  author = {Andersson, Eric},
+  date = {2022-06},
+  institution = {{Uppsala Universitet}},
+  location = {{Sweden}},
+  url = {https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1688125&dswid=462},
+  abstract = {Machine learning algorithms have had breakthroughs in many areas in the last decades. The hardest task, to solve with machine learning, was solving tasks that humans solve intuitively, e.g. understanding natural language or recognizing specific objects in images. To overcome these problems is to allow the computer to learn from experience, instead of implementing a pre-written program to solve the problem at hand - that is how Neural Networks came to be. Neural Network is widely used in image analysis, and object detection algorithms have evolved considerably in the last years. Two of these algorithms are Faster Region-based Convolutional Neural Networks(Faster R-CNN) and You Only Look Once(YOLO). The purpose of this thesis is to evaluate and benchmark state-of-the-art object detection methods and then analyze their performance based on reading information from images. The information that we aim to extract is digital and analog digits from the odometer of a car, this will be done through object recognition and region-based image analysis. Our models will be compared to the open-source Optical Character Recognition(OCR) model Tesseract, which is in production by the Stockholm-based company Greater Than. In this project we will take a more modern approach and focus on two object detection models, Faster R-CNN and YOLO. When training these models, we will use transfer learning. This means that we will use models that are pre-trained, in our case on a dataset called ImageNet, specifically for object detection. We will then use the TRODO dataset to train these models further, this dataset consists of 2 389 images of car odometers. The models are then evaluated through the measures of mean average precision(mAP), prediction accuracy, and Levenshtein Distance. Our findings are that the object detection models are out-performing Tesseract for all measurements. The highest mAP and accuracy is attained by Faster R-CNN while the best results, regarding Levenshtein distance, are achieved by a YOLO model. The final result is clear, both of our approaches have more diversity and are far better than Tesseract, for solving this specific problem.},
+  pagetotal = {50}
+}
+
 @inproceedings{antonyQuantifyingRadiographicKnee2016,
   title = {Quantifying Radiographic Knee Osteoarthritis Severity Using Deep Convolutional Neural Networks},
   booktitle = {2016 23rd {{International Conference}} on {{Pattern Recognition}} ({{ICPR}})},
@@ -505,6 +517,15 @@
   isbn = {978-1-4799-3080-7 978-1-4799-3078-4},
   langid = {english},
   file = {C\:\\Users\\USER\\Zotero\\storage\\IJK7VNPS\\Ghosh and Shit - 2014 - A low cost data acquisition system from digital di.pdf}
+}
+
+@article{giridharNovelApproachOCR2019,
+  title = {A {{Novel Approach}} to {{OCR}} Using {{Image Recognition}} Based {{Classification}} for {{Ancient Tamil Inscriptions}} in {{Temples}}},
+  author = {Giridhar, Lalitha and Dharani, Aishwarya and Guruviah, Velmathi},
+  date = {2019},
+  pages = {8},
+  url = {https://arxiv.org/abs/1907.04917},
+  abstract = {Recognition of ancient Tamil characters has always been a challenge for Epigraphers. This is primarily because the language has evolved over several centuries and the character set has over this time both expanded and diversified. This proposed work focuses on improving optical character recognition techniques for ancient Tamil script which was in use between the 7th and 12th centuries. While comprehensively curating a functional data set for ancient Tamil characters is an arduous task, in this work, a data set has been curated using cropped images of characters found on certain temple inscriptions, specific to this time period as a case study. After using Otsu thresholding method for binarization of the image, a two-dimensional convolution neural network is defined and used to train, classify, and recognize the ancient Tamil characters. To implement the optical character recognition techniques, the neural network is linked to the Tesseract using the Pytesseract library in Python. As an added feature, this work also incorporates Google’s text to speech voice engine to produce an audio output of the digitized text. Various samples for both modern and ancient Tamil were collected and passed through the system. It is found that for Tamil inscriptions studied over the considered time period, a combined efficiency (OCR and text to speech) of 77.7\% can be achieved.}
 }
 
 @article{goodfellowGenerativeAdversarialNets,

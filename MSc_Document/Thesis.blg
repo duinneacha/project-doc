@@ -10,6 +10,8 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Bibliography.bib
+Warning--entry type for "anderssonBenchmarkingObjectDetection2022" isn't style-file defined
+--line 27 of file Bibliography.bib
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -17,10 +19,16 @@ Database file #1: Bibliography.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--empty year in smithOverviewTesseractOCR2007
 Warning--empty journal in liTrOCRTransformerBasedOptical2023
 Warning--empty year in liTrOCRTransformerBasedOptical2023
 Warning--empty journal in ahujaDetectingVehicleType
 Warning--empty year in ahujaDetectingVehicleType
+Warning--empty journal in giridharNovelApproachOCR2019
+Warning--empty year in giridharNovelApproachOCR2019
+Warning--empty year in cakicUseTesseractOCR2020
+Warning--empty journal in robbyImplementationOpticalCharacter2019
+Warning--empty year in robbyImplementationOpticalCharacter2019
 Warning--empty year in breuelHighPerformanceOCRPrinted2013
 Warning--empty year in liAttentionBasedRNN2017
 Warning--empty journal in doushNovelArabicOCR2018
@@ -32,45 +40,45 @@ Warning--empty journal in hossainOpticalCharacterRecognition2019
 Warning--empty year in hossainOpticalCharacterRecognition2019
 
 Done.
-You've used 9 entries,
+You've used 14 entries,
             4783 wiz_defined-function locations,
-            997 strings with 11097 characters,
-and the built_in function-call counts, 9714 in all, are:
-= -- 804
-> -- 332
-< -- 76
-+ -- 168
-- -- 78
-* -- 587
-:= -- 1436
-add.period$ -- 23
-call.type$ -- 9
-change.case$ -- 18
-chr.to.int$ -- 194
-cite$ -- 22
-duplicate$ -- 598
-empty$ -- 672
-format.name$ -- 94
-if$ -- 2142
+            1029 strings with 12677 characters,
+and the built_in function-call counts, 13952 in all, are:
+= -- 1169
+> -- 463
+< -- 103
++ -- 232
+- -- 108
+* -- 825
+:= -- 2096
+add.period$ -- 35
+call.type$ -- 14
+change.case$ -- 28
+chr.to.int$ -- 259
+cite$ -- 33
+duplicate$ -- 877
+empty$ -- 981
+format.name$ -- 132
+if$ -- 3073
 int.to.chr$ -- 2
-int.to.str$ -- 10
-missing$ -- 94
-newline$ -- 67
-num.names$ -- 27
-pop$ -- 273
+int.to.str$ -- 15
+missing$ -- 140
+newline$ -- 92
+num.names$ -- 42
+pop$ -- 415
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 14
 quote$ -- 2
-skip$ -- 672
+skip$ -- 973
 stack$ -- 0
-substring$ -- 477
-swap$ -- 461
-text.length$ -- 12
+substring$ -- 634
+swap$ -- 650
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 144
-warning$ -- 13
-while$ -- 50
+type$ -- 224
+warning$ -- 19
+while$ -- 73
 width$ -- 0
-write$ -- 141
-(There were 13 warnings)
+write$ -- 205
+(There were 20 warnings)

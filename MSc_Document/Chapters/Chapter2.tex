@@ -22,7 +22,8 @@ While this review focuses on the capabilities of Tesseract OCR and Convolutional
 
 \section{Tesseract OCR}
 
-Optical character recognition (OCR) is the process of converting images of text into machine-readable text. Tesseract is an open-source OCR engine that is widely used for a variety of tasks, including document digitization, machine translation, and data entry.
+Optical character recognition (OCR) is the process of converting images of text into machine-readable text. Tesseract is an open-source Optical Character Recognition (OCR) engine that is widely used for a variety of tasks, including document digitization, machine translation, and data entry. Tesseract was developed at HP between 1984 and 1994. Initially conceived as a PhD research project to improve OCR performance for HP's scanners, it outperformed contemporary commercial OCR engines but never became an HP product. Its development was mainly focused on improving rejection efficiency rather than base-level accuracy. Despite being shelved in 1994, Tesseract proved its prowess in the 1995 UNLV Annual Test of OCR Accuracy. HP made Tesseract open-source in 2005, hosted at Google Code. Tesseract's architecture assumes binary images as input and uses a step-by-step pipeline for processing, including a unique connected component analysis for detecting inverse text. Its recognition process is two-pass: initial recognition of words feeds an adaptive classifier which subsequently improves text recognition further down the page. A final phase resolves fuzzy spaces and checks alternative hypotheses for the x-height to locate smallcap text. \cite{smithOverviewTesseractOCR2007}
+
 
 \vspace{1cm}
 
@@ -36,8 +37,83 @@ Optical character recognition (OCR) is the process of converting images of text 
 
 In this literature review, we will discuss five research papers that have been published on Tesseract OCR. These papers cover a wide range of topics, including the accuracy of Tesseract, the performance of Tesseract on different types of documents, and the use of Tesseract for specific applications. Each study presents unique findings, and together they create a comprehensive overview of the current state and potential trajectory of Tesseract OCR. Through a detailed exploration of these works, we aim not only to comprehend the nuances of Tesseract OCR but also to contribute to the burgeoning discourse around its implications and opportunities in our increasingly digitized world
 
-In the paper Benchmarking Object Detection Algorithms for Optical Character Recognition of Odometer Mileage"
+In the paper "Benchmarking Object Detection Algorithms for Optical Character Recognition of Odometer Mileage" Andersson et al. compare two state-of-the-art object detection models, Faster R-CNN and YOLO, with an open-source OCR model, Tesseract, for reading the odometer mileage from car dashboard images. They use a dataset of 2,389 images of car odometers and evaluate the models based on mean average precision, prediction accuracy, and Levenshtein distance.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.88\textwidth]{Figures/tesseract_papers/Andersson_2022.jpg}
+    \caption[Visualization of Boundary box predictions, and digit classification from
+        YOLO-models. left - YOLO Singlebox-model. middle - YOLO Digitbox-model. right - YOLO
+        Multibox-model.]{Visualization of Boundary box predictions, and digit classification from
+        YOLO-models. left - YOLO Singlebox-model. middle - YOLO Digitbox-model. right - YOLO
+        Multibox-model.}\cite{anderssonBenchmarkingObjectDetection2022}
+    \label{fig:Andersson Visualisation of Boundary box predictions}
+\end{figure}
+
+
+They find that the object detection models outperform Tesseract on all metrics, and that Faster R-CNN has the highest mAP and accuracy, while YOLO has the lowest Levenshtein distance. \cite{anderssonBenchmarkingObjectDetection2022}
+
+
+Ahuja et al.'s paper "Detecting Vehicle Type and License Plate Number of different Vehicles on Images" discusses the development of a model that can locate a particular vehicle that the user is looking for depending on two factors 1. the Type of vehicle and the 2. License plate number of the car. The proposed system uses a unique mixture consisting of Mask R-CNN model for vehicle type detection, WpodNet and Tesseract for License Plate detection and Prediction of letters in it.
 \cite{ahujaDetectingVehicleType}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.88\textwidth]{Figures/tesseract_papers/Ahuja_2021.jpg}
+    \caption[WpodNet Detection Method]{WpodNet Detection Method}\cite{ahujaDetectingVehicleType}
+    \label{fig:WpodNet Detection Method}
+\end{figure}
+
+The first stage of Ahuja et al.'s project involved annotating 2,650 images with a custom dataset using the open-source tool VGG Annotator. The images were annotated with rectangular shapes instead of polygons, and the categories were 2-Wheelers, 3-Wheelers, 4-Wheelers, and vehicles with more than four wheels. The trained Mask R-CNN model achieved an F1 score of 0.72399 on the training data and 0.68 on the test data.
+
+The second stage was split into two parts: license plate detection and letter classification. The WpodNet model was used for license plate detection, achieving an accuracy rate of over 90\%. The Tesseract model was then used to predict the letters on the license plate, enhancing speed and accuracy.
+
+The third and final stage of the project involved the model accepting user input for vehicle type, license plate, and image. The model then compared this input with its output to determine if the searched vehicle had been identified.
+
+The final hybrid model uses Mask R-CNN (F1 score: 0.72399 training, 0.68 testing), WpodNet, and pytesseract for car and license plate identification. This can aid in tracking stolen vehicles and assessing parking lot availability.
+
+
+In an interesting paper, Giridhar et al.'s "A Novel Approach to OCR using Image Recognition based Classification for Ancient Tamil Inscriptions in Temples" describes a novel approach to OCR using image recognition based classification for ancient Tamil inscriptions in temples. The proposed work focuses on improving optical character recognition techniques for ancient Tamil script which was in use between the 7th and 12th centuries. A data set has been curated using cropped images of characters found on certain temple inscriptions, specific to this time period as a case study.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.88\textwidth]{Figures/tesseract_papers/Giridhar_2019.jpg}
+    \caption[Giridhar's proposed architecture]{Giridhar's proposed architecture}\cite{giridharNovelApproachOCR2019}
+    \label{fig:Giridhar's proposed architecture}
+\end{figure}
+
+
+After using Otsu thresholding method for binarization of the image, a two-dimensional convolution neural network is defined and used to train, classify, and recognize the ancient Tamil characters. To implement the optical character recognition techniques, the neural network is linked to the Tesseract using the Pytesseract library in Python. As an added feature, this work also incorporates Google's text to speech voice engine to produce an audio output of the digitized text. Various samples for both modern and ancient Tamil were collected and passed through the system.
+
+
+The author used Otsu Thresholding Method for binarization of the image and a Two-dimensional Convolution Neural Network to train, classify, and recognize the ancient Tamil characters. To implement the optical character recognition techniques, the neural network is linked to the Tesseract using the Pytesseract library in Python. As an added feature, this work also incorporates Google's text to speech voice engine to produce an audio output of the digitized text.
+
+On average, the combined efficiency of the system for ancient Tamil script was 77.7\%, although it varied based on the specific challenges encountered with different types of text and inscriptions. The study acknowledged that further work is needed to overcome these issues and increase the system's accuracy and efficiency.\cite{giridharNovelApproachOCR2019}
+
+In Cakic et al's paper "The Use of Tesseract OCR Number Recognition for Food Tracking and Tracing", they discuss the use of computer vision and optical character recognition (OCR) on mobile devices to read serial numbers from wine labels in order to enable applications based on tracking and tracing of each individual wine bottle. The research focuses on the implementation and image processing that improved detection accuracy.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.88\textwidth]{Figures/tesseract_papers/Cakic_2020.jpg}
+    \caption[Numbers change through the preprocessing stage]{Numbers change through the preprocessing stage}\cite{cakicUseTesseractOCR2020}
+    \label{fig:Cakic's Numbers change through the preprocessing stage}
+\end{figure}
+
+Cakic et al.'s research involved testing a script to read serial numbers from about 150 wine label images, some of which were of poor quality. The initial attempt, which didn't involve any image preprocessing, managed to correctly read the full serial numbers on around 62\% of the images. After preprocessing the images, the success rate increased significantly to 87.5\%. This suggests that the quality of the preprocessing and the images used in the test dataset significantly affects the accuracy of the results.
+
+In 2019, Robby et al.'s paper "Implementation of Optical Character Recognition using Tesseract with the Javanese Script Target in Android Application" discusses the challenges and methods of recognising non-Latin scripts, especially Javanese, which have complex shapes and structures. They present their dataset collection, training, and testing process using Tesseract OCR tools. They report their results and analysis, showing that their model achieved the highest accuracy by combining single boundary box and separate boundary boxes for different parts of the characters.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.88\textwidth]{Figures/tesseract_papers/Robby_2019.jpg}
+    \caption[Robby et al.'s Proposed Method]{Robby et al.'s Proposed Method}\cite{robbyImplementationOpticalCharacter2019}
+    \label{fig:Robby et al.'s Proposed Method}
+\end{figure}
+
+
+The authors of this paper used a variety of methods to develop a Javanese character recognition system. First, they collected 5880 Javanese characters from various sources and cropped and resized them to 32x32 pixels. Then, they applied several preprocessing steps to the images, such as binarization, noise removal, contrast enhancement, and skew correction. Next, they augmented the data by applying random rotations, translations, scaling, and shearing to the images. Finally, they used Tesseract, an open source OCR tool, to train different models with different boundary box methods.
+
+The author's found that the best model was the one that combined single boundary box and separate boundary boxes for different parts of the characters, which achieved an accuracy of 97.50\% and an error rate of 2.50\% on the test set.
 
 
 \newpage
@@ -47,7 +123,7 @@ CRNN, an abbreviation for Convolutional Recurrent Neural Network, is a unique fu
 
 CRNNs are usually applied in the classification and analysis of sequential data like text, speech, and images. Due to their ability to handle variable-length sequential data and recognize long-term dependencies, they are extremely useful for tasks that need to comprehend contextual and temporal information. They have displayed excellence in modeling and processing sequential data across diverse tasks, marking them as an efficient instrument in this domain.
 
-\section{Working of CRNNs}
+\subsection{Working of CRNNs}
 The functionality of CRNNs is outlined as follows:
 
 \begin{enumerate}
@@ -215,4 +291,7 @@ Template Matching is a technique used to locate small-parts of the bigger image 
 
 Their system prototype was tested on different text images with different fonts and sizes. The accuracy was calculated based on the character recognition accuracy. Their results show that Calibri and Verdana fonts had the highest accuracy, while Cambria and Times New Roman fonts had the lowest accuracy.  The accuracy can be improved by training the system with more fonts and features. \cite{hossainOpticalCharacterRecognition2019}
 
+\newpage
+\section{Conclusion}
 
+Where has tesseract and CRNN been found to be suitable for OCR tasks?

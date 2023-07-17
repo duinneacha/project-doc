@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Thesis"] 1689551939 "Thesis.aux" "Thesis.bbl" "Thesis" 1689551942 0
-  "./Bibliography.bib" 1689445030 171817 3957076c79815df451fe79bca4a12f3f ""
+["bibtex Thesis"] 1689638082 "Thesis.aux" "Thesis.bbl" "Thesis" 1689638085 0
+  "./Bibliography.bib" 1689631053 176159 e92aa11f8dd8543b482943c1169f393f ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/bibtex/bst/feupphdteses/IEEEtranN.bst" 1363106370 63465 52e4631827d9e4cab8ed25dc93fa95dd ""
-  "Thesis.aux" 1689551941 10155 651ba38a94d2b24c96225a43fe38d472 "pdflatex"
+  "Thesis.aux" 1689638084 12762 00fb900b7981cc4640567c8cfb72d85b "pdflatex"
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
   (rewritten before read)
-["pdflatex"] 1689551939 "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" "Thesis.pdf" "Thesis" 1689551942 0
+["pdflatex"] 1689638082 "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" "Thesis.pdf" "Thesis" 1689638085 0
   "Appendices/AppendixA.tex" 1568359168 102 e20edf4dde756b13b2768592a40d6422 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1688685487 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1688650436 24118398 de1bdf1430435a47a0de9bdecfdf4816 ""
@@ -127,7 +127,7 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/vmargin/vmargin.sty" 1090526724 7055 5eae49c3f07fead60d92def0a4f5c30f ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Chapters/Chapter1.tex" 1689465096 9201 65d6d083cd54e1afb4a31b9dfd1c9bf0 ""
-  "Chapters/Chapter2.tex" 1689551935 17480 49459f5ad4a7b9de293f9161629515fd ""
+  "Chapters/Chapter2.tex" 1689638078 27072 b63829f718a6abbd9f48f0e71095296f ""
   "Chapters/Chapter3.tex" 1688860513 97 4e6cc1ed470dd72bcd35a970888d69d5 ""
   "Chapters/Chapter4.tex" 1688860628 85 855ba847ae3a1a4c7ba7782e9e4145ba ""
   "Chapters/Chapter5.tex" 1688894546 83 80c6586ac681ffcba421b89b3c706416 ""
@@ -153,15 +153,20 @@
   "Figures/start_pics/IMG-20200220-WA0011.jpg" 1662458883 195676 4808048fe067f0116c4e02df962adbf6 ""
   "Figures/start_pics/IMG-20200220-WA0013.jpg" 1662458884 156319 941e1a8ec6a78a9fde6cd9066ae3115e ""
   "Figures/tesseract_ocr.jpg" 1689500578 50589 a5106bcfa246be0aa13d56edd6b399a9 ""
-  "Thesis.aux" 1689551941 10155 651ba38a94d2b24c96225a43fe38d472 "pdflatex"
-  "Thesis.bbl" 1689551939 5220 49338852b26e5c81933c753ccafc753a "bibtex Thesis"
+  "Figures/tesseract_papers/Ahuja_2021.jpg" 1689614093 56521 67375f09221da48d30078eea7031d152 ""
+  "Figures/tesseract_papers/Andersson_2022.jpg" 1689597328 44897 4b3ec75e3c6260ff4a1ad058df616288 ""
+  "Figures/tesseract_papers/Cakic_2020.jpg" 1689633725 64069 ffc3b702ebfe5bd0136d4fc1a65e65aa ""
+  "Figures/tesseract_papers/Giridhar_2019.jpg" 1689630001 103479 2aa8a8b295c3d7748904b20dc2c5d61d ""
+  "Figures/tesseract_papers/Robby_2019.jpg" 1689636944 69194 02c5bfba8610cb35ba432cd950d4f365 ""
+  "Thesis.aux" 1689638084 12762 00fb900b7981cc4640567c8cfb72d85b "pdflatex"
+  "Thesis.bbl" 1689638082 7485 45d6b56c5db97d26c3ae8a93a75e19cf "bibtex Thesis"
   "Thesis.cls" 1688904725 11261 c2753847255762d0b4c39a349fe7c5f7 ""
-  "Thesis.lof" 1689551941 1291 ab57b56d57ba91a9ebfd432bae205143 "pdflatex"
-  "Thesis.lot" 1689551941 226 1edec623459c29d3db230552c010edc9 "pdflatex"
-  "Thesis.out" 1689551941 5349 52e3932577f324b7817b144ab7f7fb25 "pdflatex"
-  "Thesis.tex" 1689418556 9176 cb966ca5888cbf79fad330f80338654c ""
-  "Thesis.toc" 1689551941 2557 e7e79b865ebf67258bb3dc54037322c4 "pdflatex"
-  "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" 1689418556 9176 cb966ca5888cbf79fad330f80338654c ""
+  "Thesis.lof" 1689638084 2010 ac9b59c51c5be7d411b48bc85eb31881 "pdflatex"
+  "Thesis.lot" 1689638084 226 1edec623459c29d3db230552c010edc9 "pdflatex"
+  "Thesis.out" 1689638084 5490 f72560df5102114b9546ccdab433c7d4 "pdflatex"
+  "Thesis.tex" 1689582926 9212 b928f952444b70b0e69ed3597c3ae9fa ""
+  "Thesis.toc" 1689638084 2637 27b21e1e424c56638048bf2c89f46484 "pdflatex"
+  "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" 1689582926 9212 b928f952444b70b0e69ed3597c3ae9fa ""
   "lstpatch.sty" 1568359168 13038 8661d088ac62bbb6c48610e50ea35872 ""
   "vector.sty" 1568359168 2058 14ffaeb60d4b7735727aae1e2ee54809 ""
   (generated)
