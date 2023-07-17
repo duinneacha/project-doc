@@ -15,24 +15,25 @@
 \contentsline {section}{\numberline {1.4}Structure of the Thesis}{5}{section.20}%
 \contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.26}%
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.27}%
-\contentsline {section}{\numberline {2.2}Tesseract OCR}{7}{section.28}%
-\contentsline {section}{\numberline {2.3}Convolutional Recurrent Neural Networks (CRNNs)}{7}{section.29}%
-\contentsline {section}{\numberline {2.4}Other OCR Methods}{8}{section.30}%
-\contentsline {subsection}{\numberline {2.4.1}Long Short-Term Memory Networks (LSTMs)}{8}{subsection.31}%
-\contentsline {subsection}{\numberline {2.4.2}Transformers}{9}{subsection.33}%
-\contentsline {subsection}{\numberline {2.4.3}Attention-based OCR models}{10}{subsection.35}%
-\contentsline {subsection}{\numberline {2.4.4}Rule-based systems}{11}{subsection.37}%
-\contentsline {subsection}{\numberline {2.4.5}Support Vector Machines (SVMs)}{12}{subsection.39}%
-\contentsline {subsection}{\numberline {2.4.6}Hidden Markov Models (HMMs)}{13}{subsection.41}%
-\contentsline {subsection}{\numberline {2.4.7}K-Nearest Neighbors (KNN)}{14}{subsection.43}%
-\contentsline {subsection}{\numberline {2.4.8}Template Matching}{15}{subsection.45}%
-\contentsline {chapter}{\numberline {3}Methodology}{16}{chapter.47}%
-\contentsline {section}{\numberline {3.1}}{16}{section.48}%
-\contentsline {chapter}{\numberline {4}Results}{17}{chapter.49}%
-\contentsline {section}{\numberline {4.1}Introduction}{17}{section.50}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{18}{chapter.51}%
-\contentsline {section}{\numberline {5.1}Discussion}{18}{section.52}%
-\contentsline {chapter}{Bibliography}{19}{chapter*.53}%
+\contentsline {section}{\numberline {2.2}Tesseract OCR}{8}{section.28}%
+\contentsline {section}{\numberline {2.3}Convolutional Recurrent Neural Networks (CRNNs)}{9}{section.30}%
+\contentsline {section}{\numberline {2.4}Working of CRNNs}{9}{section.31}%
+\contentsline {section}{\numberline {2.5}Other OCR Methods}{11}{section.37}%
+\contentsline {subsection}{\numberline {2.5.1}Long Short-Term Memory Networks (LSTMs)}{11}{subsection.38}%
+\contentsline {subsection}{\numberline {2.5.2}Transformers}{12}{subsection.40}%
+\contentsline {subsection}{\numberline {2.5.3}Attention-based OCR models}{13}{subsection.42}%
+\contentsline {subsection}{\numberline {2.5.4}Rule-based systems}{14}{subsection.44}%
+\contentsline {subsection}{\numberline {2.5.5}Support Vector Machines (SVMs)}{15}{subsection.46}%
+\contentsline {subsection}{\numberline {2.5.6}Hidden Markov Models (HMMs)}{16}{subsection.48}%
+\contentsline {subsection}{\numberline {2.5.7}K-Nearest Neighbors (KNN)}{17}{subsection.50}%
+\contentsline {subsection}{\numberline {2.5.8}Template Matching}{18}{subsection.52}%
+\contentsline {chapter}{\numberline {3}Methodology}{19}{chapter.54}%
+\contentsline {section}{\numberline {3.1}}{19}{section.55}%
+\contentsline {chapter}{\numberline {4}Results}{20}{chapter.56}%
+\contentsline {section}{\numberline {4.1}Introduction}{20}{section.57}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{21}{chapter.58}%
+\contentsline {section}{\numberline {5.1}Discussion}{21}{section.59}%
+\contentsline {chapter}{Bibliography}{22}{chapter*.60}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Code Snippets}{21}{appendix.54}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{24}{appendix.61}%
 \vspace {2em}

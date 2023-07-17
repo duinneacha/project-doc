@@ -340,6 +340,13 @@ INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT Chapters\Chapter2.tex
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
+INPUT .\Figures\tesseract_ocr.jpg
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Figures\LSTM_Breuel.jpg
 INPUT .\Figures\LSTM_Breuel.jpg

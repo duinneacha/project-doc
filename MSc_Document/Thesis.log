@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  16 JUL 2023 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  17 JUL 2023 00:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -504,7 +504,7 @@ Package hyperref Info: Link coloring ON on input line 24.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/MTU_Logo.png, id=131, 225.84375pt x 225.84375pt>
+<Figures/MTU_Logo.png, id=135, 225.84375pt x 225.84375pt>
 File: Figures/MTU_Logo.png Graphic file (type png)
 <use Figures/MTU_Logo.png>
 Package pdftex.def Info: Figures/MTU_Logo.png  used on input line 37.
@@ -588,62 +588,62 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-<Figures/start_pics/IMG-20200219-WA0002.jpg, id=240, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200219-WA0002.jpg, id=247, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200219-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200219-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200219-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0000.jpg, id=241, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0000.jpg, id=248, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0000.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0000.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0000.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0002.jpg, id=242, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0002.jpg, id=249, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0003.jpg, id=243, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0003.jpg, id=250, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0003.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0003.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0003.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0004.jpg, id=244, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0004.jpg, id=251, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0004.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0004.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0004.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0005.jpg, id=245, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0005.jpg, id=252, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0005.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0005.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0005.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0006.jpg, id=246, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0006.jpg, id=253, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0006.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0006.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0006.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0007.jpg, id=247, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0007.jpg, id=254, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0007.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0007.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0007.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0009.jpg, id=248, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0009.jpg, id=255, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0009.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0009.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0009.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0010.jpg, id=249, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0010.jpg, id=256, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0010.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0010.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0010.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0011.jpg, id=250, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0011.jpg, id=257, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0011.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0011.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0011.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0013.jpg, id=251, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0013.jpg, id=258, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0013.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0013.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0013.jpg  used on input line 19.
@@ -660,82 +660,88 @@ Chapter 2.
 [6
 
 ] [7]
-<Figures/LSTM_Breuel.jpg, id=293, 435.87843pt x 237.88875pt>
+<Figures/tesseract_ocr.jpg, id=299, 960.58875pt x 515.67656pt>
+File: Figures/tesseract_ocr.jpg Graphic file (type jpg)
+<use Figures/tesseract_ocr.jpg>
+Package pdftex.def Info: Figures/tesseract_ocr.jpg  used on input line 31.
+(pdftex.def)             Requested size: 250.48637pt x 134.46617pt.
+ [8 <./Figures/tesseract_ocr.jpg>] [9] [10]
+<Figures/LSTM_Breuel.jpg, id=323, 435.87843pt x 237.88875pt>
 File: Figures/LSTM_Breuel.jpg Graphic file (type jpg)
 <use Figures/LSTM_Breuel.jpg>
-Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 35.
+Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 73.
 (pdftex.def)             Requested size: 333.97972pt x 182.27467pt.
- [8 <./Figures/LSTM_Breuel.jpg>]
-<Figures/Trans_MLi.jpg, id=300, 855.94781pt x 411.78844pt>
+ [11 <./Figures/LSTM_Breuel.jpg>]
+<Figures/Trans_MLi.jpg, id=330, 855.94781pt x 411.78844pt>
 File: Figures/Trans_MLi.jpg Graphic file (type jpg)
 <use Figures/Trans_MLi.jpg>
-Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 54.
+Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 92.
 (pdftex.def)             Requested size: 250.48637pt x 120.50261pt.
- [9 <./Figures/Trans_MLi.jpg>]
-<Figures/AT_Li.jpg, id=310, 773.13844pt x 518.6878pt>
+ [12 <./Figures/Trans_MLi.jpg>]
+<Figures/AT_Li.jpg, id=338, 773.13844pt x 518.6878pt>
 File: Figures/AT_Li.jpg Graphic file (type jpg)
 <use Figures/AT_Li.jpg>
-Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 78.
+Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 116.
 (pdftex.def)             Requested size: 250.48637pt x 168.04918pt.
- [10 <./Figures/AT_Li.jpg>]
-<Figures/RB_Doush.jpg, id=318, 341.02406pt x 305.64188pt>
+ [13 <./Figures/AT_Li.jpg>]
+<Figures/RB_Doush.jpg, id=346, 341.02406pt x 305.64188pt>
 File: Figures/RB_Doush.jpg Graphic file (type jpg)
 <use Figures/RB_Doush.jpg>
-Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 99.
+Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 137.
 (pdftex.def)             Requested size: 250.48637pt x 224.50182pt.
- [11 <./Figures/RB_Doush.jpg>]
-<Figures/SVM_Joshua.jpg, id=326, 376.40625pt x 261.97874pt>
+ [14 <./Figures/RB_Doush.jpg>]
+<Figures/SVM_Joshua.jpg, id=354, 376.40625pt x 261.97874pt>
 File: Figures/SVM_Joshua.jpg Graphic file (type jpg)
 <use Figures/SVM_Joshua.jpg>
-Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 118.
+Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 156.
 (pdftex.def)             Requested size: 333.97972pt x 232.46478pt.
- [12 <./Figures/SVM_Joshua.jpg>]
-<Figures/HMM_Rashid.jpg, id=333, 618.05907pt x 316.93407pt>
+ [15 <./Figures/SVM_Joshua.jpg>]
+<Figures/HMM_Rashid.jpg, id=362, 618.05907pt x 316.93407pt>
 File: Figures/HMM_Rashid.jpg Graphic file (type jpg)
 <use Figures/HMM_Rashid.jpg>
-Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 139.
+Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 177.
 (pdftex.def)             Requested size: 333.97972pt x 171.26758pt.
- [13 <./Figures/HMM_Rashid.jpg>]
-<Figures/KNN_Hazra.jpg, id=342, 397.485pt x 247.67531pt>
+ [16 <./Figures/HMM_Rashid.jpg>]
+<Figures/KNN_Hazra.jpg, id=371, 397.485pt x 247.67531pt>
 File: Figures/KNN_Hazra.jpg Graphic file (type jpg)
 <use Figures/KNN_Hazra.jpg>
-Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 156.
+Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 194.
 (pdftex.def)             Requested size: 333.97972pt x 208.11008pt.
- [14 <./Figures/KNN_Hazra.jpg>]
-<Figures/TM_Hossain.jpg, id=349, 336.50719pt x 509.65407pt>
+ [17 <./Figures/KNN_Hazra.jpg>]
+<Figures/TM_Hossain.jpg, id=378, 336.50719pt x 509.65407pt>
 File: Figures/TM_Hossain.jpg Graphic file (type jpg)
 <use Figures/TM_Hossain.jpg>
-Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 173.
+Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 211.
 (pdftex.def)             Requested size: 166.98668pt x 252.90556pt.
-) (Chapters/Chapter3.tex [15 <./Figures/TM_Hossain.jpg>]
+) (Chapters/Chapter3.tex [18 <./Figures/TM_Hossain.jpg>]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Methodology
 ------------------------------------------------------------------------------
-) (Chapters/Chapter4.tex [16
+) (Chapters/Chapter4.tex [19
 
 ]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Results
 ------------------------------------------------------------------------------
-) (Chapters/Chapter5.tex [17
+) (Chapters/Chapter5.tex [20
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion and Conclusion
 ------------------------------------------------------------------------------
-) (Thesis.bbl [18
+) (Thesis.bbl [21
 
-] [19
+] [22
 
-]) (Appendices/AppendixA.tex [20]
+]) (Appendices/AppendixA.tex [23]
 Appendix A.
 ------------------------------------------------------------------------------
  A Code Snippets
 ------------------------------------------------------------------------------
-) [21
+) [24
 
 ]
 ------------------------------------------------------------------------------
@@ -747,20 +753,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 03A194B7D3C1D02A73A1FA92BCF5AD81;5185.
+(rerunfilecheck)             Checksum: 52E3932577F324B7817B144AB7F7FB25;5349.
  ) 
 Here is how much of TeX's memory you used:
- 14909 strings out of 475551
- 237264 string characters out of 5763027
+ 14932 strings out of 475551
+ 237730 string characters out of 5763027
  1927238 words of memory out of 5000000
- 35790 multiletter control sequences out of 15000+600000
+ 35802 multiletter control sequences out of 15000+600000
  567737 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,13n,81p,13205b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (31 pages, 2537019 bytes).
+Output written on Thesis.pdf (34 pages, 2595141 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 
