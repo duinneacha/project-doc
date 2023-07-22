@@ -1,20 +1,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Tesseract OCR}}{8}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Visualization of Boundary box predictions, and digit classification from YOLO-models. left - YOLO Singlebox-model. middle - YOLO Digitbox-model. right - YOLO Multibox-model.}}{9}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces WpodNet Detection Method}}{10}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Giridhar's proposed architecture}}{11}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Numbers change through the preprocessing stage}}{12}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Robby et al.'s Proposed Method}}{12}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Bruel's illustration of the training steps of the LSTM recognizer}}{16}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Li's Architecture of TrOCR}}{17}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Architecture of Li's proposed network}}{18}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Example of applying the Rule Based FAHTA Algorithm}}{19}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Development of an Image Processing Technique for Vehicle Classification using OCR and SVM}}{20}{figure.caption.52}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Rashid's Extraction steps from screen rendered text-lines}}{21}{figure.caption.54}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Optical Character Recognition using KNN on Custom Image Dataset}}{22}{figure.caption.56}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Flowchart of Template Matching OCR}}{23}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Tesseract OCR}}{8}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Visualization of Boundary box predictions, and digit classification from YOLO-models. left - YOLO Singlebox-model. middle - YOLO Digitbox-model. right - YOLO Multibox-model.}}{9}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces WpodNet Detection Method}}{10}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Giridhar's proposed architecture}}{11}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Numbers change through the pre-processing stage}}{12}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Robby et al.'s Proposed Method}}{12}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Biro et al.'s Modern Recogniser}}{15}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Shinde et al.'s Handwriting Results}}{16}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Rawl et al.'s End-to-End OCR Model: With CNN and LSTM layers}}{17}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Feng et al.'s Algorithm Structure}}{18}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Azadbakht et al.'s MultiPath Visual Transformer OCR architecture}}{19}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Bruel's illustration of the training steps of the LSTM recognizer}}{20}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Li's Architecture of TrOCR}}{21}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture of Li's proposed network}}{22}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Example of applying the Rule Based FAHTA Algorithm}}{23}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Development of an Image Processing Technique for Vehicle Classification using OCR and SVM}}{24}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Rashid's Extraction steps from screen rendered text-lines}}{25}{figure.caption.61}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Optical Character Recognition using KNN on Custom Image Dataset}}{26}{figure.caption.63}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Flowchart of Template Matching OCR}}{27}{figure.caption.65}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption for first image\relax }}{34}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption for second image\relax }}{34}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caption for third image\relax }}{34}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caption for whole figure\relax }}{34}{figure.caption.89}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

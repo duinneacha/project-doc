@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  18 JUL 2023 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  22 JUL 2023 01:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -443,8 +443,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
@@ -452,24 +454,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -495,7 +497,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks38
 )
 \c@lstlisting=\count320
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 39.
  (Thesis.out) (Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -504,10 +506,10 @@ Package hyperref Info: Link coloring ON on input line 24.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/MTU_Logo.png, id=139, 225.84375pt x 225.84375pt>
+<Figures/MTU_Logo.png, id=159, 225.84375pt x 225.84375pt>
 File: Figures/MTU_Logo.png Graphic file (type png)
 <use Figures/MTU_Logo.png>
-Package pdftex.def Info: Figures/MTU_Logo.png  used on input line 37.
+Package pdftex.def Info: Figures/MTU_Logo.png  used on input line 52.
 (pdftex.def)             Requested size: 292.22987pt x 292.26663pt.
 [1
 
@@ -517,15 +519,15 @@ Package pdftex.def Info: Figures/MTU_Logo.png  used on input line 37.
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
@@ -536,7 +538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
  Abstract Page
 ------------------------------------------------------------------------------
 
-Package hyperref Warning: Suppressing empty link on input line 85.
+Package hyperref Warning: Suppressing empty link on input line 100.
 
 [2
 
@@ -557,93 +559,104 @@ Package hyperref Warning: Suppressing empty link on input line 85.
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
- [5] (Thesis.lof)
+ [5] (Thesis.lof [6
+
+
+])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [6
 
+------------------------------------------------------------------------------
+ List of Code Listings
+------------------------------------------------------------------------------
+[7] (Thesis.lol)
+\tf@lol=\write6
+\openout6 = `Thesis.lol'.
+
+ [8
 
 ] (Thesis.lot)
-\tf@lot=\write6
-\openout6 = `Thesis.lot'.
+\tf@lot=\write7
+\openout7 = `Thesis.lot'.
 
- [7
+ [9
+
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[8
+[10
 
 
 ]
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[9
+[11
 
 ] (Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-<Figures/start_pics/IMG-20200219-WA0002.jpg, id=264, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200219-WA0002.jpg, id=315, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200219-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200219-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200219-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0000.jpg, id=265, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0000.jpg, id=316, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0000.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0000.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0000.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0002.jpg, id=266, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0002.jpg, id=317, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0003.jpg, id=267, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0003.jpg, id=318, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0003.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0003.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0003.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0004.jpg, id=268, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0004.jpg, id=319, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0004.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0004.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0004.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0005.jpg, id=269, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0005.jpg, id=320, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0005.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0005.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0005.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0006.jpg, id=270, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0006.jpg, id=321, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0006.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0006.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0006.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0007.jpg, id=271, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0007.jpg, id=322, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0007.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0007.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0007.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0009.jpg, id=272, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0009.jpg, id=323, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0009.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0009.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0009.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0010.jpg, id=273, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0010.jpg, id=324, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0010.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0010.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0010.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0011.jpg, id=274, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0011.jpg, id=325, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0011.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0011.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0011.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0013.jpg, id=275, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0013.jpg, id=326, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0013.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0013.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0013.jpg  used on input line 19.
@@ -660,117 +673,168 @@ Chapter 2.
 [6
 
 ] [7]
-<Figures/tesseract_ocr.jpg, id=317, 960.58875pt x 515.67656pt>
+<Figures/tesseract_ocr.jpg, id=369, 960.58875pt x 515.67656pt>
 File: Figures/tesseract_ocr.jpg Graphic file (type jpg)
 <use Figures/tesseract_ocr.jpg>
 Package pdftex.def Info: Figures/tesseract_ocr.jpg  used on input line 32.
 (pdftex.def)             Requested size: 250.48637pt x 134.46617pt.
  [8 <./Figures/tesseract_ocr.jpg>]
-<Figures/tesseract_papers/Andersson_2022.jpg, id=325, 860.46469pt x 274.02374pt>
+<Figures/tesseract_papers/Andersson_2022.jpg, id=377, 860.46469pt x 274.02374pt>
 File: Figures/tesseract_papers/Andersson_2022.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Andersson_2022.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Andersson_2022.jpg  used on input line 44.
 (pdftex.def)             Requested size: 367.37833pt x 116.99583pt.
-<Figures/tesseract_papers/Ahuja_2021.jpg, id=329, 814.54312pt x 207.77625pt>
+<Figures/tesseract_papers/Ahuja_2021.jpg, id=381, 814.54312pt x 207.77625pt>
 File: Figures/tesseract_papers/Ahuja_2021.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Ahuja_2021.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Ahuja_2021.jpg  used on input line 62.
 (pdftex.def)             Requested size: 367.37833pt x 93.71085pt.
  [9 <./Figures/tesseract_papers/Andersson_2022.jpg>]
-<Figures/tesseract_papers/Giridhar_2019.jpg, id=338, 883.80188pt x 454.69875pt>
+<Figures/tesseract_papers/Giridhar_2019.jpg, id=389, 883.80188pt x 454.69875pt>
 File: Figures/tesseract_papers/Giridhar_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Giridhar_2019.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Giridhar_2019.jpg  used on input line 80.
 (pdftex.def)             Requested size: 367.37833pt x 189.00867pt.
  [10 <./Figures/tesseract_papers/Ahuja_2021.jpg>]
-<Figures/tesseract_papers/Cakic_2020.jpg, id=345, 608.2725pt x 260.47313pt>
+<Figures/tesseract_papers/Cakic_2020.jpg, id=396, 608.2725pt x 260.47313pt>
 File: Figures/tesseract_papers/Cakic_2020.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Cakic_2020.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Cakic_2020.jpg  used on input line 97.
 (pdftex.def)             Requested size: 367.37833pt x 157.32242pt.
  [11 <./Figures/tesseract_papers/Giridhar_2019.jpg>]
-<Figures/tesseract_papers/Robby_2019.jpg, id=352, 2323.93219pt x 258.21469pt>
+<Figures/tesseract_papers/Robby_2019.jpg, id=403, 2323.93219pt x 258.21469pt>
 File: Figures/tesseract_papers/Robby_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Robby_2019.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Robby_2019.jpg  used on input line 108.
 (pdftex.def)             Requested size: 367.37833pt x 40.81874pt.
- [12 <./Figures/tesseract_papers/Cakic_2020.jpg> <./Figures/tesseract_papers/Robby_2019.jpg>] [13] [14] [15]
-<Figures/LSTM_Breuel.jpg, id=379, 435.87843pt x 237.88875pt>
+ [12 <./Figures/tesseract_papers/Cakic_2020.jpg> <./Figures/tesseract_papers/Robby_2019.jpg>] [13] [14]
+<Figures/CRNN_Papers/Biro_2023.jpg, id=426, 1596.71532pt x 590.95781pt>
+File: Figures/CRNN_Papers/Biro_2023.jpg Graphic file (type jpg)
+<use Figures/CRNN_Papers/Biro_2023.jpg>
+Package pdftex.def Info: Figures/CRNN_Papers/Biro_2023.jpg  used on input line 141.
+(pdftex.def)             Requested size: 367.37833pt x 135.97153pt.
+ [15 <./Figures/CRNN_Papers/Biro_2023.jpg>]
+<Figures/CRNN_Papers/Shinde_2020.jpg, id=435, 1241.38782pt x 371.88937pt>
+File: Figures/CRNN_Papers/Shinde_2020.jpg Graphic file (type jpg)
+<use Figures/CRNN_Papers/Shinde_2020.jpg>
+Package pdftex.def Info: Figures/CRNN_Papers/Shinde_2020.jpg  used on input line 155.
+(pdftex.def)             Requested size: 367.37833pt x 110.05823pt.
+ [16 <./Figures/CRNN_Papers/Shinde_2020.jpg>]
+<Figures/CRNN_Papers/Rawl_2018.jpg, id=443, 1015.54407pt x 1206.00563pt>
+File: Figures/CRNN_Papers/Rawl_2018.jpg Graphic file (type jpg)
+<use Figures/CRNN_Papers/Rawl_2018.jpg>
+Package pdftex.def Info: Figures/CRNN_Papers/Rawl_2018.jpg  used on input line 171.
+(pdftex.def)             Requested size: 242.13513pt x 287.53343pt.
+ [17 <./Figures/CRNN_Papers/Rawl_2018.jpg>]
+<Figures/CRNN_Papers/Feng_2020.jpg, id=451, 822.82407pt x 1014.03844pt>
+File: Figures/CRNN_Papers/Feng_2020.jpg Graphic file (type jpg)
+<use Figures/CRNN_Papers/Feng_2020.jpg>
+Package pdftex.def Info: Figures/CRNN_Papers/Feng_2020.jpg  used on input line 185.
+(pdftex.def)             Requested size: 242.13513pt x 298.39604pt.
+ [18 <./Figures/CRNN_Papers/Feng_2020.jpg>]
+<Figures/CRNN_Papers/Azadbakht_2022.jpg, id=459, 1222.5675pt x 719.68875pt>
+File: Figures/CRNN_Papers/Azadbakht_2022.jpg Graphic file (type jpg)
+<use Figures/CRNN_Papers/Azadbakht_2022.jpg>
+Package pdftex.def Info: Figures/CRNN_Papers/Azadbakht_2022.jpg  used on input line 199.
+(pdftex.def)             Requested size: 325.62848pt x 191.68298pt.
+ [19 <./Figures/CRNN_Papers/Azadbakht_2022.jpg>]
+<Figures/LSTM_Breuel.jpg, id=469, 435.87843pt x 237.88875pt>
 File: Figures/LSTM_Breuel.jpg Graphic file (type jpg)
 <use Figures/LSTM_Breuel.jpg>
-Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 149.
+Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 218.
 (pdftex.def)             Requested size: 333.97972pt x 182.27467pt.
- [16 <./Figures/LSTM_Breuel.jpg>]
-<Figures/Trans_MLi.jpg, id=386, 855.94781pt x 411.78844pt>
+ [20 <./Figures/LSTM_Breuel.jpg>]
+<Figures/Trans_MLi.jpg, id=476, 855.94781pt x 411.78844pt>
 File: Figures/Trans_MLi.jpg Graphic file (type jpg)
 <use Figures/Trans_MLi.jpg>
-Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 168.
+Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 237.
 (pdftex.def)             Requested size: 250.48637pt x 120.50261pt.
- [17 <./Figures/Trans_MLi.jpg>]
-<Figures/AT_Li.jpg, id=394, 773.13844pt x 518.6878pt>
+ [21 <./Figures/Trans_MLi.jpg>]
+<Figures/AT_Li.jpg, id=484, 773.13844pt x 518.6878pt>
 File: Figures/AT_Li.jpg Graphic file (type jpg)
 <use Figures/AT_Li.jpg>
-Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 192.
+Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 261.
 (pdftex.def)             Requested size: 250.48637pt x 168.04918pt.
- [18 <./Figures/AT_Li.jpg>]
-<Figures/RB_Doush.jpg, id=402, 341.02406pt x 305.64188pt>
+ [22 <./Figures/AT_Li.jpg>]
+<Figures/RB_Doush.jpg, id=492, 341.02406pt x 305.64188pt>
 File: Figures/RB_Doush.jpg Graphic file (type jpg)
 <use Figures/RB_Doush.jpg>
-Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 213.
+Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 282.
 (pdftex.def)             Requested size: 250.48637pt x 224.50182pt.
- [19 <./Figures/RB_Doush.jpg>]
-<Figures/SVM_Joshua.jpg, id=410, 376.40625pt x 261.97874pt>
+ [23 <./Figures/RB_Doush.jpg>]
+<Figures/SVM_Joshua.jpg, id=500, 376.40625pt x 261.97874pt>
 File: Figures/SVM_Joshua.jpg Graphic file (type jpg)
 <use Figures/SVM_Joshua.jpg>
-Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 232.
+Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 301.
 (pdftex.def)             Requested size: 333.97972pt x 232.46478pt.
- [20 <./Figures/SVM_Joshua.jpg>]
-<Figures/HMM_Rashid.jpg, id=417, 618.05907pt x 316.93407pt>
+ [24 <./Figures/SVM_Joshua.jpg>]
+<Figures/HMM_Rashid.jpg, id=507, 618.05907pt x 316.93407pt>
 File: Figures/HMM_Rashid.jpg Graphic file (type jpg)
 <use Figures/HMM_Rashid.jpg>
-Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 253.
+Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 322.
 (pdftex.def)             Requested size: 333.97972pt x 171.26758pt.
- [21 <./Figures/HMM_Rashid.jpg>]
-<Figures/KNN_Hazra.jpg, id=427, 397.485pt x 247.67531pt>
+ [25 <./Figures/HMM_Rashid.jpg>]
+<Figures/KNN_Hazra.jpg, id=517, 397.485pt x 247.67531pt>
 File: Figures/KNN_Hazra.jpg Graphic file (type jpg)
 <use Figures/KNN_Hazra.jpg>
-Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 270.
+Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 339.
 (pdftex.def)             Requested size: 333.97972pt x 208.11008pt.
- [22 <./Figures/KNN_Hazra.jpg>]
-<Figures/TM_Hossain.jpg, id=434, 336.50719pt x 509.65407pt>
+ [26 <./Figures/KNN_Hazra.jpg>]
+<Figures/TM_Hossain.jpg, id=524, 336.50719pt x 509.65407pt>
 File: Figures/TM_Hossain.jpg Graphic file (type jpg)
 <use Figures/TM_Hossain.jpg>
-Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 287.
+Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 356.
 (pdftex.def)             Requested size: 166.98668pt x 252.90556pt.
- [23 <./Figures/TM_Hossain.jpg>]) (Chapters/Chapter3.tex [24]
+ [27 <./Figures/TM_Hossain.jpg>] [28]) (Chapters/Chapter3.tex [29]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Methodology
 ------------------------------------------------------------------------------
-) (Chapters/Chapter4.tex [25
+[30
 
-]
+] [31] [32]
+<Figures/EDA_Charts/2/montage.png, id=561, 352.6776pt x 281.1303pt>
+File: Figures/EDA_Charts/2/montage.png Graphic file (type png)
+<use Figures/EDA_Charts/2/montage.png>
+Package pdftex.def Info: Figures/EDA_Charts/2/montage.png  used on input line 74.
+(pdftex.def)             Requested size: 417.47307pt x 332.79901pt.
+<Figures/EDA_Charts/2/rgb.png, id=563, 412.6617pt x 328.8285pt>
+File: Figures/EDA_Charts/2/rgb.png Graphic file (type png)
+<use Figures/EDA_Charts/2/rgb.png>
+Package pdftex.def Info: Figures/EDA_Charts/2/rgb.png  used on input line 80.
+(pdftex.def)             Requested size: 417.47307pt x 332.66107pt.
+<Figures/EDA_Charts/2/da.png, id=564, 1437.4503pt x 714.7503pt>
+File: Figures/EDA_Charts/2/da.png Graphic file (type png)
+<use Figures/EDA_Charts/2/da.png>
+Package pdftex.def Info: Figures/EDA_Charts/2/da.png  used on input line 86.
+(pdftex.def)             Requested size: 417.47307pt x 207.57765pt.
+
+
+LaTeX Warning: Float too large for page by 293.06465pt on input line 92.
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 95.
+) (Chapters/Chapter4.tex [33] [34 <./Figures/EDA_Charts/2/montage.png> <./Figures/EDA_Charts/2/rgb.png> <./Figures/EDA_Charts/2/da.png>]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Results
 ------------------------------------------------------------------------------
-) (Chapters/Chapter5.tex [26
+) (Chapters/Chapter5.tex [35
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion and Conclusion
 ------------------------------------------------------------------------------
-) (Thesis.bbl [27
+) (Thesis.bbl [36
 
-] [28
+] [37
 
-]) (Appendices/AppendixA.tex [29]
+]) (Appendices/AppendixA.tex [38]
 Appendix A.
 ------------------------------------------------------------------------------
  A Code Snippets
 ------------------------------------------------------------------------------
-) [30
+) [39
 
 ]
 ------------------------------------------------------------------------------
@@ -782,20 +846,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F72560DF5102114B9546CCDAB433C7D4;5490.
+(rerunfilecheck)             Checksum: 47397C8D8A75B1E29CB5DD840F7CBFC4;6281.
  ) 
 Here is how much of TeX's memory you used:
- 15005 strings out of 475551
- 240545 string characters out of 5763027
- 1931238 words of memory out of 5000000
- 35858 multiletter control sequences out of 15000+600000
- 567737 words of font info for 71 fonts, out of 8000000 for 9000
+ 15587 strings out of 475551
+ 248680 string characters out of 5763027
+ 1943238 words of memory out of 5000000
+ 36381 multiletter control sequences out of 15000+600000
+ 568073 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,13n,81p,13205b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (40 pages, 2955593 bytes).
+ 78i,13n,81p,13205b,1331s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (51 pages, 4134561 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 717 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 

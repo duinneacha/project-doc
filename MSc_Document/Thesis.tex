@@ -16,9 +16,24 @@
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 \usepackage[table]{xcolor}
+% \usepackage{minted}
+\usepackage{xcolor}
+\lstset{
+  language=Python,
+  basicstyle=\scriptsize\ttfamily\linespread{1.0},
+  breaklines=true,
+  tabsize=4,
+  showstringspaces=false,
+  frame=single,
+  keywordstyle=\color{blue},
+  stringstyle=\color{red},
+  commentstyle=\color{green},
+}
+
 \hypersetup{urlcolor=black, colorlinks=true}  % Colours hyperlinks in black, can be distracting if there are many links and colored blue.
 \usepackage{graphicx}
 \graphicspath{{Figures/}}  % Location of the graphics files (set up for graphics to be in PDF format)
+
 
 %% ----------------------------------------------------------------
 \begin{document}
@@ -50,31 +65,31 @@
 % Declaration Page required for the Thesis
 \Declaration{
 
-    \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+  \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-    I, Aidan Dennehy , declare that this thesis titled,  "Enhancing Accuracy in Optical Character Recognition of Sensor Readings: A Comparative Study of Tesseract and CRNN Models with Emphasis on Image Preprocessing" and the work presented in it are my own. I confirm that:
+  I, Aidan Dennehy , declare that this thesis titled,  "Enhancing Accuracy in Optical Character Recognition of Sensor Readings: A Comparative Study of Tesseract and CRNN Models with Emphasis on Image Preprocessing" and the work presented in it are my own. I confirm that:
 
-    \begin{itemize}
-        \item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for an undergraduate degree at Munster Technological University.
+  \begin{itemize}
+    \item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for an undergraduate degree at Munster Technological University.
 
-        \item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at Munster Technological University or any other institution, this has been clearly stated.
+    \item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at Munster Technological University or any other institution, this has been clearly stated.
 
-        \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+    \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
 
-        \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this project report is entirely my own work.
+    \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this project report is entirely my own work.
 
-        \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+    \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
 
-        \item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.
-            \\
-    \end{itemize}
+    \item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.
+      \\
+  \end{itemize}
 
 
-    Signed:\\
-    \rule[1em]{25em}{0.5pt}  % This prints a line for the signature
+  Signed:\\
+  \rule[1em]{25em}{0.5pt}  % This prints a line for the signature
 
-    Date:\\
-    \rule[1em]{25em}{0.5pt}  % This prints a line to write the date
+  Date:\\
+  \rule[1em]{25em}{0.5pt}  % This prints a line to write the date
 }
 \clearpage  % Declaration ended, now start a new page
 
@@ -83,13 +98,13 @@
 % The Abstract Page
 \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
 \abstract{
-    \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+  \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-    This research is primarily dedicated to the formulation of an innovative method for accurately interpreting sensor data obtained from digitized images. Confronting inherent challenges such as diminished contrast and subpar image quality, often associated with sensor readings, the study exploits Optical Character Recognition (OCR). This is accomplished employing two distinct techniques: Tesseract and Convolutional Recurrent Neural Network (CRNN) models.
+  This research is primarily dedicated to the formulation of an innovative method for accurately interpreting sensor data obtained from digitized images. Confronting inherent challenges such as diminished contrast and subpar image quality, often associated with sensor readings, the study exploits Optical Character Recognition (OCR). This is accomplished employing two distinct techniques: Tesseract and Convolutional Recurrent Neural Network (CRNN) models.
 
-    An unique feature of the research lies in its novel image preprocessing steps, specifically the masking of red and green colors prior to conversion to grayscale. This process considerably augments the efficacy of OCR. Additionally, the study underlines the critical importance of correct font selection for each sensor to enhance reading accuracy.
+  An unique feature of the research lies in its novel image preprocessing steps, specifically the masking of red and green colors prior to conversion to grayscale. This process considerably augments the efficacy of OCR. Additionally, the study underlines the critical importance of correct font selection for each sensor to enhance reading accuracy.
 
-    The findings highlight the essential role of image quality and contrast in OCR, while presenting an innovative approach to image preprocessing for improved results. The potential implications of this research are extensive and could shape future undertakings in the fields of OCR and sensor digitization. The research underscores the vital aspects of image preprocessing and reveals how precise interventions can markedly improve sensor data interpretation from digitized images.
+  The findings highlight the essential role of image quality and contrast in OCR, while presenting an innovative approach to image preprocessing for improved results. The potential implications of this research are extensive and could shape future undertakings in the fields of OCR and sensor digitization. The research underscores the vital aspects of image preprocessing and reveals how precise interventions can markedly improve sensor data interpretation from digitized images.
 
 }
 
@@ -100,9 +115,9 @@
 
 % The Acknowledgements page, for thanking everyone
 \acknowledgements{
-    \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+  \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-    Acknowledgements here \ldots
+  Acknowledgements here \ldots
 
 }
 \clearpage  % End of the Acknowledgements
@@ -119,6 +134,9 @@
 \lhead{\emph{List of Figures}}  % Set the left side page header to "List if Figures"
 \listoffigures  % Write out the List of Figures
 
+\lhead{\emph{List of Code Listings}}
+\lstlistoflistings
+
 %% ----------------------------------------------------------------
 \lhead{\emph{List of Tables}}  % Set the left side page header to "List of Tables"
 \listoftables  % Write out the List of Tables
@@ -129,8 +147,8 @@
 \lhead{\emph{Abbreviations}}  % Set the left side page header to "Abbreviations"
 \listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
 {
-    % \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
-    \textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+  % \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+  \textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
 
 }
 

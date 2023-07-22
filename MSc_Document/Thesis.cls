@@ -309,6 +309,27 @@
       \cleardoublepage
     }\end{spacing}
 }
+
+\renewcommand\lstlistoflistings{
+  \btypeout{List of Code Listings}
+  \addtotoc{List of Code Listings}
+  \begin{spacing}{1}{
+      \setlength{\parskip}{1pt}
+      \if@twocolumn
+        \@restonecoltrue\onecolumn
+      \else
+        \@restonecolfalse
+      \fi
+      \chapter*{\lstlistlistingname
+        \@mkboth{
+          \MakeUppercase\lstlistlistingname}{\MakeUppercase\lstlistlistingname}}
+      \@starttoc{lol} % 'lol' is the extension for listings
+      \if@restonecol\twocolumn\fi
+      \cleardoublepage
+    }\end{spacing}
+}
+
+
 \newcommand\listsymbolname{Abbreviations}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{

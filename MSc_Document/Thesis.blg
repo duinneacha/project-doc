@@ -29,6 +29,15 @@ Warning--empty year in giridharNovelApproachOCR2019
 Warning--empty year in cakicUseTesseractOCR2020
 Warning--empty journal in robbyImplementationOpticalCharacter2019
 Warning--empty year in robbyImplementationOpticalCharacter2019
+Warning--empty journal in vermaImprovementOCRTechnologies2022
+Warning--empty year in vermaImprovementOCRTechnologies2022
+Warning--empty journal in biroSynthetizedMultilanguageOCR2023
+Warning--empty year in biroSynthetizedMultilanguageOCR2023
+Warning--empty journal in shindeUsingCRNNPerform2021
+Warning--empty year in shindeUsingCRNNPerform2021
+Warning--empty year in rawlsHowEfficientlyIncrease2018
+Warning--empty year in fengPortContainerNumber2020
+Warning--empty year in azadbakhtMultiPathViTOCR2022
 Warning--empty year in breuelHighPerformanceOCRPrinted2013
 Warning--empty year in liAttentionBasedRNN2017
 Warning--empty journal in doushNovelArabicOCR2018
@@ -40,45 +49,45 @@ Warning--empty journal in hossainOpticalCharacterRecognition2019
 Warning--empty year in hossainOpticalCharacterRecognition2019
 
 Done.
-You've used 14 entries,
+You've used 20 entries,
             4783 wiz_defined-function locations,
-            1029 strings with 12677 characters,
-and the built_in function-call counts, 13952 in all, are:
-= -- 1169
-> -- 463
-< -- 103
-+ -- 232
-- -- 108
-* -- 825
-:= -- 2096
-add.period$ -- 35
-call.type$ -- 14
-change.case$ -- 28
-chr.to.int$ -- 259
-cite$ -- 33
-duplicate$ -- 877
-empty$ -- 981
-format.name$ -- 132
-if$ -- 3073
+            1067 strings with 14584 characters,
+and the built_in function-call counts, 19389 in all, are:
+= -- 1643
+> -- 644
+< -- 136
++ -- 317
+- -- 150
+* -- 1151
+:= -- 2936
+add.period$ -- 50
+call.type$ -- 20
+change.case$ -- 40
+chr.to.int$ -- 331
+cite$ -- 48
+duplicate$ -- 1239
+empty$ -- 1366
+format.name$ -- 188
+if$ -- 4272
 int.to.chr$ -- 2
-int.to.str$ -- 15
-missing$ -- 140
-newline$ -- 92
-num.names$ -- 42
-pop$ -- 415
+int.to.str$ -- 21
+missing$ -- 201
+newline$ -- 120
+num.names$ -- 60
+pop$ -- 585
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 20
 quote$ -- 2
-skip$ -- 973
+skip$ -- 1364
 stack$ -- 0
-substring$ -- 634
-swap$ -- 650
-text.length$ -- 17
+substring$ -- 814
+swap$ -- 905
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 224
-warning$ -- 19
-while$ -- 73
+type$ -- 320
+warning$ -- 28
+while$ -- 98
 width$ -- 0
-write$ -- 205
-(There were 20 warnings)
+write$ -- 284
+(There were 29 warnings)
