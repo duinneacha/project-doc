@@ -33,13 +33,24 @@
 \contentsline {section}{\numberline {3.1}Introduction}{30}{section.68}%
 \contentsline {section}{\numberline {3.2}Data Collection}{31}{section.69}%
 \contentsline {section}{\numberline {3.3}Data Analysis}{32}{section.70}%
-\contentsline {subsection}{\numberline {3.3.1}Folders}{33}{subsection.87}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Sipa 2}{33}{subsubsection.88}%
-\contentsline {chapter}{\numberline {4}Results}{35}{chapter.96}%
-\contentsline {section}{\numberline {4.1}Introduction}{35}{section.97}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{36}{chapter.98}%
-\contentsline {section}{\numberline {5.1}Discussion}{36}{section.99}%
-\contentsline {chapter}{Bibliography}{37}{chapter*.100}%
+\contentsline {subsection}{\numberline {3.3.1}Sipa 2}{34}{subsection.87}%
+\contentsline {subsection}{\numberline {3.3.2}Sipa 3}{34}{subsection.89}%
+\contentsline {subsection}{\numberline {3.3.3}Sipa 4}{35}{subsection.91}%
+\contentsline {subsection}{\numberline {3.3.4}Sipa 5}{35}{subsection.93}%
+\contentsline {subsection}{\numberline {3.3.5}Sipa 6}{36}{subsection.95}%
+\contentsline {subsection}{\numberline {3.3.6}Sipa 7}{36}{subsection.97}%
+\contentsline {subsection}{\numberline {3.3.7}Sipa 8}{37}{subsection.99}%
+\contentsline {subsection}{\numberline {3.3.8}Sipa 9}{37}{subsection.101}%
+\contentsline {subsection}{\numberline {3.3.9}Sipa 10}{38}{subsection.103}%
+\contentsline {subsection}{\numberline {3.3.10}Sipa 11}{38}{subsection.105}%
+\contentsline {section}{\numberline {3.4}Analysis Global Tesseract}{39}{section.107}%
+\contentsline {section}{\numberline {3.5}Analysis Tesseract Seperate Folders}{39}{section.108}%
+\contentsline {section}{\numberline {3.6}CRNN Training Databases}{39}{section.109}%
+\contentsline {chapter}{\numberline {4}Results}{41}{chapter.113}%
+\contentsline {section}{\numberline {4.1}Introduction}{41}{section.114}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{42}{chapter.115}%
+\contentsline {section}{\numberline {5.1}Discussion}{42}{section.116}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.117}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Code Snippets}{39}{appendix.101}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{45}{appendix.118}%
 \vspace {2em}
