@@ -44,13 +44,15 @@
 \contentsline {subsection}{\numberline {3.3.9}Sipa 10}{38}{subsection.103}%
 \contentsline {subsection}{\numberline {3.3.10}Sipa 11}{38}{subsection.105}%
 \contentsline {section}{\numberline {3.4}Analysis Global Tesseract}{39}{section.107}%
-\contentsline {section}{\numberline {3.5}Analysis Tesseract Seperate Folders}{39}{section.108}%
-\contentsline {section}{\numberline {3.6}CRNN Training Databases}{39}{section.109}%
-\contentsline {chapter}{\numberline {4}Results}{41}{chapter.113}%
-\contentsline {section}{\numberline {4.1}Introduction}{41}{section.114}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{42}{chapter.115}%
-\contentsline {section}{\numberline {5.1}Discussion}{42}{section.116}%
-\contentsline {chapter}{Bibliography}{43}{chapter*.117}%
+\contentsline {subsection}{\numberline {3.4.1}First Run}{39}{subsection.108}%
+\contentsline {section}{\numberline {3.5}Analysis Tesseract Seperate Folders}{40}{section.110}%
+\contentsline {subsection}{\numberline {3.5.1}Sipa 2}{40}{subsection.111}%
+\contentsline {section}{\numberline {3.6}CRNN Training Databases}{41}{section.113}%
+\contentsline {chapter}{\numberline {4}Results}{43}{chapter.117}%
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.118}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{44}{chapter.119}%
+\contentsline {section}{\numberline {5.1}Discussion}{44}{section.120}%
+\contentsline {chapter}{Bibliography}{45}{chapter*.121}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Code Snippets}{45}{appendix.118}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{47}{appendix.122}%
 \vspace {2em}

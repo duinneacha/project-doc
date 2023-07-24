@@ -342,10 +342,48 @@ There are 14 JPEG files totalling a size of 6.16mb in this folder. The images ar
 
 \section{Analysis Global Tesseract}
 
-Analysis Resized
+\subsection{First Run}
+
+The first run performs Optical Character Recognition (OCR) on all of the images using the pytesseract library, a Python interface for the Tesseract OCR engine.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/firstrun/tesseract_config.jpg}
+    \caption[PyTesseract Config Settings]{PyTesseract Config Settings}
+    \label{fig:PyTesseract Config Settings}
+\end{figure}
+
+
+Firstly the libraries are imported for the analysis: numpy, pandas, and cv2 (OpenCV).
+
+OCR is performed on the images using the configuration specified in Fig 3.11 above. Several variations of this configuration were tested and settings of PSM 6 and 7 were found to provide the good results, however 13 appears to provide the best results overall.
+
+These results will be discussed in the Results chapter.
+
+\newpage
 
 \section{Analysis Tesseract Seperate Folders}
 
+
+\subsection{Sipa 2}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/2/montage.png}
+    \caption[Sipa 2 Montage]{Sipa 2 Montage}
+    \label{fig:Sipa 2 Montage}
+\end{figure}
+
+
+The Red Mask function operates on an input image to isolate and return only the red pixels in that image.
+
+The input image should be a numpy ndarray representing the original image in BGR format. To process this, the function first converts the image into the HSV (Hue, Saturation, Value) colour space using OpenCV's cvtColor function.
+
+Because the hue component of red colour in HSV space spans both ends of the hue spectrum, two ranges are defined to capture the entire red hue — the lower range (0-10) and the higher range (170-180). These ranges are combined with saturation and value thresholds to define what is considered a red pixel in the image.
+
+The function then creates two binary masks for these ranges, using OpenCV's inRange function, which applies these boundaries on the HSV image. The resulting masks have pixel values of 255 where the original image pixels are within the specified red range, and 0 otherwise.
+
+These two masks are added together to form a comprehensive mask of red pixels. The function then applies this mask onto a copy of the original image, setting all the pixels where the mask equals 0 to also be 0 in the output image. This leaves only the red pixels visible in the output image. Hence, the function returns an image emphasizing the red components of the original input.
 
 \section{CRNN Training Databases}
 
