@@ -11,15 +11,15 @@ The area of interest for this literature review is the intersection of computer 
 \newcommand{\startpicsWH}[1]{\includegraphics[width=0.15\textwidth,height=0.1\textheight]{#1}}
 
 \begin{table}[ht]
-    \centering
-    \begin{tabular}{ccc}
-        \startpicsWH{Figures/start_pics/IMG-20200219-WA0002.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0000.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0002.jpg} \\
-        \startpicsWH{Figures/start_pics/IMG-20200220-WA0003.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0004.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0005.jpg} \\
-        \startpicsWH{Figures/start_pics/IMG-20200220-WA0006.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0007.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0009.jpg} \\
-        \startpicsWH{Figures/start_pics/IMG-20200220-WA0010.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0011.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0013.jpg} \\
-    \end{tabular}
-    \caption{Nimbus Sensor Images}
-    \label{table:image-table}
+      \centering
+      \begin{tabular}{ccc}
+            \startpicsWH{Figures/start_pics/IMG-20200219-WA0002.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0000.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0002.jpg} \\
+            \startpicsWH{Figures/start_pics/IMG-20200220-WA0003.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0004.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0005.jpg} \\
+            \startpicsWH{Figures/start_pics/IMG-20200220-WA0006.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0007.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0009.jpg} \\
+            \startpicsWH{Figures/start_pics/IMG-20200220-WA0010.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0011.jpg} & \startpicsWH{Figures/start_pics/IMG-20200220-WA0013.jpg} \\
+      \end{tabular}
+      \caption{Nimbus Sensor Images}
+      \label{table:image-table}
 \end{table}
 
 
@@ -27,9 +27,9 @@ Optical Character Recognition (OCR) technology has seen substantial advancements
 
 Two models which feature prominently emerged as potential solutions, namely Tesseract, an open-source OCR engine sponsored by Google, and Convolutional Recurrent Neural Network (CRNN), a combination of CNN, RNN, and Connectionist Temporal Classification that offers promising results in scene text recognition tasks.
 
-In OCR applications, image preprocessing has a pivotal role. It prepares an image for further processing by reducing noise and unnecessary details and enhancing features that are important for later stages, thereby directly influencing the accuracy of the final output. Among various preprocessing techniques, the novel approach of red and green color masking, followed by conversion to grayscale, has shown to significantly improve the accuracy of digit recognition.
+In OCR applications, image pre-processing has a pivotal role. It prepares an image for further processing by reducing noise and unnecessary details and enhancing features that are important for later stages, thereby directly influencing the accuracy of the final output. Among various pre-processing techniques, the novel approach of red and green colour masking, followed by conversion to grayscale, has shown to significantly improve the accuracy of digit recognition.
 
-
+While the core content of this thesis, including text and essential diagrams, adheres to the stipulated 60-page limit, the intrinsic visual nature of the research into Optical Character Recognition (OCR) methods necessitates the inclusion of numerous images, charts, and detailed reports. As such, the overall length of the document may extend beyond this limit. However, these additional pages are integral to fully understanding and appreciating the complexity and depth of the findings and analysis.
 
 
 \section{Motivation}
@@ -38,26 +38,31 @@ In OCR applications, image preprocessing has a pivotal role. It prepares an imag
 The motivation behind this research stems from the challenges encountered in the manual and infrequent readings of environmental sensors in various operational settings such as factories. These sensors, while accurate and essential, lack a means for continuous data capture. Typically, an individual manually reads the sensor outputs at fixed intervals, which could range from hourly to daily. This method, while necessary, is prone to human error, potentially leading to inaccuracies in the recorded data and subsequent analysis reports. Furthermore, the infrequency of readings may result in delays in responding to critical sensor data, which could precipitate further issues. These complications could be mitigated with the implementation of Optical Character Recognition (OCR) technology. By enabling continuous, automated readings of these sensors, OCR has the potential to not only reduce errors but also ensure timely reaction to important sensor changes, optimizing the overall operation and efficiency of the systems.
 
 \section{Aims and Objectives}
-The primary aim of this research is to improve the efficiency and accuracy of Optical Character Recognition (OCR) on images of sensor readings by applying novel preprocessing steps and optimizing image capture settings. This project focuses on two OCR methods: Tesseract OCR and Convolutional Recurrent Neural Network (CRNN) models, both widely used for text recognition tasks.
+The primary aim of this research is to improve the efficiency and accuracy of Optical Character Recognition (OCR) on images of sensor readings by applying novel pre-processing steps and optimizing image capture settings. This project focuses on two OCR methods: Tesseract OCR and Convolutional Recurrent Neural Network (CRNN) models, both widely used for text recognition tasks.
 
 \begin{enumerate}
-    \item \textbf{Objective 1: Assess the Performance of Tesseract OCR and CRNN Models}\\
-          The initial phase of the project involves a baseline assessment of the existing OCR systems. The Tesseract OCR and CRNN models will be employed on multiple sets of image files, with each set undergoing a 'global run'. This step aims to establish a baseline for the performance of these systems without any preprocessing measures.
 
-    \item \textbf{Objective 2: Design and Implement Image Preprocessing Techniques}\\
-          In an attempt to enhance the quality of the images and subsequently improve the OCR results, various image preprocessing methods will be introduced. A primary focus will be the implementation of color masking (specifically for green and red) prior to the conversion to grayscale. This approach aims to make the images clearer and more conducive to OCR.
+      \item \textbf{Objective 1: Systematic Literature Review of Optical Character Recognition (OCR) Methods}\\
+            The objective here is to develop a comprehensive literature review of various Optical Character Recognition (OCR) methods. This review will explore the evolution, strengths, weaknesses, and applications of these techniques, as well as the advancements in this field, to provide a solid foundation for future OCR-related research and technology development.
 
-    \item \textbf{Objective 3: Identify Optimal Image Capture Settings}\\
-          In parallel with image preprocessing, the research will aim to identify the optimal parameters for image capture to further enhance OCR performance. The specific parameters of focus will include camera contrast, distance, and lighting.
 
-    \item \textbf{Objective 4: Compare and Evaluate the Effects of Preprocessing and Optimized Capture Settings on OCR Results}\\
-          Once preprocessing measures and optimized image capture settings have been implemented, the images will undergo OCR using both Tesseract and CRNN models. This step aims to ascertain the joint impact of preprocessing and optimal capture parameters on the performance of OCR systems.
+      \item \textbf{Objective 2: Data Capture}\\
+            The aim of this objective is to capture a comprehensive and diverse dataset of images of sensor readings, in order to better understand and accurately reflect the multifaceted nature of the phenomena under investigation.
 
-    \item \textbf{Objective 5: Analyze and Report Findings}\\
-          The final objective of the research is to analyze the findings and draw conclusions on the effectiveness of the proposed preprocessing techniques and optimal capture parameters. This analysis aims to fill a gap in the literature, which currently lacks comprehensive studies on the potential benefits of image preprocessing and capture settings optimization for OCR of sensor readings.
+      \item \textbf{Objective 2: Design and Implement Image Pre-processing Techniques}\\
+            In an attempt to enhance the quality of the images and subsequently improve the OCR results, various image pre-processing methods will be introduced. A primary focus will be the implementation of colour masking (specifically for green and red) prior to the conversion to grayscale. This approach aims to make the images clearer and more conducive to OCR.
+
+      \item \textbf{Objective 3: Identify Optimal Image Capture Settings}\\
+            In parallel with image pre-processing, the research will aim to identify the optimal parameters for image capture to further enhance OCR performance. The specific parameters of focus will include camera contrast, distance, and lighting.
+
+      \item \textbf{Objective 4: Compare and Evaluate the Effects of Pre-processing and Optimized Capture Settings on OCR Results}\\
+            Once pre-processing measures and optimized image capture settings have been implemented, the images will undergo OCR using both Tesseract and CRNN models. This step aims to ascertain the joint impact of pre-processing and optimal capture parameters on the performance of OCR systems.
+
+      \item \textbf{Objective 5: Analyse and Report Findings}\\
+            The final objective of the research is to analyse the findings and draw conclusions on the effectiveness of the proposed pre-processing techniques and optimal capture parameters. This analysis aims to fill a gap in the literature, which currently lacks comprehensive studies on the potential benefits of image pre-processing and capture settings optimization for OCR of sensor readings.
 \end{enumerate}
 
-In conclusion, this research seeks not only to enhance our understanding of how image preprocessing and capture optimization can improve OCR outcomes, but also to provide practical insights that could inform the future development of OCR systems.
+In conclusion, this research seeks not only to enhance our understanding of how image pre-processing and capture optimization can improve OCR outcomes, but also to provide practical insights that could inform the future development of OCR systems.
 
 \newpage
 
@@ -66,20 +71,20 @@ In conclusion, this research seeks not only to enhance our understanding of how 
 This thesis is organized into five main chapters, each covering a specific aspect of the study:
 
 \begin{enumerate}
-    \item \textbf{Chapter 1: Introduction}\\
-          This chapter provides an overview of the research, outlining the area of interest and motivation behind the study. It also presents the aims and objectives that guide the research.
+      \item \textbf{Chapter 1: Introduction}\\
+            This chapter provides an overview of the research, outlining the area of interest and motivation behind the study. It also presents the aims and objectives that guide the research.
 
-    \item \textbf{Chapter 2: Literature Review}\\
-          This chapter reviews previous research relevant to this study. It begins with a general introduction to the field, followed by specific sections on Tesseract OCR, CRNN OCR, and other OCR systems, examining their strengths, weaknesses, and applications.
+      \item \textbf{Chapter 2: Literature Review}\\
+            This chapter reviews previous research relevant to this study. It begins with a general introduction to the field, followed by specific sections on Tesseract OCR, CRNN OCR, and other OCR systems, examining their strengths, weaknesses, and applications.
 
-    \item \textbf{Chapter 3: Methodology}\\
-          This chapter presents the research methodology, including the design and implementation of image preprocessing techniques and the methods used to identify optimal image capture settings. It also details how the Tesseract and CRNN OCR systems are applied in this research.
+      \item \textbf{Chapter 3: Methodology}\\
+            This chapter presents the research methodology, including the design and implementation of image pre-processing techniques and the methods used to identify optimal image capture settings. It also details how the Tesseract and CRNN OCR systems are applied in this research.
 
-    \item \textbf{Chapter 4: Results}\\
-          This chapter presents the findings of the study. It includes an analysis of the OCR performance before and after the application of the preprocessing methods and optimized image capture settings.
+      \item \textbf{Chapter 4: Results}\\
+            This chapter presents the findings of the study. It includes an analysis of the OCR performance before and after the application of the pre-processing methods and optimized image capture settings.
 
-    \item \textbf{Chapter 5: Discussion and Conclusion}\\
-          This final chapter discusses the implications of the research findings, drawing conclusions about the effectiveness of the proposed techniques for improving OCR performance. It also highlights potential areas for future research.
+      \item \textbf{Chapter 5: Discussion and Conclusion}\\
+            This final chapter discusses the implications of the research findings, drawing conclusions about the effectiveness of the proposed techniques for improving OCR performance. It also highlights potential areas for future research.
 \end{enumerate}
 
 

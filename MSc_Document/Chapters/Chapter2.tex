@@ -205,9 +205,9 @@ It achieves 77.25\% accuracy against CNN models with 75.18\% accuracy and embedd
 
 \newpage
 
-\section{Other OCR Methods}
+\section*{Other OCR Methods}
 
-\subsection{Long Short-Term Memory Networks (LSTMs)}
+\section{Long Short-Term Memory Networks (LSTMs)}
 
 Long Short-Term Memory Networks (LSTMs) are a special kind of recurrent neural network capable of learning long-term dependencies, which makes them highly suitable for OCR tasks. They've been used successfully to decode sequences of characters from images.\cite{breuelHighPerformanceOCRPrinted2013}
 
@@ -228,7 +228,7 @@ A comparison of the LSTM-based system with other OCR systems on printed English 
 
 \newpage
 
-\subsection{Transformers}
+\section{Transformers}
 
 Originally developed for natural language processing tasks, Transformer models have been adapted for OCR. They treat the OCR problem as a sequence-to-sequence translation task, translating the input image into a sequence of characters.
 
@@ -247,7 +247,7 @@ CRNNs are more suitable for this project because they are faster and require les
 
 \newpage
 
-\subsection{Attention-based OCR models}
+\section{Attention-based OCR models}
 
 Attention mechanisms allow models to focus on different parts of the input image while predicting each character in the output sequence, similar to how humans read. This can improve accuracy, especially on more complex images.
 
@@ -269,7 +269,7 @@ RNNs are good at handling sequential information but are poor at handling spatia
 
 \newpage
 
-\subsection{Rule-based systems}
+\section{Rule-based systems}
 
 These were some of the earliest methods for OCR and use specific rules for identifying characters based on their shape, size, and relative position. They are now less commonly used due to their limitations with complex and diverse inputs.
 
@@ -292,7 +292,7 @@ For the purposes of this project, the rule-based system is not suitable because 
 
 \newpage
 
-\subsection{Support Vector Machines (SVMs)}
+\section{Support Vector Machines (SVMs)}
 
 Support Vector Machines (SVMs) are used for character recognition in OCR due to their effective high-dimensional mapping and classification abilities. They work best when text is clearly segmented. In the their paper "Development of an Image Processing Techniques for Vehicle Classification Using OCR and SVM", Joshua et al. used SVMs to classify characters in a license plate image and achieved an accuracy of 98.3\% using a local dataset of 10,000 images.\cite{joshuaDevelopmentImageProcessing2023}
 
@@ -307,7 +307,7 @@ Joshua et al. describe the steps of their proposed system, which include image p
 
 \newpage
 
-\subsection{Hidden Markov Models (HMMs)}
+\section{Hidden Markov Models (HMMs)}
 
 HMMs have been used in OCR for recognizing sequential data. HMMs are statistical models that assume an underlying process to be a Markov process with hidden states.
 
@@ -330,7 +330,7 @@ HMMs are a good choice for tasks where simplicity and interpretability are impor
 
 \newpage
 
-\subsection{K-Nearest Neighbours (KNN)}
+\section{K-Nearest Neighbours (KNN)}
 
 KNN is a simple, instance-based learning algorithm used for OCR, particularly for isolated character recognition. Hazra et al. develop an optical character recognition (OCR) system that uses a custom image to train a k-nearest neighbour (KNN) classifier. They claim that their system can recognize handwritten or printed text in any language by changing the training image and labels. \cite{hazraOpticalCharacterRecognition2017}
 
@@ -347,7 +347,7 @@ Hazra et al. explain the steps of their algorithm, which include image processin
 
 \newpage
 
-\subsection{Template Matching}
+\section{Template Matching}
 
 Template Matching is a technique used to locate small-parts of the bigger image which match a template image. This can be useful in OCR when the set of possible characters is known and limited. In Hossain et al.'s "Optical Character Recognition based on Template Matching" paper, they use template matching to recognize characters in a license plate image.
 
@@ -378,3 +378,5 @@ CRNNs are able to handle variable-length sequential data and recognize long-term
 There have been many recent advances in CRNN research. For example, Biro et al. developed a CRNN that can recognize multilingual and hybrid language texts in OCR. Shinde et al. used CRNNs to recognize handwriting on forms, and Feng et al. used CRNNs to recognize container numbers.
 
 These are just a few examples of the many applications of CRNNs. As research in this area continues, we can expect to see even more powerful and efficient CRNN models being developed. These models will have a wide range of applications, and will help us to better understand the world around us.
+
+With the comprehensive exploration and evaluation of various Optical Character Recognition (OCR) methods presented in this section, we have successfully achieved our first objective: 'Systematic Literature Review of Optical Character Recognition (OCR) Methods'. This thorough review provides a solid foundation for our future work, offering clear insights into the advancements, strengths, and challenges in this field.
