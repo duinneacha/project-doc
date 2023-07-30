@@ -30,8 +30,16 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Sipa 9 Analysis\relax }}{38}{figure.caption.103}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Sipa 10 Analysis\relax }}{39}{figure.caption.105}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Sipa 11 Analysis\relax }}{39}{figure.caption.107}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces PyTesseract Config Settings}}{40}{figure.caption.110}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sipa 2 Montage}}{41}{figure.caption.113}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces PyTesseract Config Settings}}{40}{figure.caption.109}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Greyscale Conversion\relax }}{40}{figure.caption.110}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Otsu's Thresholding\relax }}{41}{figure.caption.113}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Morphological Closing\relax }}{42}{figure.caption.115}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces PyTesseract Config Settings Language}}{42}{figure.caption.117}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Red Mask\relax }}{45}{figure.caption.122}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sipa 2 Montage}}{47}{figure.caption.124}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Count Analysis}}{50}{figure.caption.134}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sipa 2 Contrast Analysis on MRO SSD}}{51}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sipa 2 Brightness Analysis on MRO SSD}}{52}{figure.caption.138}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

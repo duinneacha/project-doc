@@ -339,10 +339,7 @@ There are 14 JPEG files totalling a size of 6.16mb in this folder. The images ar
 
 \newpage
 
-
-\section{Analysis Global Tesseract}
-
-\subsection{First Run}
+\section{First Sprint - Global Generic}
 
 The first run performs Optical Character Recognition (OCR) on all of the images using the pytesseract library, a Python interface for the Tesseract OCR engine.
 
@@ -354,7 +351,23 @@ The first run performs Optical Character Recognition (OCR) on all of the images 
 \end{figure}
 
 
-Firstly the libraries are imported for the analysis: numpy, pandas, and cv2 (OpenCV).
+The pre-processing here involves turning the image to greyscale. Converting a colour image to greyscale is a process of condensing the three colour channels (red, green, and blue) into a single channel that represents the image's brightness. This is done by applying specific weights to each channel, which mimic the way the human eye perceives colour. The weights used are 0.2989 for red, 0.5870 for green, and 0.1140 for blue. This process reduces the amount of data required to represent the image, which can simplify many image processing tasks. \cite{cadikPerceptualEvaluationColortoGrayscale2008}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/gray/original.png}
+        \caption*{Original Image}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/gray/grey.png}
+        \caption*{Greyscale Image}
+    \end{minipage}
+    \caption{Greyscale Conversion}
+\end{figure}
+
 
 OCR is performed on the images using the configuration specified in Fig 3.11 above. Several variations of this configuration were tested and settings of PSM 6 and 7 were found to provide the good results, however 13 appears to provide the best results overall.
 
@@ -362,8 +375,136 @@ These results will be discussed in the Results chapter.
 
 \newpage
 
-\section{Analysis Tesseract Seperate Folders}
+\section{Second Sprint - Global Generic Analysis Resized}
 
+The second sprint supplemented the work carried out in the first sprint by adding Otsu's thresholding and morphological closing to the pre-processing steps. It also included a new resizing technique and added a seven segment display language file, both of which further improved the accuracy of the OCR system. These enhancements advanced the first sprint, each warranting a more detailed exploration to fully appreciate their contribution to the improved performance.
+
+\subsection{Otsu's Thresholding}
+
+Otsu's method is a global thresholding technique used in image processing. It is named after its inventor, Nobuyuki Otsu, and works by minimizing the intraclass variance, which is a measure of how similar the pixels within each class are. The optimal threshold value is the one that produces the two classes with the lowest intraclass variance. \cite{garciaDetectionClassificationPathogens2021}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/otsu/original.png}
+        \caption*{Original Image}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/otsu/otsu.png}
+        \caption*{Otsu's Thresholding}
+    \end{minipage}
+    \caption{Otsu's Thresholding}
+\end{figure}
+
+Once the optimal threshold value has been determined, the image can be binarized, which means converting it to a black and white image. In this sprint, the pixels with values below the threshold will be set to black, and the pixels with values above the threshold will be set to white.
+
+\newpage
+
+\subsection{Morphological Closing}
+
+Morphological closing is an image processing operation that is used to close small holes in the foreground of an image. In OpenCV, closing is performed by first applying a dilation operation, which grows or thickens objects in the image, followed by an erosion operation, which shrinks objects in the image. The size and shape of the area affected by each operation depends on the structuring element used. The overall effect of the closing operation is that small holes within an object, thin lines or gaps between objects, and small black points on the object are eliminated, while keeping the size and shape of the object roughly the same as before the operation. This operation is particularly useful in many image processing tasks, such as noise reduction and separation of touching objects. \cite{haralickImageAnalysisUsing1987}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/closing/original.png}
+        \caption*{Original}
+    \end{minipage}\hfill
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/closing/dilated.png}
+        \caption*{Dilated}
+    \end{minipage}\hfill
+    \begin{minipage}{0.30\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/closing/closing.png}
+        \caption*{Closing}
+    \end{minipage}
+    \caption{Morphological Closing}
+\end{figure}
+
+\subsection{Tesseract Language Files}
+
+The lang parameter that can be passed into Tesseract specifies the language of the text to be recognized. Tesseract is capable of recognizing text in multiple languages. To utilize this functionality, the appropriate language data files must be downloaded and installed. These files can be found on the Tesseract GitHub page. \cite{Tessdata2023}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/second_run/lang.jpg}
+    \caption[PyTesseract Config Settings Language]{PyTesseract Config Settings Language}
+    \label{fig:PyTesseract Config Settings - Language}
+\end{figure}
+
+
+The language files used in this research are as follows:
+
+\begin{itemize}
+    \item eng.traineddata - English
+    \item ssd.traineddata - Seven Segment Display
+\end{itemize}
+
+
+\subsection{Resizing}
+
+
+To improve the results of optical character recognition (OCR) using Tesseract, image resizing during pre-processing was explored. Tesseract's performance can be sensitive to the scale of the image, as the size of the text can greatly impact the OCR engine's ability to accurately recognize characters. Therefore, resizing images to various scales became an essential part of the pre-processing pipeline.
+
+Resizing is performed using OpenCV's resize() function, which allows images to be scaled up or down. By altering the resolution, the text in the images is effectively manipulated to appear larger or smaller. It is worth noting that while upscaling can sometimes help in capturing more detail and thereby improving OCR accuracy, it also increases computational load. Conversely, downscaling an image reduces the computational burden but might cause loss of important details that can negatively affect OCR performance. \cite{dasCovid19FaceMask2020}
+
+
+The Python script was redesigned to run the control function in a loop incrementally adjusting the image resize parameter from 100 pixels to 450 pixels and evaluating the subsequent influence on Optical Character Recognition (OCR) performance. The aim was to find an ideal image size that would not make the text too small or too large, thus optimizing the recognition potential of Tesseract.
+
+
+\subsection{Second Sprint Conclusion}
+
+The results for the Second Sprint will be discussed in the Results chapter.
+
+The challenge of performing OCR on multiple sets of images is that the images vary widely in terms of colour profiles, lighting conditions, text styles, noise levels, and other factors. This means that with using Tesseract, a single generic pre-processing pipeline is not sufficient. Instead, a more nuanced and flexible approach is required.
+
+OpenCV, an open-source computer vision library, provides a wide range of image processing functionalities. This allows us to tailor the pre-processing steps to each individual folder of images. For example, some folders may require grayscale conversion, Gaussian blurring, or adaptive thresholding. Others may benefit from morphological transformations such as dilation and erosion, or image resizing and rotation.
+
+Tuning and applying diverse techniques to different image folders may present as a complex task. However, pursuing this course is essential for achieving optimal OCR results. This approach led to overcoming the issue of a non-functional global run and significantly improving the accuracy of OCR outcomes.
+
+The task underlined the importance of adopting an adaptive and individualized methodology when handling diverse datasets. A uniform global strategy may not always be feasible, and it often results in suboptimal outcomes. Instead, it proves beneficial to tailor the approach to the specific characteristics of each dataset.
+
+\newpage
+
+\section{Analysis Tesseract Separate Folders}
+
+Navigating the variety of image properties in the dataset presented a unique challenge when utilizing Tesseract for the execution of Optical Character Recognition (OCR). This situation called for an adaptive approach, rather than a generic solution. The upcoming section will expand on pre-processing techniques beyond those already discussed, including the application of a red mask via OpenCV. The individual tailoring of steps to each subset of images and the inclusion of the red mask technique will be explored.
+
+\subsection{Red Mask}
+
+The Red Mask function operates on an input image to isolate and return only the red pixels in that image.
+
+The input image should be a numpy ndarray representing the original image in BGR format. To process this, the function first converts the image into the HSV (Hue, Saturation, Value) colour space using OpenCV's cvtColor function.
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/red_mask/original.png}
+        \caption*{Original Image}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/red_mask/red_mask.png}
+        \caption*{Red Mask Image}
+    \end{minipage}
+    \caption{Red Mask}
+\end{figure}
+
+
+Because the hue component of red colour in HSV space spans both ends of the hue spectrum, two ranges are defined to capture the entire red hue — the lower range (0-10) and the higher range (170-180). These ranges are combined with saturation and value thresholds to define what is considered a red pixel in the image.
+
+The function then creates two binary masks for these ranges, using OpenCV's inRange function, which applies these boundaries on the HSV image. The resulting masks have pixel values of 255 where the original image pixels are within the specified red range, and 0 otherwise.
+
+These two masks are added together to form a comprehensive mask of red pixels. The function then applies this mask onto a copy of the original image, setting all the pixels where the mask equals 0 to also be 0 in the output image. This leaves only the red pixels visible in the output image. Hence, the function returns an image emphasizing the red components of the original input.
+
+
+\newpage
 
 \subsection{Sipa 2}
 
@@ -374,16 +515,6 @@ These results will be discussed in the Results chapter.
     \label{fig:Sipa 2 Montage}
 \end{figure}
 
-
-The Red Mask function operates on an input image to isolate and return only the red pixels in that image.
-
-The input image should be a numpy ndarray representing the original image in BGR format. To process this, the function first converts the image into the HSV (Hue, Saturation, Value) colour space using OpenCV's cvtColor function.
-
-Because the hue component of red colour in HSV space spans both ends of the hue spectrum, two ranges are defined to capture the entire red hue — the lower range (0-10) and the higher range (170-180). These ranges are combined with saturation and value thresholds to define what is considered a red pixel in the image.
-
-The function then creates two binary masks for these ranges, using OpenCV's inRange function, which applies these boundaries on the HSV image. The resulting masks have pixel values of 255 where the original image pixels are within the specified red range, and 0 otherwise.
-
-These two masks are added together to form a comprehensive mask of red pixels. The function then applies this mask onto a copy of the original image, setting all the pixels where the mask equals 0 to also be 0 in the output image. This leaves only the red pixels visible in the output image. Hence, the function returns an image emphasizing the red components of the original input.
 
 \section{CRNN Training Databases}
 
@@ -397,3 +528,9 @@ These two masks are added together to form a comprehensive mask of red pixels. T
 
 
 the above code is a python code snippet.
+
+% ! This is a comment
+% * This is a comment
+% ? This is a comment
+%  TODO: This is a comment
+

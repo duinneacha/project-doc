@@ -4,10 +4,10 @@
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{iii}{dummy.3}%
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{vi}{chapter*.5}%
-\contentsline {chapter}{List of Code Listings}{vii}{dummy.6}%
-\contentsline {chapter}{List of Tables}{ix}{chapter*.8}%
-\contentsline {chapter}{Abbreviations}{x}{dummy.9}%
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}%
+\contentsline {chapter}{List of Code Listings}{viii}{dummy.6}%
+\contentsline {chapter}{List of Tables}{x}{chapter*.8}%
+\contentsline {chapter}{Abbreviations}{xi}{dummy.9}%
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
 \contentsline {section}{\numberline {1.1}Area of Interest}{1}{section.13}%
@@ -42,16 +42,37 @@
 \contentsline {subsection}{\numberline {3.3.8}Sipa 9}{38}{subsection.102}%
 \contentsline {subsection}{\numberline {3.3.9}Sipa 10}{39}{subsection.104}%
 \contentsline {subsection}{\numberline {3.3.10}Sipa 11}{39}{subsection.106}%
-\contentsline {section}{\numberline {3.4}Analysis Global Tesseract}{40}{section.108}%
-\contentsline {subsection}{\numberline {3.4.1}First Run}{40}{subsection.109}%
-\contentsline {section}{\numberline {3.5}Analysis Tesseract Seperate Folders}{41}{section.111}%
-\contentsline {subsection}{\numberline {3.5.1}Sipa 2}{41}{subsection.112}%
-\contentsline {section}{\numberline {3.6}CRNN Training Databases}{42}{section.114}%
-\contentsline {chapter}{\numberline {4}Results}{44}{chapter.118}%
-\contentsline {section}{\numberline {4.1}Introduction}{44}{section.119}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{45}{chapter.120}%
-\contentsline {section}{\numberline {5.1}Discussion}{45}{section.121}%
-\contentsline {chapter}{Bibliography}{46}{chapter*.122}%
+\contentsline {section}{\numberline {3.4}First Sprint - Global Generic}{40}{section.108}%
+\contentsline {section}{\numberline {3.5}Second Sprint - Global Generic Analysis Resized}{41}{section.111}%
+\contentsline {subsection}{\numberline {3.5.1}Otsu's Thresholding}{41}{subsection.112}%
+\contentsline {subsection}{\numberline {3.5.2}Morphological Closing}{42}{subsection.114}%
+\contentsline {subsection}{\numberline {3.5.3}Tesseract Language Files}{42}{subsection.116}%
+\contentsline {subsection}{\numberline {3.5.4}Resizing}{43}{subsection.118}%
+\contentsline {subsection}{\numberline {3.5.5}Second Sprint Conclusion}{43}{subsection.119}%
+\contentsline {section}{\numberline {3.6}Analysis Tesseract Separate Folders}{45}{section.120}%
+\contentsline {subsection}{\numberline {3.6.1}Red Mask}{45}{subsection.121}%
+\contentsline {subsection}{\numberline {3.6.2}Sipa 2}{47}{subsection.123}%
+\contentsline {section}{\numberline {3.7}CRNN Training Databases}{47}{section.125}%
+\contentsline {chapter}{\numberline {4}Results}{49}{chapter.129}%
+\contentsline {section}{\numberline {4.1}Introduction}{49}{section.130}%
+\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{49}{section.131}%
+\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{49}{section.132}%
+\contentsline {section}{\numberline {4.4}Analysis Tesseract Separate Folders}{50}{section.133}%
+\contentsline {subsubsection}{\numberline {4.4.0.1}Sipa 2 Contrast Analysis on MRO SSD}{51}{subsubsection.135}%
+\contentsline {subsubsection}{\numberline {4.4.0.2}Sipa 2 Brightness Analysis on MRO SSD}{52}{subsubsection.137}%
+\contentsline {subsection}{\numberline {4.4.1}Sipa 2}{53}{subsection.139}%
+\contentsline {subsection}{\numberline {4.4.2}Sipa 3}{53}{subsection.140}%
+\contentsline {subsection}{\numberline {4.4.3}Sipa 4}{53}{subsection.141}%
+\contentsline {subsection}{\numberline {4.4.4}Sipa 5}{53}{subsection.142}%
+\contentsline {subsection}{\numberline {4.4.5}Sipa 6}{53}{subsection.143}%
+\contentsline {subsection}{\numberline {4.4.6}Sipa 7}{53}{subsection.144}%
+\contentsline {subsection}{\numberline {4.4.7}Sipa 8}{53}{subsection.145}%
+\contentsline {subsection}{\numberline {4.4.8}Sipa 9}{53}{subsection.146}%
+\contentsline {subsection}{\numberline {4.4.9}Sipa 10}{53}{subsection.147}%
+\contentsline {subsection}{\numberline {4.4.10}Sipa 11}{53}{subsection.148}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{54}{chapter.149}%
+\contentsline {section}{\numberline {5.1}Discussion}{54}{section.150}%
+\contentsline {chapter}{Bibliography}{55}{chapter*.151}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Code Snippets}{48}{appendix.123}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{57}{appendix.152}%
 \vspace {2em}
