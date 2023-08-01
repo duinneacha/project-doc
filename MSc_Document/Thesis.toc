@@ -14,72 +14,73 @@
 \contentsline {section}{\numberline {1.2}Motivation}{3}{section.15}%
 \contentsline {section}{\numberline {1.3}Aims and Objectives}{3}{section.16}%
 \contentsline {section}{\numberline {1.4}Structure of the Thesis}{6}{section.23}%
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.29}%
-\contentsline {section}{\numberline {2.1}Introduction}{7}{section.30}%
-\contentsline {section}{\numberline {2.2}Tesseract OCR}{9}{section.31}%
-\contentsline {section}{\numberline {2.3}Convolutional Recurrent Neural Networks (CRNNs)}{15}{section.38}%
-\contentsline {subsection}{\numberline {2.3.1}Working of CRNNs}{15}{subsection.39}%
-\contentsline {section}{\numberline {2.4}Long Short-Term Memory Networks (LSTMs)}{21}{section.51}%
-\contentsline {section}{\numberline {2.5}Transformers}{22}{section.53}%
-\contentsline {section}{\numberline {2.6}Attention-based OCR models}{23}{section.55}%
-\contentsline {section}{\numberline {2.7}Rule-based systems}{24}{section.57}%
-\contentsline {section}{\numberline {2.8}Support Vector Machines (SVMs)}{25}{section.59}%
-\contentsline {section}{\numberline {2.9}Hidden Markov Models (HMMs)}{26}{section.61}%
-\contentsline {section}{\numberline {2.10}K-Nearest Neighbours (KNN)}{27}{section.63}%
-\contentsline {section}{\numberline {2.11}Template Matching}{28}{section.65}%
-\contentsline {section}{\numberline {2.12}Conclusion}{29}{section.67}%
-\contentsline {chapter}{\numberline {3}Methodology}{31}{chapter.68}%
-\contentsline {section}{\numberline {3.1}Introduction}{31}{section.69}%
-\contentsline {section}{\numberline {3.2}Data Collection}{32}{section.70}%
-\contentsline {section}{\numberline {3.3}Data Analysis}{33}{section.71}%
-\contentsline {subsection}{\numberline {3.3.1}Sipa 2}{35}{subsection.88}%
-\contentsline {subsection}{\numberline {3.3.2}Sipa 3}{35}{subsection.90}%
-\contentsline {subsection}{\numberline {3.3.3}Sipa 4}{36}{subsection.92}%
-\contentsline {subsection}{\numberline {3.3.4}Sipa 5}{36}{subsection.94}%
-\contentsline {subsection}{\numberline {3.3.5}Sipa 6}{37}{subsection.96}%
-\contentsline {subsection}{\numberline {3.3.6}Sipa 7}{37}{subsection.98}%
-\contentsline {subsection}{\numberline {3.3.7}Sipa 8}{38}{subsection.100}%
-\contentsline {subsection}{\numberline {3.3.8}Sipa 9}{38}{subsection.102}%
-\contentsline {subsection}{\numberline {3.3.9}Sipa 10}{39}{subsection.104}%
-\contentsline {subsection}{\numberline {3.3.10}Sipa 11}{39}{subsection.106}%
-\contentsline {section}{\numberline {3.4}First Sprint - Global Generic}{40}{section.108}%
-\contentsline {section}{\numberline {3.5}Second Sprint - Global Generic Analysis Resized}{41}{section.111}%
-\contentsline {subsection}{\numberline {3.5.1}Otsu's Thresholding}{41}{subsection.112}%
-\contentsline {subsection}{\numberline {3.5.2}Morphological Closing}{42}{subsection.114}%
-\contentsline {subsection}{\numberline {3.5.3}Tesseract Language Files}{42}{subsection.116}%
-\contentsline {subsection}{\numberline {3.5.4}Resizing}{43}{subsection.118}%
-\contentsline {subsection}{\numberline {3.5.5}Second Sprint Conclusion}{43}{subsection.119}%
-\contentsline {section}{\numberline {3.6}Analysis Tesseract Separate Folders}{45}{section.120}%
-\contentsline {subsection}{\numberline {3.6.1}Red Mask}{45}{subsection.121}%
-\contentsline {subsection}{\numberline {3.6.2}Sipa 2}{47}{subsection.123}%
-\contentsline {section}{\numberline {3.7}CRNN Training Databases}{47}{section.125}%
-\contentsline {chapter}{\numberline {4}Results}{49}{chapter.129}%
-\contentsline {section}{\numberline {4.1}Introduction}{49}{section.130}%
-\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{49}{section.131}%
-\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{49}{section.132}%
-\contentsline {section}{\numberline {4.4}Analysis Tesseract Separate Folders}{50}{section.133}%
-\contentsline {subsubsection}{\numberline {4.4.0.1}Sipa 2 Contrast Analysis on MRO SSD}{51}{subsubsection.135}%
-\contentsline {subsubsection}{\numberline {4.4.0.2}Sipa 2 Brightness Analysis on MRO SSD}{52}{subsubsection.137}%
-\contentsline {subsubsection}{\numberline {4.4.0.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{53}{subsubsection.139}%
-\contentsline {subsubsection}{\numberline {4.4.0.4}Sipa 2 Homogeneity Analysis on MRO SSD}{54}{subsubsection.141}%
-\contentsline {subsubsection}{\numberline {4.4.0.5}Sipa 2 Sharpness Analysis on MRO SSD}{55}{subsubsection.143}%
-\contentsline {subsubsection}{\numberline {4.4.0.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{56}{subsubsection.145}%
-\contentsline {subsubsection}{\numberline {4.4.0.7}Sipa 2 Area Analysis on MRO SSD}{57}{subsubsection.147}%
-\contentsline {subsubsection}{\numberline {4.4.0.8}Sipa 2 Correlation Analysis on MRO SSD}{58}{subsubsection.149}%
-\contentsline {subsubsection}{\numberline {4.4.0.9}Sipa 2 Energy Analysis on MRO SSD}{59}{subsubsection.151}%
-\contentsline {subsection}{\numberline {4.4.1}Sipa 2}{60}{subsection.153}%
-\contentsline {subsection}{\numberline {4.4.2}Sipa 3}{60}{subsection.154}%
-\contentsline {subsection}{\numberline {4.4.3}Sipa 4}{60}{subsection.155}%
-\contentsline {subsection}{\numberline {4.4.4}Sipa 5}{60}{subsection.156}%
-\contentsline {subsection}{\numberline {4.4.5}Sipa 6}{60}{subsection.157}%
-\contentsline {subsection}{\numberline {4.4.6}Sipa 7}{60}{subsection.158}%
-\contentsline {subsection}{\numberline {4.4.7}Sipa 8}{60}{subsection.159}%
-\contentsline {subsection}{\numberline {4.4.8}Sipa 9}{60}{subsection.160}%
-\contentsline {subsection}{\numberline {4.4.9}Sipa 10}{60}{subsection.161}%
-\contentsline {subsection}{\numberline {4.4.10}Sipa 11}{60}{subsection.162}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{61}{chapter.163}%
-\contentsline {section}{\numberline {5.1}Discussion}{61}{section.164}%
-\contentsline {chapter}{Bibliography}{62}{chapter*.165}%
+\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.30}%
+\contentsline {section}{\numberline {2.1}Introduction}{8}{section.31}%
+\contentsline {section}{\numberline {2.2}Tesseract OCR}{10}{section.32}%
+\contentsline {section}{\numberline {2.3}Convolutional Recurrent Neural Networks (CRNNs)}{16}{section.39}%
+\contentsline {subsection}{\numberline {2.3.1}Working of CRNNs}{16}{subsection.40}%
+\contentsline {section}{\numberline {2.4}Long Short-Term Memory Networks (LSTMs)}{22}{section.52}%
+\contentsline {section}{\numberline {2.5}Transformers}{23}{section.54}%
+\contentsline {section}{\numberline {2.6}Attention-based OCR models}{24}{section.56}%
+\contentsline {section}{\numberline {2.7}Rule-based systems}{25}{section.58}%
+\contentsline {section}{\numberline {2.8}Support Vector Machines (SVMs)}{26}{section.60}%
+\contentsline {section}{\numberline {2.9}Hidden Markov Models (HMMs)}{27}{section.62}%
+\contentsline {section}{\numberline {2.10}K-Nearest Neighbours (KNN)}{28}{section.64}%
+\contentsline {section}{\numberline {2.11}Template Matching}{29}{section.66}%
+\contentsline {section}{\numberline {2.12}Conclusion}{30}{section.68}%
+\contentsline {chapter}{\numberline {3}Methodology}{32}{chapter.69}%
+\contentsline {section}{\numberline {3.1}Introduction}{32}{section.70}%
+\contentsline {section}{\numberline {3.2}Data Collection}{33}{section.71}%
+\contentsline {section}{\numberline {3.3}Data Analysis}{34}{section.72}%
+\contentsline {subsection}{\numberline {3.3.1}Sipa 2}{36}{subsection.89}%
+\contentsline {subsection}{\numberline {3.3.2}Sipa 3}{36}{subsection.91}%
+\contentsline {subsection}{\numberline {3.3.3}Sipa 4}{37}{subsection.93}%
+\contentsline {subsection}{\numberline {3.3.4}Sipa 5}{37}{subsection.95}%
+\contentsline {subsection}{\numberline {3.3.5}Sipa 6}{38}{subsection.97}%
+\contentsline {subsection}{\numberline {3.3.6}Sipa 7}{38}{subsection.99}%
+\contentsline {subsection}{\numberline {3.3.7}Sipa 8}{39}{subsection.101}%
+\contentsline {subsection}{\numberline {3.3.8}Sipa 9}{39}{subsection.103}%
+\contentsline {subsection}{\numberline {3.3.9}Sipa 10}{40}{subsection.105}%
+\contentsline {subsection}{\numberline {3.3.10}Sipa 11}{40}{subsection.107}%
+\contentsline {section}{\numberline {3.4}First Sprint - Global Generic}{41}{section.109}%
+\contentsline {section}{\numberline {3.5}Second Sprint - Global Generic Analysis Resized}{42}{section.112}%
+\contentsline {subsection}{\numberline {3.5.1}Otsu's Thresholding}{42}{subsection.113}%
+\contentsline {subsection}{\numberline {3.5.2}Morphological Closing}{43}{subsection.115}%
+\contentsline {subsection}{\numberline {3.5.3}Tesseract Language Files}{43}{subsection.117}%
+\contentsline {subsection}{\numberline {3.5.4}Resizing}{44}{subsection.119}%
+\contentsline {subsection}{\numberline {3.5.5}Second Sprint Conclusion}{44}{subsection.120}%
+\contentsline {section}{\numberline {3.6}Analysis Tesseract Separate Folders}{46}{section.121}%
+\contentsline {subsection}{\numberline {3.6.1}Red Mask}{46}{subsection.122}%
+\contentsline {subsection}{\numberline {3.6.2}Sipa 2}{48}{subsection.124}%
+\contentsline {section}{\numberline {3.7}CRNN Training Databases}{48}{section.126}%
+\contentsline {chapter}{\numberline {4}Results}{50}{chapter.130}%
+\contentsline {section}{\numberline {4.1}Introduction}{50}{section.131}%
+\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{50}{section.132}%
+\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{50}{section.133}%
+\contentsline {subsection}{\numberline {4.3.1}Sipa 2}{51}{subsection.134}%
+\contentsline {subsection}{\numberline {4.3.2}Sipa 3}{51}{subsection.135}%
+\contentsline {subsection}{\numberline {4.3.3}Sipa 4}{51}{subsection.136}%
+\contentsline {subsection}{\numberline {4.3.4}Sipa 5}{51}{subsection.137}%
+\contentsline {subsection}{\numberline {4.3.5}Sipa 6}{51}{subsection.138}%
+\contentsline {subsection}{\numberline {4.3.6}Sipa 7}{51}{subsection.139}%
+\contentsline {subsection}{\numberline {4.3.7}Sipa 8}{51}{subsection.140}%
+\contentsline {subsection}{\numberline {4.3.8}Sipa 9}{51}{subsection.141}%
+\contentsline {subsection}{\numberline {4.3.9}Sipa 10}{51}{subsection.142}%
+\contentsline {subsection}{\numberline {4.3.10}Sipa 11}{51}{subsection.143}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{52}{chapter.144}%
+\contentsline {section}{\numberline {5.1}Discussion}{52}{section.145}%
+\contentsline {chapter}{Bibliography}{53}{chapter*.146}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Code Snippets}{64}{appendix.166}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{55}{appendix.147}%
+\contentsline {section}{\numberline {A.1}Introduction}{55}{section.148}%
+\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{55}{section.149}%
+\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{56}{subsection.151}%
+\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{57}{subsection.153}%
+\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{58}{subsection.155}%
+\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{59}{subsection.157}%
+\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{60}{subsection.159}%
+\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{61}{subsection.161}%
+\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{62}{subsection.163}%
+\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{63}{subsection.165}%
+\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{64}{subsection.167}%
 \vspace {2em}
