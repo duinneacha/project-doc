@@ -33,68 +33,60 @@
 \contentsline {section}{\numberline {3.2}Data Collection}{33}{section.71}%
 \contentsline {section}{\numberline {3.3}Data Analysis}{34}{section.72}%
 \contentsline {subsection}{\numberline {3.3.1}Image Folder A}{36}{subsection.89}%
-\contentsline {subsection}{\numberline {3.3.2}Sipa 3}{36}{subsection.91}%
-\contentsline {subsection}{\numberline {3.3.3}Sipa 4}{37}{subsection.93}%
-\contentsline {subsection}{\numberline {3.3.4}Sipa 5}{37}{subsection.95}%
-\contentsline {subsection}{\numberline {3.3.5}Sipa 6}{38}{subsection.97}%
-\contentsline {subsection}{\numberline {3.3.6}Sipa 7}{38}{subsection.99}%
-\contentsline {subsection}{\numberline {3.3.7}Sipa 8}{39}{subsection.101}%
-\contentsline {subsection}{\numberline {3.3.8}Sipa 9}{39}{subsection.103}%
-\contentsline {subsection}{\numberline {3.3.9}Sipa 10}{40}{subsection.105}%
-\contentsline {subsection}{\numberline {3.3.10}Sipa 11}{40}{subsection.107}%
+\contentsline {subsection}{\numberline {3.3.2}Image Folder B}{36}{subsection.91}%
+\contentsline {subsection}{\numberline {3.3.3}Image Folder C}{37}{subsection.93}%
+\contentsline {subsection}{\numberline {3.3.4}Image Folder D}{37}{subsection.95}%
+\contentsline {subsection}{\numberline {3.3.5}Image Folder E}{38}{subsection.97}%
+\contentsline {subsection}{\numberline {3.3.6}Image Folder F}{38}{subsection.99}%
+\contentsline {subsection}{\numberline {3.3.7}Image Folder G}{39}{subsection.101}%
+\contentsline {subsection}{\numberline {3.3.8}Image Folder H}{39}{subsection.103}%
+\contentsline {subsection}{\numberline {3.3.9}Image Folder I}{40}{subsection.105}%
+\contentsline {subsection}{\numberline {3.3.10}Image Folder J}{40}{subsection.107}%
 \contentsline {section}{\numberline {3.4}First Sprint - Global Generic}{41}{section.109}%
 \contentsline {section}{\numberline {3.5}Second Sprint - Global Generic Analysis Resized}{42}{section.112}%
-\contentsline {subsection}{\numberline {3.5.1}Method - Otsu's Thresholding}{42}{subsection.113}%
-\contentsline {subsection}{\numberline {3.5.2}Method - Morphological Closing}{43}{subsection.115}%
-\contentsline {subsection}{\numberline {3.5.3}Method - Tesseract Language Files}{43}{subsection.117}%
-\contentsline {subsection}{\numberline {3.5.4}Method - Resizing}{44}{subsection.119}%
-\contentsline {subsection}{\numberline {3.5.5}Second Sprint Conclusion}{44}{subsection.120}%
+\contentsline {subsection}{\numberline {3.5.1}Second Sprint Conclusion}{44}{subsection.120}%
 \contentsline {section}{\numberline {3.6}Analysis Tesseract Separate Folders}{46}{section.121}%
-\contentsline {subsection}{\numberline {3.6.1}Method - Red Mask}{46}{subsection.122}%
-\contentsline {subsection}{\numberline {3.6.2}Image Folder A}{48}{subsection.124}%
-\contentsline {subsection}{\numberline {3.6.3}Image Folder B}{50}{subsection.127}%
-\contentsline {subsection}{\numberline {3.6.4}Image Folder C}{52}{subsection.130}%
-\contentsline {subsubsection}{\numberline {3.6.4.1}Method - Denoise}{52}{subsubsection.131}%
-\contentsline {subsubsection}{\numberline {3.6.4.2}Method - Weiner Filter}{52}{subsubsection.132}%
-\contentsline {subsection}{\numberline {3.6.5}Image Folder D}{55}{subsection.137}%
-\contentsline {subsection}{\numberline {3.6.6}Image Folder E}{57}{subsection.145}%
-\contentsline {subsection}{\numberline {3.6.7}Image Folder F}{58}{subsection.147}%
-\contentsline {subsubsection}{\numberline {3.6.7.1}Method - Green Mask}{58}{subsubsection.149}%
-\contentsline {subsection}{\numberline {3.6.8}Image Folder G}{61}{subsection.159}%
-\contentsline {subsection}{\numberline {3.6.9}Image Folder H}{61}{subsection.160}%
-\contentsline {subsection}{\numberline {3.6.10}Image Folder I}{61}{subsection.161}%
-\contentsline {subsection}{\numberline {3.6.11}Image Folder K}{61}{subsection.162}%
-\contentsline {section}{\numberline {3.7}CRNN Training Databases}{62}{section.163}%
-\contentsline {chapter}{\numberline {4}Results}{63}{chapter.167}%
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.168}%
-\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{63}{section.169}%
-\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{63}{section.170}%
-\contentsline {section}{\numberline {4.4}Analysis Tesseract Separate Folders}{63}{section.171}%
-\contentsline {subsection}{\numberline {4.4.1}Sipa 2}{64}{subsection.172}%
-\contentsline {subsection}{\numberline {4.4.2}Sipa 3}{64}{subsection.173}%
-\contentsline {subsection}{\numberline {4.4.3}Sipa 4}{64}{subsection.174}%
-\contentsline {subsection}{\numberline {4.4.4}Sipa 5}{64}{subsection.175}%
-\contentsline {subsection}{\numberline {4.4.5}Sipa 6}{64}{subsection.176}%
-\contentsline {subsection}{\numberline {4.4.6}Sipa 7}{64}{subsection.177}%
-\contentsline {subsection}{\numberline {4.4.7}Sipa 8}{64}{subsection.178}%
-\contentsline {subsection}{\numberline {4.4.8}Sipa 9}{64}{subsection.179}%
-\contentsline {subsection}{\numberline {4.4.9}Sipa 10}{64}{subsection.180}%
-\contentsline {subsection}{\numberline {4.4.10}Sipa 11}{64}{subsection.181}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{65}{chapter.182}%
-\contentsline {section}{\numberline {5.1}Discussion}{65}{section.183}%
-\contentsline {section}{\numberline {5.2}Conclusion}{66}{section.184}%
-\contentsline {chapter}{Bibliography}{67}{chapter*.185}%
+\contentsline {subsection}{\numberline {3.6.1}Image Folder A}{48}{subsection.124}%
+\contentsline {subsection}{\numberline {3.6.2}Image Folder B}{50}{subsection.135}%
+\contentsline {subsection}{\numberline {3.6.3}Image Folder C}{52}{subsection.145}%
+\contentsline {subsection}{\numberline {3.6.4}Image Folder D}{55}{subsection.157}%
+\contentsline {subsection}{\numberline {3.6.5}Image Folder E}{57}{subsection.165}%
+\contentsline {subsection}{\numberline {3.6.6}Image Folder F}{58}{subsection.167}%
+\contentsline {subsection}{\numberline {3.6.7}Image Folder G}{61}{subsection.180}%
+\contentsline {subsection}{\numberline {3.6.8}Image Folder H}{63}{subsection.190}%
+\contentsline {subsection}{\numberline {3.6.9}Image Folder I}{65}{subsection.199}%
+\contentsline {subsection}{\numberline {3.6.10}Image Folder K}{66}{subsection.201}%
+\contentsline {section}{\numberline {3.7}CRNN Methodology}{68}{section.207}%
+\contentsline {chapter}{\numberline {4}Results}{70}{chapter.211}%
+\contentsline {section}{\numberline {4.1}Introduction}{70}{section.212}%
+\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{70}{section.213}%
+\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{70}{section.214}%
+\contentsline {section}{\numberline {4.4}Analysis Tesseract Separate Folders}{70}{section.215}%
+\contentsline {subsection}{\numberline {4.4.1}Sipa 2}{71}{subsection.216}%
+\contentsline {subsection}{\numberline {4.4.2}Sipa 3}{71}{subsection.217}%
+\contentsline {subsection}{\numberline {4.4.3}Sipa 4}{71}{subsection.218}%
+\contentsline {subsection}{\numberline {4.4.4}Sipa 5}{71}{subsection.219}%
+\contentsline {subsection}{\numberline {4.4.5}Sipa 6}{71}{subsection.220}%
+\contentsline {subsection}{\numberline {4.4.6}Sipa 7}{71}{subsection.221}%
+\contentsline {subsection}{\numberline {4.4.7}Sipa 8}{71}{subsection.222}%
+\contentsline {subsection}{\numberline {4.4.8}Sipa 9}{71}{subsection.223}%
+\contentsline {subsection}{\numberline {4.4.9}Sipa 10}{71}{subsection.224}%
+\contentsline {subsection}{\numberline {4.4.10}Sipa 11}{71}{subsection.225}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{72}{chapter.226}%
+\contentsline {section}{\numberline {5.1}Discussion}{72}{section.227}%
+\contentsline {section}{\numberline {5.2}Conclusion}{73}{section.228}%
+\contentsline {chapter}{Bibliography}{74}{chapter*.229}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{70}{appendix.186}%
-\contentsline {section}{\numberline {A.1}Introduction}{70}{section.187}%
-\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{70}{section.188}%
-\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{72}{subsection.190}%
-\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{73}{subsection.192}%
-\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{74}{subsection.194}%
-\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{75}{subsection.196}%
-\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{76}{subsection.198}%
-\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{77}{subsection.200}%
-\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{78}{subsection.202}%
-\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{79}{subsection.204}%
-\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{80}{subsection.206}%
+\contentsline {chapter}{\numberline {A}Appendix A}{77}{appendix.230}%
+\contentsline {section}{\numberline {A.1}Introduction}{77}{section.231}%
+\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{77}{section.232}%
+\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{79}{subsection.234}%
+\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{80}{subsection.236}%
+\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{81}{subsection.238}%
+\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{82}{subsection.240}%
+\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{83}{subsection.242}%
+\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{84}{subsection.244}%
+\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{85}{subsection.246}%
+\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{86}{subsection.248}%
+\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{87}{subsection.250}%
 \vspace {2em}
