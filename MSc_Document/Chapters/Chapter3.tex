@@ -1,6 +1,7 @@
 \chapter{Methodology}
 \label{chap:methodology}
-\lhead{\emph{Problem Statement}}
+\lhead{\emph{Methodology}}
+% \rhead{\emph{R00145278}}
 
 
 
@@ -68,7 +69,7 @@ For each folder, there are three charts that provide an initial statistical data
 \newpage
 
 % \subsection{Folders}
-\subsection{Sipa 2}
+\subsection{Image Folder A}
 
 There are 167 JPEG files totalling a size of 15.78mb in this folder. The images are of varying dimensions.
 
@@ -89,8 +90,8 @@ There are 167 JPEG files totalling a size of 15.78mb in this folder. The images 
         \includegraphics[width=\textwidth]{Figures/EDA_Charts/2/da.png}
         \caption*{Data Analysis}
     \end{minipage}
-    \caption{Sipa 2 Analysis}
-    \label{fig:Sipa 2 Analysis}
+    \caption{Image Folder A Analysis}
+    \label{fig:Image Folder A Analysis}
 \end{figure}
 
 
@@ -379,7 +380,7 @@ These results will be discussed in the Results chapter.
 
 The second sprint supplemented the work carried out in the first sprint by adding Otsu's thresholding and morphological closing to the pre-processing steps. It also included a new resizing technique and added a seven segment display language file, both of which further improved the accuracy of the OCR system. These enhancements advanced the first sprint, each warranting a more detailed exploration to fully appreciate their contribution to the improved performance.
 
-\subsection{Otsu's Thresholding}
+\subsection{Method - Otsu's Thresholding}
 
 Otsu's method is a global thresholding technique used in image processing. It is named after its inventor, Nobuyuki Otsu, and works by minimizing the intraclass variance, which is a measure of how similar the pixels within each class are. The optimal threshold value is the one that produces the two classes with the lowest intraclass variance. \cite{garciaDetectionClassificationPathogens2021}
 
@@ -402,7 +403,7 @@ Once the optimal threshold value has been determined, the image can be binarized
 
 \newpage
 
-\subsection{Morphological Closing}
+\subsection{Method - Morphological Closing}
 
 Morphological closing is an image processing operation that is used to close small holes in the foreground of an image. In OpenCV, closing is performed by first applying a dilation operation, which grows or thickens objects in the image, followed by an erosion operation, which shrinks objects in the image. The size and shape of the area affected by each operation depends on the structuring element used. The overall effect of the closing operation is that small holes within an object, thin lines or gaps between objects, and small black points on the object are eliminated, while keeping the size and shape of the object roughly the same as before the operation. This operation is particularly useful in many image processing tasks, such as noise reduction and separation of touching objects. \cite{haralickImageAnalysisUsing1987}
 
@@ -426,7 +427,7 @@ Morphological closing is an image processing operation that is used to close sma
     \caption{Morphological Closing}
 \end{figure}
 
-\subsection{Tesseract Language Files}
+\subsection{Method - Tesseract Language Files}
 
 The lang parameter that can be passed into Tesseract specifies the language of the text to be recognized. Tesseract is capable of recognizing text in multiple languages. To utilize this functionality, the appropriate language data files must be downloaded and installed. These files can be found on the Tesseract GitHub page. \cite{Tessdata2023}
 
@@ -446,7 +447,7 @@ The language files used in this research are as follows:
 \end{itemize}
 
 
-\subsection{Resizing}
+\subsection{Method - Resizing}
 
 
 To improve the results of optical character recognition (OCR) using Tesseract, image resizing during pre-processing was explored. Tesseract's performance can be sensitive to the scale of the image, as the size of the text can greatly impact the OCR engine's ability to accurately recognize characters. Therefore, resizing images to various scales became an essential part of the pre-processing pipeline.
@@ -454,7 +455,7 @@ To improve the results of optical character recognition (OCR) using Tesseract, i
 Resizing is performed using OpenCV's resize() function, which allows images to be scaled up or down. By altering the resolution, the text in the images is effectively manipulated to appear larger or smaller. It is worth noting that while upscaling can sometimes help in capturing more detail and thereby improving OCR accuracy, it also increases computational load. Conversely, downscaling an image reduces the computational burden but might cause loss of important details that can negatively affect OCR performance. \cite{dasCovid19FaceMask2020}
 
 
-The Python script was redesigned to run the control function in a loop incrementally adjusting the image resize parameter from 100 pixels to 450 pixels and evaluating the subsequent influence on Optical Character Recognition (OCR) performance. The aim was to find an ideal image size that would not make the text too small or too large, thus optimizing the recognition potential of Tesseract.
+The Python script was redesigned to run the control function in a loop incrementally adjusting the image resize parameter from 50 pixels to 749 pixels and evaluating the subsequent influence on Optical Character Recognition (OCR) performance. The aim was to find an ideal image size that would not make the text too small or too large, thus optimizing the recognition potential of Tesseract.
 
 
 \subsection{Second Sprint Conclusion}
@@ -475,7 +476,7 @@ The task underlined the importance of adopting an adaptive and individualized me
 
 Navigating the variety of image properties in the dataset presented a unique challenge when utilizing Tesseract for the execution of Optical Character Recognition (OCR). This situation called for an adaptive approach, rather than a generic solution. The upcoming section will expand on pre-processing techniques beyond those already discussed, including the application of a red mask via OpenCV. The individual tailoring of steps to each subset of images and the inclusion of the red mask technique will be explored.
 
-\subsection{Red Mask}
+\subsection{Method - Red Mask}
 
 The Red Mask function operates on an input image to isolate and return only the red pixels in that image.
 
@@ -506,20 +507,279 @@ These two masks are added together to form a comprehensive mask of red pixels. T
 
 \newpage
 
-\subsection{Sipa 2}
+\subsection{Image Folder A}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/2/montage.png}
-    \caption[Sipa 2 Montage]{Sipa 2 Montage}
-    \label{fig:Sipa 2 Montage}
+    \caption[Image Folder A Montage]{Image Folder A Montage}
+    \label{fig:Image Folder A Montage}
+\end{figure}
+
+The methodology for processing images in Folder A involved the following steps:
+
+
+\begin{itemize}
+    \item An initial exploratory analysis was conducted where the images were resized to sizes ranging from 50 to 649 pixels in both height and width. This was done to empirically determine the optimal size that yields the best results in subsequent processing and text extraction steps.
+    \item TAfter analysing the results, an image size of 104 pixels was found to be the optimal size and was used for further processing of the images.
+    \item A Red Mask was applied. The significance and process of this technique has been previously explained in the Introduction.
+    \item The images were then converted to grayscale to reduce computational complexity and focus on intensity values.
+    \item The OTSU method was applied to further process the images. The choice of this method is discussed in the Introduction.
+    \item Text was extracted using the ENG and SSD Tesseract training libraries, which were chosen for their proven efficiency and accuracy in optical character recognition tasks.
+    \item The process was repeated with the additional step of using morphological operations of Closing and Dilation, in order to remove noise and enhance the accuracy of text extraction.
+    \item The results from each step and the final output were saved to a CSV file for further analysis and interpretation.
+\end{itemize}
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/Methodology/sipa_02/sample_output.jpg}
+    \caption[Image Folder A Sample Output]{Image Folder A Sample Output}
+    \label{fig:Image Folder A Sample Output}
 \end{figure}
 
 
-\section{CRNN Training Databases}
+
+The figure above presents a sample of the output generated from the Image Folder A analysis. This analysis file is discussed in the Results section of this document.
+
 
 
 \newpage
+\subsection{Image Folder B}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/3/montage.png}
+    \caption[Image Folder B Montage]{Image Folder B Montage}
+    \label{fig:Image Folder B Montage}
+\end{figure}
+
+The methodology for processing images in Folders A and B involved the following steps:
+
+\begin{itemize}
+    \item An initial exploratory analysis was conducted where the images were resized to sizes ranging from 50 to 649 pixels in both height and width. This was done to empirically determine the optimal size that yields the best results in subsequent processing and text extraction steps.
+    \item After analysing the results, an image size of 550 pixels was found to be the optimal size and was used for further processing of the images.
+    \item An initial pre-processing function of thresholding (thresh) was applied. This method helps in separating an object from its background and improves the overall contrast of the images.
+    \item Following the thresholding step, the images underwent morphological closing operations. This technique, which involves dilation followed by erosion, is used to close small holes in the object, making the images cleaner for further processing.
+    \item The OTSU method was applied as a final pre-processing step to binarize the images. This adaptive thresholding method maximizes inter-class variance and improves the precision of text extraction, as discussed in the Introduction.
+    \item Text was extracted using the ENG and SSD Tesseract training libraries, chosen for their proven efficiency and accuracy in optical character recognition tasks.
+    \item The results from each pre-processing step and the final output were saved to a CSV file for further analysis and interpretation.
+
+\end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/Methodology/sipa_03/sample_output.jpg}
+    \caption[Image Folder B Sample Output]{Image Folder B Sample Output}
+    \label{fig:Image Folder B Sample Output}
+\end{figure}
+
+\newpage
+
+\subsection{Image Folder C}
+
+Two new methods were introduced for working with Image Folder C.
+
+\subsubsection{Method - Denoise}
+
+The \textit{cv2.fastNlMeansDenoisingColored} function in OpenCV is a fast algorithm for denoising colour images. It works by converting the image to CIELAB colour space and then denoising the L and AB components separately. The denoising is done using a non-local means algorithm, which works by finding similar patches in the image and averaging them together. The parameters of the algorithm can be adjusted to control the amount of denoising. \cite{OpenCVDenoising}
+
+The \textit{cv2.fastNlMeansDenoisingColoured} function takes the following parameters:
+
+
+\begin{itemize}
+    \item \textbf{src}: The input image.
+    \item \textbf{dst}: The output image.
+    \item \textbf{h}: The parameter that controls the amount of denoising for the L component.
+    \item \textbf{hColour}: The parameter that controls the amount of denoising for the AB components.
+    \item \textbf{templateWindowSize}: The size of the template patch used for denoising.
+    \item \textbf{searchWindowSize}: The size of the search window used for denoising.
+\end{itemize}
+
+The \texttt{cv2.fastNlMeansDenoisingColoured} function is a fast and effective way to denoise colour images. It is particularly well-suited for images that have been corrupted by Gaussian noise.\cite{OpenCVDenoising}
+
+\subsubsection{Method - Weiner Filter}
+
+The Wiener filter is a linear filter that is used to denoise signals that have been corrupted by additive white Gaussian noise (AWGN). The Wiener filter is optimal in the sense that it minimizes the mean-squared error between the denoised signal and the original signal.
+
+The Wiener filter is defined as follows:
+
+\begin{figure}[htbp]
+    \centering
+    \begin{equation}
+        w(f) = K \cdot R_xx^{-1} \cdot R_xn
+    \end{equation}
+    \caption{Weiner Filter Equation} \cite{priyadarshiniComparativePerformanceAnalysis2022}
+\end{figure}
+
+The Wiener filter can mitigate the effects of sunlight, treated as additive white Gaussian noise, on an image. It estimates the sunlight's power spectrum, applying its inverse to the image, thus reducing sunlight while preserving the original signal. The Wiener filter can be implemented through:
+
+\begin{itemize}
+    \item Frequency domain: Adjusting the image using the inverse of the sunlight's power spectrum.
+    \item Time domain: Utilizing a recursive algorithm.
+\end{itemize}
+
+However, it may produce ringing artifacts and requires precise knowledge of the sunlight's power spectrum for effective results.
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/4/montage.png}
+    \caption[Image Folder C Montage]{Image Folder C Montage}
+    \label{fig:Image Folder C Montage}
+\end{figure}
+
+
+
+
+The methodology for Image Folder C was developed to maximize the readability and accuracy of the extracted text from the images. The following steps were taken:
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/Methodology/sipa_04/result_sample.jpg}
+    \caption[Image Folder C Sample Output]{Image Folder C Sample Output}
+    \label{fig:Image Folder C Sample Output}
+\end{figure}
+
+
+\begin{itemize}
+    \item \textbf{Manual Cropping}: Images were manually cropped to isolate the text. This process was necessary to ensure that only the relevant portions of the images were analysed. It is important to note that this manual step could be avoided with more precise camera positioning during the initial image capture phase.
+    \item \textbf{Deblurring}: A deblurring operation was performed on the images using the Wiener filter. This step was necessary to reduce the blur caused by linear motion or unfocused optics.
+    \item \textbf{Thresholding}: The images underwent a thresholding operation. This process was required to help separate the text (foreground) from the background, improving the contrast and readability of the text.
+    \item \textbf{Denoising}: The images were denoised to reduce the noise present. This step was essential to further enhance the clarity and readability of the text.
+    \item \textbf{Text Extraction and Accuracy Assessment}: Text was extracted from the processed images. To evaluate the accuracy of the extraction, the extracted text was compared with predefined labels. The text that matched the predefined label the closest was considered to be the most accurate.
+\end{itemize}
+
+\newpage
+
+
+
+
+
+\subsection{Image Folder D}
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/5/montage.png}
+    \caption[Image Folder D Montage]{Image Folder D Montage}
+    \label{fig:Image Folder D Montage}
+\end{figure}
+
+The methodology for Image Folder D involved a series of systematic steps to accurately read the text within the images and output the analysis to a CSV file. The procedure followed is detailed below:
+
+\begin{enumerate}
+    \item \textbf{Image Cropping:} The text within the images was manually cropped. While this method was chosen for its simplicity and effectiveness, the necessity of this step could be mitigated in the future by improving the camera positioning to automatically focus on the text.
+
+    \item \textbf{Grayscale Conversion:} The cropped images were then converted to grayscale. This step is crucial as it simplifies the image, reduces computational complexity, and is preferred for most image processing tasks such as the OCR (Optical Character Recognition) used in this project.
+
+    \item \textbf{Median Blurring:} The grayscale images underwent a median blur process. This step helps in reducing noise within the images, thereby enhancing the efficiency of the OCR.
+
+    \item \textbf{Text Recognition:} The processed images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Seven Segment Display (SSD) configuration files. The SSD configuration, an algorithm for object detection, aids in accurately identifying and locating the text within the image.
+
+    \item \textbf{Data Export:} Finally, the text recognized from the images was analysed, and the output was exported to a CSV file for further analysis and record-keeping.
+\end{enumerate}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Figures/Methodology/sipa_05/sample_output.jpg}
+    \caption[Image Folder D Sample Output]{Image Folder D Sample Output}
+    \label{fig:Image Folder D Sample Output}
+\end{figure}
+
+
+\newpage
+
+\subsection{Image Folder E}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/6/montage.png}
+    \caption[Image Folder E Montage]{Image Folder E Montage}
+    \label{fig:Image Folder E Montage}
+\end{figure}
+
+In this project, Image Folder E was not included in the data set and thus, no processing or analysis was conducted on it.
+
+
+\newpage
+
+\subsection{Image Folder F}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/7/montage.png}
+    \caption[Image Folder F Montage]{Image Folder F Montage}
+    \label{fig:Image Folder F Montage}
+\end{figure}
+
+In this section, a function similar to the previously discussed Red Mask technique is introduced and utilized. This new function, termed the 'Green Mask', operates under similar principles but targets green pixel values instead of red.
+
+\subsubsection{Method - Green Mask}
+
+The Green Mask function isolates and returns only the green pixels in an input image. The input image is a numpy ndarray representing the original image in BGR format. The function first converts the image into the HSV (Hue, Saturation, Value) colour space using OpenCV's cvtu function.
+
+In the HSV colour space, green occupies a certain section of the hue spectrum. A specific range is defined to capture the green hue, typically around 36-70. This range, along with specific thresholds for saturation and value, defines what is considered a green pixel in the image.
+
+
+
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/green_mask/original.png}
+        \caption*{Original Image}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/green_mask/green_mask.png}
+        \caption*{Green Mask Image}
+    \end{minipage}
+    \caption{Green Mask}
+\end{figure}
+
+
+The function then creates a binary mask for this range using OpenCV's inRange function. This function applies the boundaries of the defined range to the HSV image, resulting in a mask with pixel values of 255 where the original image pixels are within the specified green range, and 0 otherwise.
+
+The function then applies this mask onto a copy of the original image, setting all the pixels where the mask equals 0 to also be 0 in the output image. This leaves only the green pixels visible in the output image. Therefore, the function returns an image emphasizing the green components of the original input.
+
+
+The methodology for Image Folder F utilized a sequential process to efficiently read text within the images and subsequently output the analysis to a CSV file. The steps involved in the process are as follows:
+
+\begin{enumerate}
+    \item \textbf{Image Cropping:} The text within the images was manually cropped. This task, while manually intensive, could be avoided in future iterations by optimizing camera positioning to directly focus on the text.
+
+    \item \textbf{Green Mask Application:} A green mask was applied to the images to isolate specific features or areas of interest in the image, enhancing the subsequent image processing steps.
+
+    \item \textbf{Grayscale Conversion:} The masked images were then converted to grayscale. This step reduces computational complexity and is a standard pre-processing step in many image processing workflows, including OCR (Optical Character Recognition).
+
+    \item \textbf{Deblurring:} A deblurring operation was performed on the grayscale images to enhance the clarity and legibility of the text in the images.
+
+    \item \textbf{Thresholding:} Thresholding was applied to the deblurred images, converting them into a binary format. This step helps in separating the text (foreground) from the background.
+
+    \item \textbf{Denoising:} The binary images underwent a denoising process to further reduce noise and improve the effectiveness of the subsequent OCR process.
+
+    \item \textbf{Text Recognition:} The denoised images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Single Shot MultiBox Detector (SSD) configuration files. SSD configuration, a method for object detection, is used to accurately identify and locate the text within the images.
+
+    \item \textbf{Data Export:} The recognized text from the images was analysed, and the output was exported to a CSV file for further analysis and record-keeping.
+\end{enumerate}
+
+Every step was conducted with precision to ensure the accuracy of the results and the effectiveness of the method employed.
+
+\newpage
+
+\subsection{Image Folder G}
+
+
+
+\subsection{Image Folder H}
+\subsection{Image Folder I}
+\subsection{Image Folder K}
+
+\newpage
+\section{CRNN Training Databases}
 
 \begin{lstlisting}[language=Python, caption=Python example]
     def hello_world():

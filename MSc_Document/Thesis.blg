@@ -13,7 +13,7 @@ Database file #1: Bibliography.bib
 Warning--entry type for "anderssonBenchmarkingObjectDetection2022" isn't style-file defined
 --line 27 of file Bibliography.bib
 Warning--entry type for "Tessdata2023" isn't style-file defined
---line 1581 of file Bibliography.bib
+--line 1601 of file Bibliography.bib
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -55,47 +55,48 @@ Warning--empty year in garciaDetectionClassificationPathogens2021
 Warning--empty journal in haralickImageAnalysisUsing1987
 Warning--empty year in haralickImageAnalysisUsing1987
 Warning--empty year in dasCovid19FaceMask2020
+Warning--empty year in priyadarshiniComparativePerformanceAnalysis2022
 
 Done.
-You've used 25 entries,
+You've used 27 entries,
             4783 wiz_defined-function locations,
-            1097 strings with 15845 characters,
-and the built_in function-call counts, 23583 in all, are:
-= -- 2013
-> -- 753
-< -- 171
-+ -- 374
-- -- 172
-* -- 1381
-:= -- 3551
-add.period$ -- 60
-call.type$ -- 25
-change.case$ -- 50
-chr.to.int$ -- 414
-cite$ -- 60
-duplicate$ -- 1519
-empty$ -- 1673
-format.name$ -- 217
-if$ -- 5211
+            1107 strings with 16387 characters,
+and the built_in function-call counts, 24909 in all, are:
+= -- 2131
+> -- 777
+< -- 181
++ -- 389
+- -- 176
+* -- 1441
+:= -- 3735
+add.period$ -- 63
+call.type$ -- 27
+change.case$ -- 54
+chr.to.int$ -- 440
+cite$ -- 64
+duplicate$ -- 1611
+empty$ -- 1786
+format.name$ -- 225
+if$ -- 5514
 int.to.chr$ -- 2
-int.to.str$ -- 26
-missing$ -- 242
-newline$ -- 139
-num.names$ -- 72
-pop$ -- 706
+int.to.str$ -- 28
+missing$ -- 255
+newline$ -- 147
+num.names$ -- 75
+pop$ -- 755
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 27
 quote$ -- 2
-skip$ -- 1668
+skip$ -- 1768
 stack$ -- 0
-substring$ -- 1012
-swap$ -- 1107
-text.length$ -- 35
+substring$ -- 1074
+swap$ -- 1164
+text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 400
-warning$ -- 34
-while$ -- 122
+type$ -- 432
+warning$ -- 35
+while$ -- 128
 width$ -- 0
-write$ -- 340
-(There were 36 warnings)
+write$ -- 360
+(There were 37 warnings)
