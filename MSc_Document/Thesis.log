@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  4 AUG 2023 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  5 AUG 2023 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,91 +1117,91 @@ File: Figures/Methodology/sipa_11/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_11/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_11/sample_output.jpg  used on input line 858.
 (pdftex.def)             Requested size: 250.48637pt x 490.42357pt.
- [67 <./Figures/Methodology/sipa_11/sample_output.jpg>] [68]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 872.
-) (Chapters/Chapter4.tex [69]
+ [67 <./Figures/Methodology/sipa_11/sample_output.jpg>] [68] [69]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 899.
+) (Chapters/Chapter4.tex [70]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Results
 ------------------------------------------------------------------------------
-[70
+[71
 
-]) (Chapters/Chapter5.tex [71]
+]) (Chapters/Chapter5.tex [72]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion and Conclusion
 ------------------------------------------------------------------------------
-[72
+[73
 
-]) (Thesis.bbl [73] [74
+]) (Thesis.bbl [74] [75
 
-] [75]) (Appendices/AppendixA.tex [76]
+] [76]) (Appendices/AppendixA.tex [77]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix A
 ------------------------------------------------------------------------------
-<Figures/Results/sipa_02/count_analysis.png, id=1292, 726.3135pt x 506.6127pt>
+<Figures/Results/sipa_02/count_analysis.png, id=1297, 726.3135pt x 506.6127pt>
 File: Figures/Results/sipa_02/count_analysis.png Graphic file (type png)
 <use Figures/Results/sipa_02/count_analysis.png>
 Package pdftex.def Info: Figures/Results/sipa_02/count_analysis.png  used on input line 12.
 (pdftex.def)             Requested size: 375.7232pt x 262.07957pt.
-[77
+[78
 
- <./Figures/Results/sipa_02/count_analysis.png>] [78]
-<Figures/Results/sipa_02/contrast.png, id=1303, 607.7907pt x 395.3169pt>
+ <./Figures/Results/sipa_02/count_analysis.png>] [79]
+<Figures/Results/sipa_02/contrast.png, id=1307, 607.7907pt x 395.3169pt>
 File: Figures/Results/sipa_02/contrast.png Graphic file (type png)
 <use Figures/Results/sipa_02/contrast.png>
 Package pdftex.def Info: Figures/Results/sipa_02/contrast.png  used on input line 32.
 (pdftex.def)             Requested size: 375.7232pt x 244.37611pt.
- [79 <./Figures/Results/sipa_02/contrast.png>]
-<Figures/Results/sipa_02/brightness.png, id=1309, 614.295pt x 395.3169pt>
+ [80 <./Figures/Results/sipa_02/contrast.png>]
+<Figures/Results/sipa_02/brightness.png, id=1313, 614.295pt x 395.3169pt>
 File: Figures/Results/sipa_02/brightness.png Graphic file (type png)
 <use Figures/Results/sipa_02/brightness.png>
 Package pdftex.def Info: Figures/Results/sipa_02/brightness.png  used on input line 50.
 (pdftex.def)             Requested size: 375.7232pt x 241.78838pt.
- [80 <./Figures/Results/sipa_02/brightness.png>]
-<Figures/Results/sipa_02/sd.png, id=1315, 607.7907pt x 395.3169pt>
+ [81 <./Figures/Results/sipa_02/brightness.png>]
+<Figures/Results/sipa_02/sd.png, id=1319, 607.7907pt x 395.3169pt>
 File: Figures/Results/sipa_02/sd.png Graphic file (type png)
 <use Figures/Results/sipa_02/sd.png>
 Package pdftex.def Info: Figures/Results/sipa_02/sd.png  used on input line 70.
 (pdftex.def)             Requested size: 375.7232pt x 244.37611pt.
- [81 <./Figures/Results/sipa_02/sd.png>]
-<Figures/Results/sipa_02/homogeneity.png, id=1321, 617.9085pt x 395.3169pt>
+ [82 <./Figures/Results/sipa_02/sd.png>]
+<Figures/Results/sipa_02/homogeneity.png, id=1325, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/homogeneity.png Graphic file (type png)
 <use Figures/Results/sipa_02/homogeneity.png>
 Package pdftex.def Info: Figures/Results/sipa_02/homogeneity.png  used on input line 85.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [82 <./Figures/Results/sipa_02/homogeneity.png>]
-<Figures/Results/sipa_02/sharpness.png, id=1327, 620.7993pt x 395.3169pt>
+ [83 <./Figures/Results/sipa_02/homogeneity.png>]
+<Figures/Results/sipa_02/sharpness.png, id=1332, 620.7993pt x 395.3169pt>
 File: Figures/Results/sipa_02/sharpness.png Graphic file (type png)
 <use Figures/Results/sipa_02/sharpness.png>
 Package pdftex.def Info: Figures/Results/sipa_02/sharpness.png  used on input line 104.
 (pdftex.def)             Requested size: 375.7232pt x 239.26094pt.
- [83 <./Figures/Results/sipa_02/sharpness.png>]
-<Figures/Results/sipa_02/dissimilarity.png, id=1334, 617.9085pt x 395.3169pt>
+ [84 <./Figures/Results/sipa_02/sharpness.png>]
+<Figures/Results/sipa_02/dissimilarity.png, id=1338, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/dissimilarity.png Graphic file (type png)
 <use Figures/Results/sipa_02/dissimilarity.png>
 Package pdftex.def Info: Figures/Results/sipa_02/dissimilarity.png  used on input line 123.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [84 <./Figures/Results/sipa_02/dissimilarity.png>]
-<Figures/Results/sipa_02/area.png, id=1340, 611.4042pt x 395.3169pt>
+ [85 <./Figures/Results/sipa_02/dissimilarity.png>]
+<Figures/Results/sipa_02/area.png, id=1344, 611.4042pt x 395.3169pt>
 File: Figures/Results/sipa_02/area.png Graphic file (type png)
 <use Figures/Results/sipa_02/area.png>
 Package pdftex.def Info: Figures/Results/sipa_02/area.png  used on input line 142.
 (pdftex.def)             Requested size: 375.7232pt x 242.94049pt.
- [85 <./Figures/Results/sipa_02/area.png>]
-<Figures/Results/sipa_02/correlation.png, id=1346, 617.9085pt x 395.3169pt>
+ [86 <./Figures/Results/sipa_02/area.png>]
+<Figures/Results/sipa_02/correlation.png, id=1350, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/correlation.png Graphic file (type png)
 <use Figures/Results/sipa_02/correlation.png>
 Package pdftex.def Info: Figures/Results/sipa_02/correlation.png  used on input line 167.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [86 <./Figures/Results/sipa_02/correlation.png>]
-<Figures/Results/sipa_02/energy.png, id=1352, 617.9085pt x 395.3169pt>
+ [87 <./Figures/Results/sipa_02/correlation.png>]
+<Figures/Results/sipa_02/energy.png, id=1356, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/energy.png Graphic file (type png)
 <use Figures/Results/sipa_02/energy.png>
 Package pdftex.def Info: Figures/Results/sipa_02/energy.png  used on input line 189.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
-) [87 <./Figures/Results/sipa_02/energy.png>]
+) [88 <./Figures/Results/sipa_02/energy.png>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1214,17 +1214,17 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 7A8C16ED6D489E6A355D1C9B1C8BE2BF;15646.
  ) 
 Here is how much of TeX's memory you used:
- 16313 strings out of 475551
- 270179 string characters out of 5763027
+ 16316 strings out of 475551
+ 270247 string characters out of 5763027
  1936238 words of memory out of 5000000
- 36898 multiletter control sequences out of 15000+600000
+ 36900 multiletter control sequences out of 15000+600000
  568414 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,13n,81p,13205b,1329s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (101 pages, 11070750 bytes).
+Output written on Thesis.pdf (102 pages, 11075431 bytes).
 PDF statistics:
- 1515 PDF objects out of 1728 (max. 8388607)
- 381 named destinations out of 1000 (max. 500000)
+ 1519 PDF objects out of 1728 (max. 8388607)
+ 382 named destinations out of 1000 (max. 500000)
  1154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

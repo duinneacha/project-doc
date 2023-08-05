@@ -867,6 +867,33 @@ The methodology for processing images in Folder K involved the following steps:
 
 \section{CRNN Methodology}
 
+To instantiate the model in our experiment, we set the \texttt{input\_shape} to be (32, 32, 1), as our preprocessed images are 32x32 pixels with 1 channel (grayscale). The number of output classes, \texttt{num\_classes}, is set to 10 to represent the digits from 0 to 9.
+
+\begin{verbatim}
+input_shape = (32, 32, 1)
+num_classes = 10
+crnn_model = create_crnn_model(input_shape, num_classes)
+\end{verbatim}
+
+The structure of the instantiated model is as follows:
+
+\begin{itemize}
+    \item \textbf{Input Layer}: The model takes an input of shape \texttt{input\_shape} (32, 32, 1) in our case.
+    \item \textbf{Convolutional Layers}: The first part of our model comprises three convolutional blocks. Each block consists of:
+          \begin{itemize}
+              \item \textbf{Convolutional Layer}: Uses a varying number of filters, starting from 32, then 64, and finally 128, all with a kernel size of 3x3 and 'same' padding.
+              \item \textbf{Batch Normalization}: Normalizes the outputs of the convolutional layers.
+              \item \textbf{ReLU Activation}: Introduces non-linearity, enabling the model to learn complex patterns.
+              \item \textbf{Max Pooling}: Reduces the spatial dimensions of the output.
+              \item \textbf{Dropout}: Applied with a rate of 0.25 to prevent overfitting.
+          \end{itemize}
+    \item \textbf{Reshaping Layer}: The output of the convolutional layers is reshaped to a target shape of (4, 4*128) for the LSTM layer.
+    \item \textbf{Recurrent Layers}: A Bidirectional LSTM layer with 256 units processes the reshaped sequences, followed by a TimeDistributed Dense layer with ReLU activation.
+    \item \textbf{Flattening and Dropout}: The output from the TimeDistributed layer is flattened and passed through a Dropout layer with a rate of 0.5.
+    \item \textbf{Output Layer}: A Dense layer with \texttt{num\_classes} units (10 in our case) and a softmax activation function classifies the images. This layer also uses L1 and L2 regularization.
+\end{itemize}
+
+
 \newpage
 
 \begin{lstlisting}[language=Python, caption=Python example]
