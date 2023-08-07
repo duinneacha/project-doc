@@ -867,7 +867,38 @@ The methodology for processing images in Folder K involved the following steps:
 
 \section{CRNN Methodology}
 
-To instantiate the model in our experiment, we set the \texttt{input\_shape} to be (32, 32, 1), as our preprocessed images are 32x32 pixels with 1 channel (grayscale). The number of output classes, \texttt{num\_classes}, is set to 10 to represent the digits from 0 to 9.
+\subsection{Introduction}
+
+In this subsection, the specifics of utilizing Convolutional Recurrent Neural Networks (CRNNs) for the task are discussed. The CRNN, a hybrid model, harnesses the spatial feature extraction capabilities of CNNs with the sequence modelling prowess of RNNs. The subsequent sections guide through the systematic process: from building the training databases to defining the architecture of the CRNN model, followed by data preparation through loading, normalization, and one-hot encoding. Finally, the model's compilation and the prediction of numbers are addressed.
+
+
+\subsection{Building the Training Databases}
+While initial experiments with the CRNN utilized the MNIST \cite{MnistTensorFlowDatasets} and SVHN \cite{StreetViewHouse} datasets for training, results indicated that a custom digits training database, tailored to the specific font present in the images, yielded the most optimal performance.
+
+In this research, a Python-based approach was employed to generate random images of individual digits using a specified font. The Python Imaging Library (PIL) was used to perform image manipulations. The process begins by determining the desired font.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/find_font/myfonts.jpg}
+    \caption[Image Font Identification]{Image Font Identification}
+    \label{fig:Image Font Identification}
+\end{figure}
+
+The process involved using font identification websites such as \textit{www.myfonts.com}\cite{WhatTheFontMyFonts}, but generally the best success was attained by looking for similar fonts on Google Fonts \cite{BrowseFontsGoogle}. The font was then downloaded and installed on the local machine.
+
+The primary function is tasked with producing a designated number of digit images and saving them in a predetermined directory. Each digit image file is labelled with a randomly generated alphanumeric name, followed by an underscore and the digit it represents.
+
+To enhance the diversity of the dataset, digits are rendered in varying font sizes. Additionally, there's a 50\% chance that any given image will undergo a slight rotation within a specified range. This introduces a semblance of natural variability that might be found in real-world digit representations, mimicking minor skews or rotations.
+
+After the image creation, all the generated image file names, along with their respective digits, are documented in a structured format. This record, which acts as a catalogue, is then appended to a designated CSV file. The CSV provides a ready reference, allowing researchers to quickly correlate an image file to its corresponding digit without visual interpretation.
+
+This methodology ensures a vast and varied dataset, essential for robust machine learning training or any analysis requiring a diverse representation of numerical digits.
+
+
+\subsection{Defining the CRNN Model}
+
+
+To instantiate the model in our experiment, we set the \texttt{input\_shape} to be (32, 32, 1), as our pre-processed images are 32x32 pixels with 1 channel (grayscale). The number of output classes, \texttt{num\_classes}, is set to 10 to represent the digits from 0 to 9.
 
 \begin{verbatim}
 input_shape = (32, 32, 1)
@@ -894,6 +925,50 @@ The structure of the instantiated model is as follows:
 \end{itemize}
 
 
+
+This model structure is chosen because it capitalizes on the strengths of both Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). Specifically, the CNN layers are adept at processing spatial information and extracting important features from the input images, making them ideal for image recognition tasks. Following this, the sequential patterns in these extracted features are processed by an RNN layer (specifically an LSTM), which is proficient in learning from temporal or sequential data. This combination, often referred to as a Convolutional Recurrent Neural Network (CRNN), can be particularly effective in tasks like digit recognition, where recognizing both spatial features (e.g., shape of the digits) and sequential dependencies (e.g., order of strokes in handwritten digits) can be beneficial.
+
+\subsection{Loading the Training Data}
+In the methodology, the dataset generated of 500k seven segment digits is loaded. Each image corresponds to a specific digit that is labelled in a corresponding csv file. A load function is utilized to read and process these images. The images are accessed with their respective file names, read into memory as grayscale images using the OpenCV library.
+
+Following this, each image is resized to a uniform size of 32x32 pixels, ensuring that the input to our model remains consistent. The images are then expanded along the last axis to create an additional dimension, a standard pre-processing step required by the Convolutional Neural Networks (CNNs). This dimension effectively represents the colour channels of the image, which in our case is one, due to the use of grayscale images. The processed images are then stored in a list, which is converted into a numpy array for efficient numerical operations.
+
+
+To validate the model's performance and generalization capabilities, the dataset is divided into a training and  testing set, using an 80-20 split. This split is achieved by using the \textit{train\_test\_split} function from the Scikit-learn library. The resulting subsets are X\_train and y\_train for the training set, and X\_test and y\_test for the testing set, where 'X' represents the images and 'y' the corresponding labels. The \textit{random\_state} parameter is arbitrarily fixed at 42, providing reproducibility in the generation of the training and testing splits. This approach facilitates the reservation of a significant portion of the dataset for model training while ensuring a distinct set remains for evaluating the model's ability to generalize to unseen data.
+
+\subsection{Normalisation and One-Hot Encoding}
+The datasets are normalised and one-hot encoded to facilitate the training process. Normalisation is achieved by dividing the pixel values by the maximum grayscale value, which is 255. This transformation reduces the scale of input values, facilitating the convergence of our model during the training process. One-hot encoding is performed using the \textit{to\_categorical} function from the TensorFlow Keras utility module. This function converts the training and test labels (y\_train and y\_test) into one-hot vectors, a format required by the model algorithms when dealing with categorical targets. Each digit from 0-9 is represented as a 10-element vector with a single '1' in the position representing the digit and '0's elsewhere.
+
+
+
+\subsection{Model Compilation}
+The model is compiled using the \textit{compile} function from the TensorFlow Keras API. The model employs the Adam optimization algorithm, a popular choice due to its efficient memory usage and capability to handle large datasets and parameters. The \textit{categorical\_crossentropy} is set as the loss function, which is suitable for multi-class classification tasks. The 'accuracy' of model is tracked as a metric during the training process.
+
+
+
+The batch size, set at 64, defines the number of samples that will be passed through the network at one time. This number represents a balance between computational efficiency and the stochastic nature of the learning process. The number of epochs, set at 25, represents the number of times the entire training dataset will be passed forward and backward through the neural network.
+
+The training process starts with the fit function. Here, X\_train and y\_train are the training images and labels respectively. The training proceeds with a batch size of 64 and for 25 epochs as defined earlier. The model's performance is evaluated on the validation dataset, X\_test and y\_test, after each epoch, providing a view on the model's ability to generalize from the training data to unseen data. The output from this function, including the loss and accuracy of the model after each epoch, is saved to the history variable for potential later analysis.
+
+\subsection{Image Folder Pre-processing}
+
+A function was developed to segment the digits within the images, within this, the image is transformed to grayscale, simplifying the subsequent process of contour detection. Identified contours with areas below a specified threshold are disregarded to ensure meaningful segmentation. The retained contours are sorted based on their x-coordinates, ensuring sequential extraction of digits. For each valid contour, a bounding box is established, and segments surpassing the area criteria are extracted as individual digits. The function ultimately returns both these valid contours and the extracted segments, facilitating further analysis or processing.
+
+\subsection{Prediction of Numbers}
+
+Each segmented is resized to the target size, the pixel values are normalized to the range [0, 1], and dimensions adjusted to be compatible the CRNN model input expectations, specifically by adding channel and batch axes.
+
+After pre-processing the binary digit image, the model predicts its value, and the digit's identity is determined by selecting the index with the highest prediction score.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/Results/crnn/sample_predict.jpg}
+    \caption[Image Prediction via CRNN]{Image Prediction via CRNN}
+    \label{fig:Image Prediction via CRNN}
+\end{figure}
+
+
+
 \newpage
 
 \begin{lstlisting}[language=Python, caption=Python example]
@@ -908,4 +983,3 @@ the above code is a python code snippet.
 % * This is a comment
 % ? This is a comment
 %  TODO: This is a comment
-

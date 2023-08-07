@@ -13,7 +13,7 @@ Database file #1: Bibliography.bib
 Warning--entry type for "anderssonBenchmarkingObjectDetection2022" isn't style-file defined
 --line 27 of file Bibliography.bib
 Warning--entry type for "Tessdata2023" isn't style-file defined
---line 1620 of file Bibliography.bib
+--line 1640 of file Bibliography.bib
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -60,45 +60,45 @@ Warning--empty journal in mukhopadhyaySurveyHoughTransform2015
 Warning--empty year in mukhopadhyaySurveyHoughTransform2015
 
 Done.
-You've used 28 entries,
+You've used 32 entries,
             4783 wiz_defined-function locations,
-            1114 strings with 16615 characters,
-and the built_in function-call counts, 25971 in all, are:
-= -- 2229
+            1130 strings with 17078 characters,
+and the built_in function-call counts, 27413 in all, are:
+= -- 2366
 > -- 802
 < -- 194
-+ -- 403
++ -- 411
 - -- 180
-* -- 1503
-:= -- 3891
-add.period$ -- 65
-call.type$ -- 28
-change.case$ -- 56
-chr.to.int$ -- 468
-cite$ -- 67
-duplicate$ -- 1676
-empty$ -- 1850
+* -- 1555
+:= -- 4103
+add.period$ -- 69
+call.type$ -- 32
+change.case$ -- 64
+chr.to.int$ -- 472
+cite$ -- 75
+duplicate$ -- 1792
+empty$ -- 1998
 format.name$ -- 233
-if$ -- 5750
+if$ -- 6067
 int.to.chr$ -- 2
-int.to.str$ -- 29
-missing$ -- 264
-newline$ -- 152
+int.to.str$ -- 33
+missing$ -- 288
+newline$ -- 172
 num.names$ -- 78
-pop$ -- 776
+pop$ -- 880
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 32
 quote$ -- 2
-skip$ -- 1846
+skip$ -- 1954
 stack$ -- 0
-substring$ -- 1139
-swap$ -- 1221
+substring$ -- 1151
+swap$ -- 1265
 text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 448
+type$ -- 512
 warning$ -- 37
 while$ -- 134
 width$ -- 0
-write$ -- 374
+write$ -- 414
 (There were 39 warnings)

@@ -56,16 +56,18 @@
 \contentsline {figure}{\numberline {3.34}{\ignorespaces Image Folder I Montage}}{65}{figure.caption.200}%
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Image Folder K Montage}}{66}{figure.caption.202}%
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Image Folder K Sample Output}}{67}{figure.caption.206}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Image Font Identification}}{68}{figure.caption.210}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Image Prediction via CRNN}}{73}{figure.caption.217}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Count Analysis}}{78}{figure.caption.233}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sipa 2 Contrast Analysis on MRO SSD}}{80}{figure.caption.235}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Sipa 2 Brightness Analysis on MRO SSD}}{81}{figure.caption.237}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Sipa 2 Standard Deviation Analysis on MRO SSD}}{82}{figure.caption.239}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Sipa 2 Homogeneity Analysis on MRO SSD}}{83}{figure.caption.241}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Sipa 2 Sharpness Analysis on MRO SSD}}{84}{figure.caption.243}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Sipa 2 Dissimilarity Analysis on MRO SSD}}{85}{figure.caption.245}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Sipa 2 Area Analysis on MRO SSD}}{86}{figure.caption.247}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Sipa 2 Correlation Analysis on MRO SSD}}{87}{figure.caption.249}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Sipa 2 Energy Analysis on MRO SSD}}{88}{figure.caption.251}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Count Analysis}}{82}{figure.caption.243}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sipa 2 Contrast Analysis on MRO SSD}}{84}{figure.caption.245}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Sipa 2 Brightness Analysis on MRO SSD}}{85}{figure.caption.247}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sipa 2 Standard Deviation Analysis on MRO SSD}}{86}{figure.caption.249}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Sipa 2 Homogeneity Analysis on MRO SSD}}{87}{figure.caption.251}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Sipa 2 Sharpness Analysis on MRO SSD}}{88}{figure.caption.253}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Sipa 2 Dissimilarity Analysis on MRO SSD}}{89}{figure.caption.255}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Sipa 2 Area Analysis on MRO SSD}}{90}{figure.caption.257}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Sipa 2 Correlation Analysis on MRO SSD}}{91}{figure.caption.259}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Sipa 2 Energy Analysis on MRO SSD}}{92}{figure.caption.261}%
