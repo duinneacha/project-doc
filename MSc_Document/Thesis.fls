@@ -899,7 +899,6 @@ INPUT .\Figures\Results\crnn\sample_predict.jpg
 INPUT .\Figures\Results\crnn\sample_predict.jpg
 INPUT .\Figures\Results\crnn\sample_predict.jpg
 INPUT .\Figures\Results\crnn\sample_predict.jpg
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT .\Chapters\Chapter4.tex
 INPUT .\Chapters\Chapter4.tex
 INPUT .\Chapters\Chapter4.tex
@@ -988,6 +987,7 @@ INPUT .\Figures\Results\sipa_02\energy.png
 INPUT .\Figures\Results\sipa_02\energy.png
 INPUT .\Figures\Results\sipa_02\energy.png
 INPUT .\Figures\Results\sipa_02\energy.png
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT Thesis.aux
 INPUT .\Thesis.out
 INPUT .\Thesis.out

@@ -4,15 +4,29 @@
 
 \section{Introduction}
 
-The results of this study are presented in this section.
+This chapter delves into the empirical findings derived from the systematic approach delineated earlier. Using the raw image datasets subjected to various pre-processing techniques, the performance of the OCR systems will be analysed and presented. The results aim to validate the hypothesis that image pre-processing can significantly enhance the efficacy of OCR systems on sensor reading images. Each section will provide a detailed account of the outcomes, offering insights into the effectiveness of the applied methodologies and setting the stage for the subsequent discussion and analysis.
 
 \section{First Sprint - Global Generic}
 \section{Second Sprint - Global Generic Analysis Resized}
 \section{Analysis Tesseract Separate Folders}
 
+\begin{table}[h]
+    \centering
+    \caption{OCR Performance for Different Folders}
+    \label{tab:ocr_performance}
+    \begin{tabular}{|l|c|c|c|c|c|c|}
+        \hline
+        \textbf{Folder} & \textbf{Total Count} & \multicolumn{2}{c|}{\textbf{Tesseract}} & \multicolumn{3}{c|}{\textbf{CRNN}}                                                            \\
+        \hline
+                        &                      & \textbf{Read}                           & \textbf{Not Read}                  & \textbf{Read} & \textbf{Not Read} & \textbf{No Contours} \\
+        \hline
+        A               & 160                  & 70                                      & 90                                 & 46            & 9                 & 105                  \\
+        B               & -                    & -                                       & -                                  & -             & -                 & -                    \\
+        C               & -                    & -                                       & -                                  & -             & -                 & -                    \\
+        \hline
+    \end{tabular}
+\end{table}
 
-
-\newpage
 
 \newpage
 
