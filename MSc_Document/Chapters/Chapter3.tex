@@ -831,20 +831,20 @@ Image Folder I houses images that have already been processed through the workfl
 
 
 \newpage
-\subsection{Image Folder K}
+\subsection{Image Folder J}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/11/montage.png}
-    \caption[Image Folder K Montage]{Image Folder K Montage}
-    \label{fig:Image Folder K Montage}
+    \caption[Image Folder J Montage]{Image Folder J Montage}
+    \label{fig:Image Folder J Montage}
 \end{figure}
 
 Black text on a white background is a good scenario for OCR. The main problem with these images above is skewness.
 
 A function was developed to estimates the rotation angle of an image by detecting lines using the Hough Transform. \cite{mukhopadhyaySurveyHoughTransform2015} The function first converts the image to grayscale and applies the Canny edge detector to find edges. It then uses the Hough Transform to detect lines in the image. If no lines are detected, it returns 0. Otherwise, it calculates the angles of the detected lines, and computes and returns the median of these angles as the estimated rotation angle.
 
-The methodology for processing images in Folder K involved the following steps:
+The methodology for processing images in Folder J involved the following steps:
 
 \begin{enumerate}
     \item \textbf{Manual Crop}: Manually crop the image to focus on the area of interest and remove any irrelevant parts.
@@ -856,8 +856,8 @@ The methodology for processing images in Folder K involved the following steps:
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{Figures/Methodology/sipa_11/sample_output.jpg}
-    \caption[Image Folder K Sample Output]{Image Folder K Sample Output}
-    \label{fig:Image Folder K Sample Output}
+    \caption[Image Folder J Sample Output]{Image Folder J Sample Output}
+    \label{fig:Image Folder J Sample Output}
 \end{figure}
 
 
