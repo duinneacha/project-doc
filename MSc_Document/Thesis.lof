@@ -28,46 +28,42 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Image Folder F Analysis\relax }}{38}{figure.caption.100}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Image Folder G Analysis\relax }}{39}{figure.caption.102}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Image Folder H Analysis\relax }}{39}{figure.caption.104}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Image Folder I Analysis\relax }}{40}{figure.caption.106}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Image Folder J Analysis\relax }}{40}{figure.caption.108}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces PyTesseract Config Settings}}{41}{figure.caption.110}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Greyscale Conversion\relax }}{41}{figure.caption.111}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Otsu's Thresholding\relax }}{42}{figure.caption.114}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Morphological Closing\relax }}{43}{figure.caption.116}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces PyTesseract Config Settings Language}}{43}{figure.caption.118}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Red Mask\relax }}{46}{figure.caption.123}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Image Folder A Montage}}{48}{figure.caption.125}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Image Folder A Sample Output}}{49}{figure.caption.134}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Image Folder B Montage}}{50}{figure.caption.136}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Image Folder B Sample Output}}{51}{figure.caption.144}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Weiner Filter Equation\relax }}{53}{figure.caption.148}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Image Folder C Montage}}{53}{figure.caption.150}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Image Folder C Sample Output}}{54}{figure.caption.151}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Image Folder D Montage}}{55}{figure.caption.158}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Image Folder D Sample Output}}{56}{figure.caption.164}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Image Folder E Montage}}{57}{figure.caption.166}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Image Folder F Montage}}{58}{figure.caption.168}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Green Mask\relax }}{59}{figure.caption.170}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Image Folder F Sample Output}}{60}{figure.caption.179}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Image Folder G Montage}}{61}{figure.caption.181}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Image Folder G Sample Output}}{62}{figure.caption.189}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Image Folder H Montage}}{63}{figure.caption.191}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Image Folder H Sample Output}}{64}{figure.caption.198}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Image Folder I Montage}}{65}{figure.caption.200}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Image Folder J Montage}}{66}{figure.caption.202}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Image Folder J Sample Output}}{67}{figure.caption.206}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Image Font Identification}}{68}{figure.caption.210}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Image Prediction via CRNN}}{73}{figure.caption.217}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces PyTesseract Config Settings}}{40}{figure.caption.106}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Greyscale Conversion\relax }}{40}{figure.caption.107}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Otsu's Thresholding\relax }}{41}{figure.caption.110}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Morphological Closing\relax }}{42}{figure.caption.112}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces PyTesseract Config Settings Language}}{42}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Red Mask\relax }}{45}{figure.caption.119}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Image Folder A Montage}}{47}{figure.caption.121}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Image Folder A Sample Output}}{48}{figure.caption.130}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Image Folder B Montage}}{49}{figure.caption.132}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Image Folder B Sample Output}}{50}{figure.caption.140}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Weiner Filter Equation\relax }}{52}{figure.caption.144}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Image Folder C Montage}}{52}{figure.caption.146}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Image Folder C Sample Output}}{53}{figure.caption.147}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Image Folder D Montage}}{54}{figure.caption.154}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Image Folder D Sample Output}}{55}{figure.caption.160}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Image Folder E Montage}}{56}{figure.caption.162}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Green Mask\relax }}{57}{figure.caption.164}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Image Folder E Sample Output}}{58}{figure.caption.173}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Image Folder F Montage}}{59}{figure.caption.175}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Image Folder F Sample Output}}{60}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Image Folder G Montage}}{61}{figure.caption.185}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Image Folder G Sample Output}}{62}{figure.caption.192}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Image Folder H Montage}}{63}{figure.caption.194}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Image Folder H Sample Output}}{64}{figure.caption.198}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Image Font Identification}}{65}{figure.caption.202}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Image Prediction via CRNN}}{70}{figure.caption.209}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Count Analysis}}{82}{figure.caption.232}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sipa 2 Contrast Analysis on MRO SSD}}{84}{figure.caption.234}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Sipa 2 Brightness Analysis on MRO SSD}}{85}{figure.caption.236}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Sipa 2 Standard Deviation Analysis on MRO SSD}}{86}{figure.caption.238}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Sipa 2 Homogeneity Analysis on MRO SSD}}{87}{figure.caption.240}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Sipa 2 Sharpness Analysis on MRO SSD}}{88}{figure.caption.242}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Sipa 2 Dissimilarity Analysis on MRO SSD}}{89}{figure.caption.244}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Sipa 2 Area Analysis on MRO SSD}}{90}{figure.caption.246}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Sipa 2 Correlation Analysis on MRO SSD}}{91}{figure.caption.248}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Sipa 2 Energy Analysis on MRO SSD}}{92}{figure.caption.250}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Count Analysis}}{80}{figure.caption.226}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sipa 2 Contrast Analysis on MRO SSD}}{82}{figure.caption.228}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Sipa 2 Brightness Analysis on MRO SSD}}{83}{figure.caption.230}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sipa 2 Standard Deviation Analysis on MRO SSD}}{84}{figure.caption.232}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Sipa 2 Homogeneity Analysis on MRO SSD}}{85}{figure.caption.234}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Sipa 2 Sharpness Analysis on MRO SSD}}{86}{figure.caption.236}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Sipa 2 Dissimilarity Analysis on MRO SSD}}{87}{figure.caption.238}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Sipa 2 Area Analysis on MRO SSD}}{88}{figure.caption.240}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Sipa 2 Correlation Analysis on MRO SSD}}{89}{figure.caption.242}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Sipa 2 Energy Analysis on MRO SSD}}{90}{figure.caption.244}%
