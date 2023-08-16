@@ -493,6 +493,14 @@ Because the hue component of red colour in HSV space spans both ends of the hue 
 
 The function then creates two binary masks for these ranges, using OpenCV's inRange function, which applies these boundaries on the HSV image. The resulting masks have pixel values of 255 where the original image pixels are within the specified red range, and 0 otherwise.
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/Methodology/sipa_02/red_analysis.png}
+    \caption[Colour Analysis]{Colour Analysis}
+    \label{fig:Colour Analysis}
+\end{figure}
+
+
 These two masks are added together to form a comprehensive mask of red pixels. The function then applies this mask onto a copy of the original image, setting all the pixels where the mask equals 0 to also be 0 in the output image. This leaves only the red pixels visible in the output image. Hence, the function returns an image emphasizing the red components of the original input.
 
 

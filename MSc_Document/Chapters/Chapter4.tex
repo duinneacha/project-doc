@@ -4,31 +4,35 @@
 
 \section{Introduction}
 
-This chapter delves into the empirical findings derived from the systematic approach delineated earlier. Using the raw image datasets subjected to various pre-processing techniques, the performance of the OCR systems will be analysed and presented. The results aim to validate the hypothesis that image pre-processing can significantly enhance the efficacy of OCR systems on sensor reading images. Each section will provide a detailed account of the outcomes, offering insights into the effectiveness of the applied methodologies and setting the stage for the subsequent discussion and analysis.
+% This chapter delves into the empirical findings derived from the systematic approach delineated earlier. Using the raw image datasets subjected to various pre-processing techniques, the performance of the OCR systems will be analysed and presented. The results aim to validate the hypothesis that image pre-processing can significantly enhance the efficacy of OCR systems on sensor reading images. Each section will provide a detailed account of the outcomes, offering insights into the effectiveness of the applied methodologies and setting the stage for the subsequent discussion and analysis.
+
+This chapter examines the empirical results from our earlier systematic approach. By analyzing the OCR performance on pre-processed image datasets, we aim to confirm that image pre-processing improves OCR effectiveness on sensor reading images. Each section discusses the results, highlighting the impact of the methodologies and paving the way for further discussion.
 
 \section{First Sprint - Global Generic}
+
 
 \begin{table}[h]
     \centering
     \caption{OCR Performance First Sprint}
     \label{tab:first_sprint}
-    \begin{tabular}{|l|c|c|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|}
         \hline
-        \textbf{Folder} & \textbf{Total Count} & \multicolumn{2}{c|}{\textbf{Tesseract}} & \multicolumn{3}{c|}{\textbf{CRNN}}                                                            \\
+        \textbf{Folder} & \textbf{Total Count} & \multicolumn{2}{c|}{\textbf{Tesseract}}                     \\
         \hline
-                        &                      & \textbf{Read}                           & \textbf{Not Read}                  & \textbf{Read} & \textbf{Not Read} & \textbf{No Contours} \\
+                        &                      & \textbf{Read}                           & \textbf{Not Read} \\
         \hline
-        A               & 165                  & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        B               & 26                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        C               & 10                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        D               & 27                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        E               & 10                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        F               & 15                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        G               & 19                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        H               & 14                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
+        A               & 165                  & 0                                       & 165               \\
+        B               & 26                   & 5                                       & 21                \\
+        C               & 10                   & 0                                       & 10                \\
+        D               & 27                   & 0                                       & 27                \\
+        E               & 10                   & 0                                       & 10                \\
+        F               & 15                   & 0                                       & 15                \\
+        G               & 19                   & 3                                       & 16                \\
+        H               & 14                   & 3                                       & 11                \\
         \hline
     \end{tabular}
 \end{table}
+
 
 
 Of the 286 images 7 were read making a 2.45\% read count.
@@ -36,34 +40,35 @@ Of the 286 images 7 were read making a 2.45\% read count.
 
 \section{Second Sprint - Global Generic Analysis Resized}
 
+
 \begin{table}[h]
     \centering
     \caption{OCR Performance for Second Sprint}
     \label{tab:second_print}
-    \begin{tabular}{|l|c|c|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|}
         \hline
-        \textbf{Folder} & \textbf{Total Count} & \multicolumn{2}{c|}{\textbf{Tesseract}} & \multicolumn{3}{c|}{\textbf{CRNN}}                                                            \\
+        \textbf{Folder} & \textbf{Total Count} & \multicolumn{2}{c|}{\textbf{Tesseract}}                     \\
         \hline
-                        &                      & \textbf{Read}                           & \textbf{Not Read}                  & \textbf{Read} & \textbf{Not Read} & \textbf{No Contours} \\
+                        &                      & \textbf{Read}                           & \textbf{Not Read} \\
         \hline
-        A               & 165                  & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        B               & 26                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        C               & 10                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        D               & 27                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        E               & 10                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        F               & 15                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        G               & 19                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
-        H               & 14                   & 0                                       & 0                                  & 0             & 0                 & 0                    \\
+        A               & 165                  & 1                                       & 164               \\
+        B               & 26                   & 12                                      & 14                \\
+        C               & 10                   & 0                                       & 10                \\
+        D               & 27                   & 0                                       & 27                \\
+        E               & 10                   & 2                                       & 8                 \\
+        F               & 15                   & 2                                       & 13                \\
+        G               & 19                   & 5                                       & 14                \\
+        H               & 14                   & 7                                       & 7                 \\
         \hline
     \end{tabular}
 \end{table}
 
-Of the 286 images 40 were read making a 14\% read count.
+Of the 286 images 29 were read making a 10.14\% read count.
 % Of the 302 images 40 were read making a 13.25\% read count.
 
 \newpage
 
-\section{Analysis Tesseract Separate Folders}
+\section{Third Sprint - Analysis Tesseract Separate Folders}
 
 \begin{table}[h]
     \centering
