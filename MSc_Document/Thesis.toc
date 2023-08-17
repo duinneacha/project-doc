@@ -68,20 +68,27 @@
 \contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{73}{section.216}%
 \contentsline {section}{\numberline {4.4}Third Sprint - Analysis Tesseract Separate Folders}{74}{section.218}%
 \contentsline {chapter}{\numberline {5}Discussion and Conclusion}{75}{chapter.220}%
-\contentsline {section}{\numberline {5.1}Discussion}{75}{section.221}%
-\contentsline {section}{\numberline {5.2}Conclusion}{76}{section.222}%
-\contentsline {chapter}{Bibliography}{77}{chapter*.223}%
+\contentsline {section}{\numberline {5.1}Introduction}{75}{section.221}%
+\contentsline {section}{\numberline {5.2}Discussion of Findings}{75}{section.222}%
+\contentsline {subsection}{\numberline {5.2.1}OCR Performance}{75}{subsection.223}%
+\contentsline {subsection}{\numberline {5.2.2}Image Pre-processing Techniques}{75}{subsection.224}%
+\contentsline {subsection}{\numberline {5.2.3}CRNN Model Analysis}{76}{subsection.225}%
+\contentsline {section}{\numberline {5.3}Challenges and Limitations}{76}{section.226}%
+\contentsline {section}{\numberline {5.4}Implications and Applications}{76}{section.227}%
+\contentsline {section}{\numberline {5.5}Conclusions}{76}{section.228}%
+\contentsline {section}{\numberline {5.6}Recommendations and Future Work}{76}{section.229}%
+\contentsline {chapter}{Bibliography}{77}{chapter*.230}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{80}{appendix.224}%
-\contentsline {section}{\numberline {A.1}Introduction}{80}{section.225}%
-\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{80}{section.226}%
-\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{82}{subsection.228}%
-\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{83}{subsection.230}%
-\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{84}{subsection.232}%
-\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{85}{subsection.234}%
-\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{86}{subsection.236}%
-\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{87}{subsection.238}%
-\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{88}{subsection.240}%
-\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{89}{subsection.242}%
-\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{90}{subsection.244}%
+\contentsline {chapter}{\numberline {A}Appendix A}{80}{appendix.231}%
+\contentsline {section}{\numberline {A.1}Introduction}{80}{section.232}%
+\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{80}{section.233}%
+\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{82}{subsection.235}%
+\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{83}{subsection.237}%
+\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{84}{subsection.239}%
+\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{85}{subsection.241}%
+\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{86}{subsection.243}%
+\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{87}{subsection.245}%
+\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{88}{subsection.247}%
+\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{89}{subsection.249}%
+\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{90}{subsection.251}%
 \vspace {2em}
