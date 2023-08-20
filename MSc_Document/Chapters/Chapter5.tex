@@ -18,9 +18,6 @@ The research aims to enhance the efficiency and accuracy of Optical Character Re
     \item Analysing and reporting the findings to fill the current gap in literature concerning pre-processing and capture optimization for OCR of sensor readings.
 \end{itemize}
 
-
-
-
 \section{Discussion of Findings}
 
 
@@ -33,7 +30,7 @@ For the optical character recognition (OCR) process, Tesseract version 5.2.0.202
 \subsection{OCR Sprints and Strategies}
 
 \subsubsection{First Sprint}
-The initial strategy was straightforward, converting the images to grayscale and then subjecting them to Tesseract. The outcome of this sprint yielded an unsatisfactory accuracy rate of 3.85\%, indicating a need for a more nuanced preprocessing approach.
+The initial strategy was straightforward, converting the images to grayscale and then subjecting them to Tesseract. The outcome of this sprint yielded an unsatisfactory accuracy rate of 3.85\%, indicating a need for a more nuanced pre-processing approach.
 
 \subsubsection{Second Sprint}
 Recognizing the limitations of the initial approach, this phase introduced OTSU thresholding and morphological closing. A systematic examination against an expansive range of sizes was also undertaken to pinpoint the optimal size for processing.
@@ -92,7 +89,7 @@ In addition to Tesseract, the study also evaluated the performance of Convolutio
 Image pre-processing is instrumental in bridging the gap between raw data and actionable insights in the domain of machine learning. By refining the input data, these techniques set the stage for models to deliver optimal performance. Here, we dissect the significance and impact of various pre-processing techniques employed across different image folders:
 
 \begin{itemize}
-    \item \textbf{Grayscale Conversion:} This step, indispensable for Tesseract, simplifies the image by eliminating colour variations, allowing the algorithm to focus solely on structural features.
+    \item \textbf{Grayscale Conversion:} This step, indispensable for Tesseract, simplifies the image by eliminating colour variations by converting three colour channels (RGB) to one single channel, allowing the algorithm to focus solely on structural features.
 
     \item \textbf{Resizing:} The dimensions of an image play a pivotal role in determining Tesseract's performance. By systematically testing a range of sizes, the optimal dimensions that yielded the highest recognition accuracy were identified.
 
@@ -104,7 +101,7 @@ Image pre-processing is instrumental in bridging the gap between raw data and ac
 
     \item \textbf{Red Mask} A tailored red mask was developed for Image Folder A, elevating the model's accuracy from an initial 1\% to a commendable 47.42\%.
 
-    \item \textbf{Green Mask:} The introduction of a green mask filter significantly bolstered the accuracy of predictions. In the case of Image Folder B, while the second iteration registered a 20\% accuracy, the application of the green mask in a later sprint escalated this figure to 100\%. Similarly, the accuracy for Image Folder F experienced an uptick upon the integration of the green mask filter.
+    \item \textbf{Green Mask:} The introduction of a green mask filter significantly bolstered the accuracy of predictions. In the case of Image Folder E, while the second iteration registered a 20\% accuracy, the application of the green mask in a later sprint escalated this figure to 100\%. Similarly, the accuracy for Image Folder F experienced an uptick upon the integration of the green mask filter.
 
 \end{itemize}
 
@@ -131,27 +128,55 @@ The study, while providing valuable insights, was not without its challenges and
 
     \item \textbf{Pre-processing Limitations:} The efficacy of pre-processing techniques varied. Techniques like the green mask might excel for one folder but falter for another.
 
-    \item \textbf{Computational Constraints:} The deep architectures of CRNNs demanded substantial computational resources, potentially constraining extensive hyperparameter tuning or exploration of intricate models.
-
-    \item \textbf{Lack of Ground Truth for Some Images:} Absence of a definitive ground truth for certain images could hinder the accurate assessment of model performance.
+    \item \textbf{Computational Constraints:} The deep architectures of CRNNs demanded substantial computational resources, constraining extensive hyperparameter tuning or exploration of intricate models.
 
     \item \textbf{External Factors:} Aspects like lighting conditions, shadows, and potential background interference during the initial image capture could have affected recognition accuracy.
 
-    \item \textbf{Overfitting:} The risk of overfitting, especially pertinent given the complexity of CRNNs, was a lurking concern, particularly if the training dataset lacked diversity.
+    \item \textbf{Overfitting:} The risk of overfitting, especially pertinent given the complexity of CRNNs, was a concern, particularly as the training dataset lacked diversity.
 
-    \item \textbf{Training Data Limitations:} A non-comprehensive training dataset, missing certain image variations, could compromise the model's generalization capabilities.
+    \item \textbf{Training Data Limitations:} A non-comprehensive training dataset, missing certain image variations, compromised the model's generalization capabilities.
 
-    \item \textbf{Algorithm Limitations:} Both Tesseract and CRNN, while robust, come with inherent limitations. Tesseract might grapple with specific fonts or styles, whereas CRNN could face challenges with sequence length variability.
+    \item \textbf{Algorithm Limitations:} Both Tesseract and CRNN, while robust, come with inherent limitations. Tesseract had issues with specific fonts or styles, whereas CRNN faces challenges with sequence length variability. This lead to the need for tailored pre-processing techniques such as digit segmentation.
 \end{enumerate}
 
+\subsection{Analysis of OpenCV}
 
+\textbf{OpenCV} is a powerful and versatile tool for computer vision tasks. It has a wide range of functionalities, from basic image pre-processing to advanced techniques. This makes it a good choice for a wide variety of projects.
+
+However, OpenCV's extensive feature set was a drawback at the beginning of this project. The learning curve was steep, and it was difficult to know where to start. Additionally, OpenCV is not specifically designed for deep learning-based vision applications. For these tasks, specialized frameworks like \textbf{TensorFlow} or \textbf{PyTorch} may be a better choice. OpenCV was chosen for this project
+
+\subsubsection{Detailed Breakdown of OpenCV's Strengths and Weaknesses}
+
+\textbf{Strengths:}
+\begin{itemize}
+    \item \textit{Wide range of functionalities}: OpenCV has a wide range of functions for image processing, object detection, and machine learning. This makes it a good choice for a variety of projects.
+    \item \textit{Seamless integration with other libraries}: OpenCV can be seamlessly integrated with other popular libraries, such as \textbf{NumPy} and \textbf{Python Imaging Library (PIL)}. This makes it easy to build complex applications.
+    \item \textit{Performance}: OpenCV is written in C/C++, which makes it fast and efficient.
+    \item \textit{Open source}: OpenCV is open source, which means it is free to use and modify.
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}
+    \item \textit{Steep learning curve}: OpenCV's extensive feature set can make it difficult to learn.
+    \item \textit{Not specifically designed for deep learning}: OpenCV is not specifically designed for deep learning-based vision applications. For these tasks, specialized frameworks like \textbf{TensorFlow} or \textbf{PyTorch} may be a better choice.
+    \item \textit{Documentation}: OpenCV's documentation can be outdated and difficult to understand.
+\end{itemize}
+
+\subsection{Analysis of Tesseract}
+Tesseract is a powerful and versatile open-source OCR tool. It has been evolving for decades and is now one of the leading OCR tools available. During this project, Tesseract yielded optimal results only when specific pre-processing steps were applied to the images; it did not excel as a generic tool without tailored interventions.
+
+However, like all tools, Tesseract has its strengths and weaknesses. It is most accurate when the input images are of high quality and the document layout is simple. In cases where the images are low quality or the document layout is complex, Tesseract was not be able to accurately recognize the text.
+
+
+\newpage
 
 \section{Implications and Applications}
 
 The results of this research not only provide insights into the intricacies of optical character recognition but also pave the way for tangible advancements in various application domains.
 
 \subsection{Contributions to the Field of OCR}
-The comparative analysis between Tesseract and CRNN offers a nuanced understanding of the strengths and limitations of both techniques. This knowledge can guide future studies, helping researchers make informed decisions about which tool to employ based on the specific characteristics of their dataset. Furthermore, the challenges and limitations identified during this study can serve as focal points for future enhancements in OCR methodologies.
+
+The comparison of Tesseract and CRNN highlights their respective strengths and limitations, guiding researchers in tool selection based on dataset characteristics. The challenges identified can also direct future OCR improvements.
 
 \subsection{Reading Sensor Data}
 The ability to accurately read sensor data has vast implications. Automated and accurate sensor data readings can lead to:
@@ -166,12 +191,9 @@ The ability to accurately read sensor data has vast implications. Automated and 
 Beyond sensor data reading, the findings of this research can be extrapolated to various real-world scenarios:
 \begin{itemize}
     \item \textbf{Healthcare:} Automated reading of medical tests, patient data, or prescription labels.
-    \item \textbf{Retail:} Efficiently processing product labels, barcodes, or price tags.
     \item \textbf{Logistics:} Recognizing and sorting packages based on labels or addresses.
 \end{itemize}
 Each of these applications not only enhances efficiency but also contributes to a more streamlined and error-free operational environment.
-
-\newpage
 
 \section{Conclusions}
 
@@ -215,9 +237,6 @@ The quality of captured images plays an important role in determining the effica
 
 Adhering to these recommendations can markedly enhance image capture quality, paving the way for more accurate and efficient data analysis. Such guidelines serve as a bedrock for future research, underscoring the importance of pristine initial data capture.
 
-In light of the burgeoning prominence of AI in various sectors, future endeavours could delve into harnessing advanced artificial intelligence techniques and architectures, aiming to further revolutionize OCR capabilities and adapt to the ever-evolving complexities of real-world data.
-
-
 \subsection{Future Work}
 
 As the field of OCR continues its evolutionary trajectory, myriad promising avenues beckon exploration. Highlighted below are some of the compelling avenues for future research:
@@ -240,7 +259,6 @@ As the field of OCR continues its evolutionary trajectory, myriad promising aven
 
 These facets merely scratch the surface of the vast expanse of potential research directions in OCR. Fuelled by relentless innovation, the horizon looks promising with OCR systems poised to be more precise, agile, and adaptable, catalysing a plethora of novel applications.
 
-
-
+The journey of this research is a reflection of the evolving nature of OCR, and while conclusions have been drawn, it also marks the beginning of numerous possibilities and questions yet to be explored.
 
 

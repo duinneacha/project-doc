@@ -214,10 +214,84 @@ There is considerable overlap between the two categories. This indicates that wh
 
 \newpage
 
-\begin{lstlisting}[language=Python, caption=Python example]
-    def hello_world():
-    print("Hello, world!")
+\subsection{Mask Red Function}
+% \begin{singlespacing}
+\begin{lstlisting}[language=Python, caption=Mask Red Function]
+
+    def mask_red(img):
+        """
+        Returns an image with only the red pixels from the input image.
+
+        Parameters:
+        img (numpy.ndarray): Input image in BGR format.
+
+        Returns:
+        numpy.ndarray: Output image with only the red pixels from the input image.
+
+        """
+        img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+        # define lower and upper red ranges in HSV
+        lower_red1 = np.array([0, 50, 50])
+        upper_red1 = np.array([10, 255, 255])
+        lower_red2 = np.array([170, 50, 50])
+        upper_red2 = np.array([180, 255, 255])
+
+        # create masks with the specified red ranges
+        mask1 = cv2.inRange(img_hsv, lower_red1, upper_red1)
+        mask2 = cv2.inRange(img_hsv, lower_red2, upper_red2)
+
+        # join the masks
+        mask = mask1 + mask2
+
+        # set the output image to zero everywhere except the red mask
+        output_img = img.copy()
+        output_img[np.where(mask == 0)] = 0
+
+        return output_img
+
+
 \end{lstlisting}
 
 
-the above code is a python code snippet.
+% \end{singlespacing}
+
+\newpage
+
+\subsection{Mask Green Function}
+
+
+% \begin{singlespacing}
+\begin{lstlisting}[language=Python, caption=Mask Green Function]
+    def mask_green(img):
+    """
+    Returns an image with only the green pixels from the input image.
+    
+    Parameters:
+    img (numpy.ndarray): Input image in BGR format.
+    
+    Returns:
+    numpy.ndarray: Output image with only the green pixels from the input image.
+    
+    """
+    img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    
+    # define range of green color in HSV
+    lower_green = np.array([40, 50, 50])
+    upper_green = np.array([80, 255, 255])
+    
+    # create a mask with the specified green range
+    mask = cv2.inRange(img_hsv, lower_green, upper_green)
+    
+    # apply the mask to the image to get the output image
+    output_img = cv2.bitwise_and(img, img, mask=mask)
+    
+    return output_img
+    
+    
+\end{lstlisting}
+% \end{singlespacing}
+
+
+
+

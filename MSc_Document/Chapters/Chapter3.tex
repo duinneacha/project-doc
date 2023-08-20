@@ -174,36 +174,9 @@ There are 27 JPEG files totalling a size of 6.96mb in Image Folder D. The images
 
 \newpage
 
-% \subsection{Image Folder E}
-
-% There are 10 JPEG files totalling a size of 1.79mb in this folder. The images are of varying dimensions.
-
-% \begin{figure}[ht]
-%     \centering
-%     \begin{minipage}[t]{0.25\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/6/montage.png}
-%         \caption*{Montage}
-%     \end{minipage}\hfill
-%     \begin{minipage}[t]{0.25\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/6/rgb.png}
-%         \caption*{RGB}
-%     \end{minipage}\hfill
-%     \begin{minipage}[t]{0.50\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/6/da.png}
-%         \caption*{Data Analysis}
-%     \end{minipage}
-%     \caption{Image Folder E Analysis}
-%     \label{fig:Image Folder E Analysis}
-% \end{figure}
-
-
 \subsection{Image Folder E}
 
 There are 10 JPEG files totalling a size of 4.98mb in Image Folder E. The images are of varying dimensions.
-
 
 \begin{figure}[ht]
     \centering
@@ -229,7 +202,6 @@ There are 10 JPEG files totalling a size of 4.98mb in Image Folder E. The images
 \subsection{Image Folder F}
 
 There are 15 JPEG files totalling a size of 5.93mb in Image Folder F. The images are of varying dimensions.
-
 
 \begin{figure}[ht]
     \centering
@@ -278,31 +250,6 @@ There are 12 JPEG files totalling a size of 7.34mb in Image Folder G. The images
     \caption{Image Folder G Analysis}
     \label{fig:Image Folder G Analysis}
 \end{figure}
-
-% \subsection{Image Folder I}
-
-% There are 6 JPEG files totalling a size of 3.36mb in this folder. The images are of varying dimensions.
-
-% \begin{figure}[ht]
-%     \centering
-%     \begin{minipage}[t]{0.25\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/10/montage.png}
-%         \caption*{Montage}
-%     \end{minipage}\hfill
-%     \begin{minipage}[t]{0.25\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/10/rgb.png}
-%         \caption*{RGB}
-%     \end{minipage}\hfill
-%     \begin{minipage}[t]{0.50\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Figures/EDA_Charts/10/da.png}
-%         \caption*{Data Analysis}
-%     \end{minipage}
-%     \caption{Image Folder I Analysis}
-%     \label{fig:Image Folder I Analysis}
-% \end{figure}
 
 \subsection{Image Folder H}
 
@@ -463,7 +410,7 @@ The task underlined the importance of adopting an adaptive and individualized me
 
 \newpage
 
-\section{Analysis Tesseract Separate Folders}
+\section{Third Sprint - Analysis Tesseract Separate Folders}
 
 Navigating the variety of image properties in the dataset presented a unique challenge when utilizing Tesseract for the execution of Optical Character Recognition (OCR). This situation called for an adaptive approach, rather than a generic solution. The upcoming section will expand on pre-processing techniques beyond those already discussed, including the application of a red mask via OpenCV. The individual tailoring of steps to each subset of images and the inclusion of the red mask technique will be explored.
 
@@ -673,21 +620,6 @@ The methodology for Image Folder D involved a series of systematic steps to accu
     \label{fig:Image Folder D Sample Output}
 \end{figure}
 
-
-% \newpage
-
-% \subsection{Image Folder E}
-
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/6/montage.png}
-%     \caption[Image Folder E Montage]{Image Folder E Montage}
-%     \label{fig:Image Folder E Montage}
-% \end{figure}
-
-% In this project, Image Folder E was not included in the data set and thus, no processing or analysis was conducted on it.
-
-
 \newpage
 
 \subsection{Image Folder E}
@@ -742,7 +674,7 @@ The methodology for Image Folder E utilized a sequential process to efficiently 
 
     \item \textbf{Denoising:} The binary images underwent a denoising process to further reduce noise and improve the effectiveness of the subsequent OCR process.
 
-    \item \textbf{Text Recognition:} The denoised images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Single Shot MultiBox Detector (SSD) configuration files. SSD configuration, a method for object detection, is used to accurately identify and locate the text within the images.
+    \item \textbf{Text Recognition:} The denoised images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Seven Segment Display (SSD) configuration files. SSD configuration, a method for object detection, is used to accurately identify and locate the text within the images.
 
     \item \textbf{Data Export:} The recognized text from the images was analysed, and the output was exported to a CSV file for further analysis and record-keeping.
 \end{enumerate}
@@ -818,22 +750,6 @@ The methodology for Image Folder G used a sequential process to read text within
     \label{fig:Image Folder G Sample Output}
 \end{figure}
 
-
-
-% \newpage
-
-% \subsection{Image Folder I}
-
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.9\textwidth]{Figures/EDA_Charts/10/montage.png}
-%     \caption[Image Folder I Montage]{Image Folder I Montage}
-%     \label{fig:Image Folder I Montage}
-% \end{figure}
-
-% Image Folder I houses images that have already been processed through the workflows of Folders A, C, and D.
-
-
 \newpage
 \subsection{Image Folder H}
 
@@ -864,12 +780,9 @@ The methodology for processing images in Folder H involved the following steps:
     \label{fig:Image Folder H Sample Output}
 \end{figure}
 
-
-
-
 \newpage
 
-\section{CRNN Methodology}
+\section{Fourth Sprint - CRNN Methodology}
 
 \subsection{Introduction}
 
@@ -954,9 +867,13 @@ The batch size, set at 64, defines the number of samples that will be passed thr
 
 The training process starts with the fit function. Here, X\_train and y\_train are the training images and labels respectively. The training proceeds with a batch size of 64 and for 25 epochs as defined earlier. The model's performance is evaluated on the validation dataset, X\_test and y\_test, after each epoch, providing a view on the model's ability to generalize from the training data to unseen data. The output from this function, including the loss and accuracy of the model after each epoch, is saved to the history variable for potential later analysis.
 
+% \subsection{Image Folder Pre-processing}
+
+% A function was developed to segment the digits within the images, within this, the image is transformed to grayscale, simplifying the subsequent process of contour detection. Identified contours with areas below a specified threshold are disregarded to ensure meaningful segmentation. The retained contours are sorted based on their x-coordinates, ensuring sequential extraction of digits. For each valid contour, a bounding box is established, and segments surpassing the area criteria are extracted as individual digits. The function ultimately returns both these valid contours and the extracted segments, facilitating further analysis or processing.
+
 \subsection{Image Folder Pre-processing}
 
-A function was developed to segment the digits within the images, within this, the image is transformed to grayscale, simplifying the subsequent process of contour detection. Identified contours with areas below a specified threshold are disregarded to ensure meaningful segmentation. The retained contours are sorted based on their x-coordinates, ensuring sequential extraction of digits. For each valid contour, a bounding box is established, and segments surpassing the area criteria are extracted as individual digits. The function ultimately returns both these valid contours and the extracted segments, facilitating further analysis or processing.
+Several functions were developed to cater to the unique characteristics of the image folder and its segmentation requirements. These functions transform the image to grayscale, streamlining the process for subsequent contour detection. Contours falling below a certain area threshold are filtered out, ensuring only meaningful segments are retained. The accepted contours are organized based on their x-coordinates, which guarantees a sequential extraction of digits. For each pertinent contour, a bounding box is drawn, and segments meeting the area criteria are isolated as individual digits. The collective output of these functions comprises both the valid contours and the segmented digits, equipping the system for any further analysis or operations.
 
 \subsection{Prediction of Numbers}
 
@@ -970,8 +887,6 @@ After pre-processing the binary digit image, the model predicts its value, and t
     \caption[Image Prediction via CRNN]{Image Prediction via CRNN}
     \label{fig:Image Prediction via CRNN}
 \end{figure}
-
-
 
 \newpage
 
