@@ -5,9 +5,9 @@
 \contentsline {chapter}{Acknowledgements}{iii}{dummy.3}%
 \vspace {1em}
 \contentsline {chapter}{List of Figures}{vii}{chapter*.5}%
-\contentsline {chapter}{List of Code Listings}{ix}{dummy.6}%
-\contentsline {chapter}{List of Tables}{xi}{chapter*.8}%
-\contentsline {chapter}{Abbreviations}{xii}{dummy.9}%
+\contentsline {chapter}{List of Code Listings}{x}{dummy.6}%
+\contentsline {chapter}{List of Tables}{xii}{chapter*.8}%
+\contentsline {chapter}{Abbreviations}{xiii}{dummy.9}%
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
 \contentsline {section}{\numberline {1.1}Area of Interest}{1}{section.13}%
@@ -64,31 +64,48 @@
 \contentsline {subsection}{\numberline {3.7.9}Conclusion}{71}{subsection.211}%
 \contentsline {chapter}{\numberline {4}Results}{72}{chapter.212}%
 \contentsline {section}{\numberline {4.1}Introduction}{72}{section.213}%
-\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{72}{section.214}%
-\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{73}{section.216}%
-\contentsline {section}{\numberline {4.4}Third Sprint - Analysis Tesseract Separate Folders}{74}{section.218}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{75}{chapter.220}%
-\contentsline {section}{\numberline {5.1}Introduction}{75}{section.221}%
-\contentsline {section}{\numberline {5.2}Discussion of Findings}{75}{section.222}%
-\contentsline {subsection}{\numberline {5.2.1}OCR Performance}{75}{subsection.223}%
-\contentsline {subsection}{\numberline {5.2.2}Image Pre-processing Techniques}{75}{subsection.224}%
-\contentsline {subsection}{\numberline {5.2.3}CRNN Model Analysis}{76}{subsection.225}%
-\contentsline {section}{\numberline {5.3}Challenges and Limitations}{76}{section.226}%
-\contentsline {section}{\numberline {5.4}Implications and Applications}{76}{section.227}%
-\contentsline {section}{\numberline {5.5}Conclusions}{76}{section.228}%
-\contentsline {section}{\numberline {5.6}Recommendations and Future Work}{76}{section.229}%
-\contentsline {chapter}{Bibliography}{77}{chapter*.230}%
+\contentsline {section}{\numberline {4.2}First Sprint - Global Generic}{73}{section.214}%
+\contentsline {section}{\numberline {4.3}Second Sprint - Global Generic Analysis Resized}{74}{section.217}%
+\contentsline {section}{\numberline {4.4}Third Sprint - Analysis Tesseract Separate Folders}{75}{section.220}%
+\contentsline {section}{\numberline {4.5}Visualisation of Tesseract Sprint Performance}{76}{section.223}%
+\contentsline {subsection}{\numberline {4.5.1}Analysis of Image Processing Accuracy Across Sprints}{76}{subsection.225}%
+\contentsline {section}{\numberline {4.6}Fourth Sprint - Analysis CRNN Separate Folders}{78}{section.229}%
+\contentsline {section}{\numberline {4.7}Tesseract and CRNN Combined}{79}{section.232}%
+\contentsline {subsection}{\numberline {4.7.1}Analysis of Tesseract and CRNN Performance}{80}{subsection.235}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{82}{chapter.240}%
+\contentsline {section}{\numberline {5.1}Introduction}{82}{section.241}%
+\contentsline {section}{\numberline {5.2}Discussion of Findings}{83}{section.242}%
+\contentsline {subsection}{\numberline {5.2.1}Performance of Tesseract OCR on Raw Image Datasets}{83}{subsection.243}%
+\contentsline {subsection}{\numberline {5.2.2}OCR Sprints and Strategies}{83}{subsection.244}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}First Sprint}{83}{subsubsection.245}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Second Sprint}{83}{subsubsection.246}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}Third Sprint}{84}{subsubsection.247}%
+\contentsline {subsection}{\numberline {5.2.3}Performance and Results}{85}{subsection.248}%
+\contentsline {subsection}{\numberline {5.2.4}Fourth Sprint - CRNN Model Analysis}{86}{subsection.250}%
+\contentsline {subsection}{\numberline {5.2.5}Image Pre-processing Techniques}{87}{subsection.258}%
+\contentsline {subsection}{\numberline {5.2.6}Comparative Analysis using CRNN Models}{88}{subsection.259}%
+\contentsline {section}{\numberline {5.3}Challenges and Limitations}{89}{section.260}%
+\contentsline {section}{\numberline {5.4}Implications and Applications}{90}{section.272}%
+\contentsline {subsection}{\numberline {5.4.1}Contributions to the Field of OCR}{90}{subsection.273}%
+\contentsline {subsection}{\numberline {5.4.2}Reading Sensor Data}{90}{subsection.274}%
+\contentsline {subsection}{\numberline {5.4.3}Real-world Applications and Benefits}{91}{subsection.275}%
+\contentsline {section}{\numberline {5.5}Conclusions}{92}{section.276}%
+\contentsline {section}{\numberline {5.6}Recommendations and Future Work}{93}{section.277}%
+\contentsline {subsection}{\numberline {5.6.1}Camera Recommendations for Enhanced Image Capture}{93}{subsection.278}%
+\contentsline {subsection}{\numberline {5.6.2}Future Work}{94}{subsection.279}%
+\contentsline {chapter}{Bibliography}{96}{chapter*.280}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{80}{appendix.231}%
-\contentsline {section}{\numberline {A.1}Introduction}{80}{section.232}%
-\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{80}{section.233}%
-\contentsline {subsection}{\numberline {A.2.1}Sipa 2 Contrast Analysis on MRO SSD}{82}{subsection.235}%
-\contentsline {subsection}{\numberline {A.2.2}Sipa 2 Brightness Analysis on MRO SSD}{83}{subsection.237}%
-\contentsline {subsection}{\numberline {A.2.3}Sipa 2 Standard Deviation Analysis on MRO SSD}{84}{subsection.239}%
-\contentsline {subsection}{\numberline {A.2.4}Sipa 2 Homogeneity Analysis on MRO SSD}{85}{subsection.241}%
-\contentsline {subsection}{\numberline {A.2.5}Sipa 2 Sharpness Analysis on MRO SSD}{86}{subsection.243}%
-\contentsline {subsection}{\numberline {A.2.6}Sipa 2 Dissimilarity Analysis on MRO SSD}{87}{subsection.245}%
-\contentsline {subsection}{\numberline {A.2.7}Sipa 2 Area Analysis on MRO SSD}{88}{subsection.247}%
-\contentsline {subsection}{\numberline {A.2.8}Sipa 2 Correlation Analysis on MRO SSD}{89}{subsection.249}%
-\contentsline {subsection}{\numberline {A.2.9}Sipa 2 Energy Analysis on MRO SSD}{90}{subsection.251}%
+\contentsline {chapter}{\numberline {A}Appendix A}{99}{appendix.281}%
+\contentsline {section}{\numberline {A.1}Introduction}{99}{section.282}%
+\contentsline {section}{\numberline {A.2}Analysis Tesseract Separate Folders}{100}{section.283}%
+\contentsline {subsection}{\numberline {A.2.1}Image Folder A Best Image Size Analysis}{100}{subsection.284}%
+\contentsline {subsection}{\numberline {A.2.2}Image Folder A Contrast Analysis on MRO SSD}{101}{subsection.286}%
+\contentsline {subsection}{\numberline {A.2.3}Image Folder A Brightness Analysis on MRO SSD}{102}{subsection.288}%
+\contentsline {subsection}{\numberline {A.2.4}Image Folder A Standard Deviation Analysis on MRO SSD}{103}{subsection.290}%
+\contentsline {subsection}{\numberline {A.2.5}Image Folder A Homogeneity Analysis on MRO SSD}{104}{subsection.292}%
+\contentsline {subsection}{\numberline {A.2.6}Image Folder A Sharpness Analysis on MRO SSD}{105}{subsection.294}%
+\contentsline {subsection}{\numberline {A.2.7}Image Folder A Dissimilarity Analysis on MRO SSD}{106}{subsection.296}%
+\contentsline {subsection}{\numberline {A.2.8}Image Folder A Area Analysis on MRO SSD}{107}{subsection.298}%
+\contentsline {subsection}{\numberline {A.2.9}Image Folder A Correlation Analysis on MRO SSD}{108}{subsection.300}%
+\contentsline {subsection}{\numberline {A.2.10}Image Folder A Energy Analysis on MRO SSD}{109}{subsection.302}%
 \vspace {2em}

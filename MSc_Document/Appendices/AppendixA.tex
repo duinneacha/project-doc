@@ -3,15 +3,25 @@
 
 \section{Introduction}
 
+Appendix Introduction
+
+The appendix of this thesis provides a more detailed look at the technical aspects of the research presented in the main body. This includes supporting charts, visualizations, and code snippets that explain the specific pre-processing steps, Optical Character Recognition (OCR) techniques, and font selection choices that were made.
+
+The materials in this appendix are not essential for understanding the main findings of the thesis, but they are important for readers who want a deeper understanding of the methods and processes used. This is especially true for the novel pre-processing steps and the role of image quality and contrast in OCR.
+
+By navigating through this appendix, enthusiasts and specialists alike will gain a deeper understanding of the intricacies that have contributed to the efficacy of the OCR approach undertaken in this Thesis.
+
+\newpage
+
 \section{Analysis Tesseract Separate Folders}
 
-
+\subsection{Image Folder A Best Image Size Analysis}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/count_analysis.png}
     \caption[Count Analysis]{Image Folder A Count Analysis}
-    \label{fig:Image Folder A Count Analysis}
+    \label{fig:Image Folder A Best Image Size Analysis}
 \end{figure}
 
 The chart presented primarily emphasizes the blue line, which signifies the count of Masked Red OTSU. This line is of particular importance. At size 104, we observe the peak read count.
@@ -25,13 +35,13 @@ This establishes the dimensions to which the images will be resized for each of 
 
 \newpage
 
-\subsection{Sipa 2 Contrast Analysis on MRO SSD}
+\subsection{Image Folder A Contrast Analysis on MRO SSD}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/contrast.png}
-    \caption[Sipa 2 Contrast Analysis on MRO SSD]{Sipa 2 Contrast Analysis on MRO SSD}
-    \label{fig:Sipa 2 Contrast Analysis on MRO SSD}
+    \caption[Image Folder A Contrast Analysis on MRO SSD]{Image Folder A Contrast Analysis on MRO SSD}
+    \label{fig:Image Folder A Contrast Analysis on MRO SSD}
 \end{figure}
 
 The scatter plot of image contrast shows that there is a wide range of contrast levels for both categories of images (MRO SSD EQUAL COUNT greater than 0 and equal to 0). This means that the contrast of images in both categories is highly variable. Additionally, there is significant overlap in the contrast values of both categories, suggesting that the contrast of an image may not be a strong indicator of whether the MRO SSD EQUAL COUNT is greater than 0 or not.
@@ -42,14 +52,14 @@ In summary, the scatter plot of image contrast does not provide any clear eviden
 
 \newpage
 
-\subsection{Sipa 2 Brightness Analysis on MRO SSD}
+\subsection{Image Folder A Brightness Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/brightness.png}
-    \caption[Sipa 2 Brightness Analysis on MRO SSD]{Sipa 2 Brightness Analysis on MRO SSD}
-    \label{fig:Sipa 2 Brightness Analysis on MRO SSD}
+    \caption[Image Folder A Brightness Analysis on MRO SSD]{Image Folder A Brightness Analysis on MRO SSD}
+    \label{fig:Image Folder A Brightness Analysis on MRO SSD}
 \end{figure}
 
 
@@ -62,14 +72,14 @@ In summary, the scatter plot of image brightness does not provide any clear evid
 
 \newpage
 
-\subsection{Sipa 2 Standard Deviation Analysis on MRO SSD}
+\subsection{Image Folder A Standard Deviation Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/sd.png}
-    \caption[Sipa 2 Standard Deviation Analysis on MRO SSD]{Sipa 2 Standard Deviation Analysis on MRO SSD}
-    \label{fig:Sipa 2 Standard Deviation Analysis on MRO SSD}
+    \caption[Image Folder A Standard Deviation Analysis on MRO SSD]{Image Folder A Standard Deviation Analysis on MRO SSD}
+    \label{fig:Image Folder A Standard Deviation Analysis on MRO SSD}
 \end{figure}
 
 The scatter plot of image standard deviation shows that there is a wide range of standard deviations for both categories of images (MRO SSD EQUAL COUNT greater than 0 and equal to 0). This means that the spread of pixel values within the images is highly variable. Additionally, there is significant overlap in the standard deviation values of both categories, suggesting that the standard deviation of pixel values within an image may not be a strong indicator of whether the MRO SSD EQUAL COUNT is greater than 0 or not.
@@ -77,14 +87,14 @@ The scatter plot of image standard deviation shows that there is a wide range of
 
 \newpage
 
-\subsection{Sipa 2 Homogeneity Analysis on MRO SSD}
+\subsection{Image Folder A Homogeneity Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/homogeneity.png}
-    \caption[Sipa 2 Homogeneity Analysis on MRO SSD]{Sipa 2 Homogeneity Analysis on MRO SSD}
-    \label{fig:Sipa 2 Homogeneity Analysis on MRO SSD}
+    \caption[Image Folder A Homogeneity Analysis on MRO SSD]{Image Folder A Homogeneity Analysis on MRO SSD}
+    \label{fig:Image Folder A Homogeneity Analysis on MRO SSD}
 \end{figure}
 
 
@@ -96,14 +106,14 @@ In summary, the scatter plot of image homogeneity does not provide any clear evi
 
 \newpage
 
-\subsection{Sipa 2 Sharpness Analysis on MRO SSD}
+\subsection{Image Folder A Sharpness Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/sharpness.png}
-    \caption[Sipa 2 Sharpness Analysis on MRO SSD]{Sipa 2 Sharpness Analysis on MRO SSD}
-    \label{fig:Sipa 2 Sharpness Analysis on MRO SSD}
+    \caption[Image Folder A Sharpness Analysis on MRO SSD]{Image Folder A Sharpness Analysis on MRO SSD}
+    \label{fig:Image Folder A Sharpness Analysis on MRO SSD}
 \end{figure}
 
 
@@ -115,14 +125,14 @@ In summary, the scatter plot of image sharpness does not provide any clear evide
 \newpage
 
 
-\subsection{Sipa 2 Dissimilarity Analysis on MRO SSD}
+\subsection{Image Folder A Dissimilarity Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/dissimilarity.png}
-    \caption[Sipa 2 Dissimilarity Analysis on MRO SSD]{Sipa 2 Dissimilarity Analysis on MRO SSD}
-    \label{fig:Sipa 2 Dissimilarity Analysis on MRO SSD}
+    \caption[Image Folder A Dissimilarity Analysis on MRO SSD]{Image Folder A Dissimilarity Analysis on MRO SSD}
+    \label{fig:Image Folder A Dissimilarity Analysis on MRO SSD}
 \end{figure}
 
 
@@ -134,14 +144,14 @@ In summary, the scatter plot of image dissimilarity does not provide any clear e
 
 \newpage
 
-\subsection{Sipa 2 Area Analysis on MRO SSD}
+\subsection{Image Folder A Area Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/area.png}
-    \caption[Sipa 2 Area Analysis on MRO SSD]{Sipa 2 Area Analysis on MRO SSD}
-    \label{fig:Sipa 2 Area Analysis on MRO SSD}
+    \caption[Image Folder A Area Analysis on MRO SSD]{Image Folder A Area Analysis on MRO SSD}
+    \label{fig:Image Folder A Area Analysis on MRO SSD}
 \end{figure}
 
 
@@ -159,14 +169,14 @@ In summary, this scatter plot suggests that there might be a slight tendency for
 
 \newpage
 
-\subsection{Sipa 2 Correlation Analysis on MRO SSD}
+\subsection{Image Folder A Correlation Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/correlation.png}
-    \caption[Sipa 2 Correlation Analysis on MRO SSD]{Sipa 2 Correlation Analysis on MRO SSD}
-    \label{fig:Sipa 2 Correlation Analysis on MRO SSD}
+    \caption[Image Folder A Correlation Analysis on MRO SSD]{Image Folder A Correlation Analysis on MRO SSD}
+    \label{fig:Image Folder A Correlation Analysis on MRO SSD}
 \end{figure}
 
 The distribution of image correlation values for both categories (> 0 and = 0) is varied, similar to the previous plot.
@@ -181,14 +191,14 @@ In summary, while there might be a slight tendency for instances with MRO SSD EQ
 
 \newpage
 
-\subsection{Sipa 2 Energy Analysis on MRO SSD}
+\subsection{Image Folder A Energy Analysis on MRO SSD}
 
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/Results/sipa_02/energy.png}
-    \caption[Sipa 2 Energy Analysis on MRO SSD]{Sipa 2 Energy Analysis on MRO SSD}
-    \label{fig:Sipa 2 Energy Analysis on MRO SSD}
+    \caption[Image Folder A Energy Analysis on MRO SSD]{Image Folder A Energy Analysis on MRO SSD}
+    \label{fig:Image Folder A Energy Analysis on MRO SSD}
 \end{figure}
 
 

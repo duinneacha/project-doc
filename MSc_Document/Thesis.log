@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  17 AUG 2023 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  20 AUG 2023 01:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -506,7 +506,7 @@ Package hyperref Info: Link coloring ON on input line 39.
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Figures/MTU_Logo.png, id=355, 225.84375pt x 225.84375pt>
+<Figures/MTU_Logo.png, id=423, 225.84375pt x 225.84375pt>
 File: Figures/MTU_Logo.png Graphic file (type png)
 <use Figures/MTU_Logo.png>
 Package pdftex.def Info: Figures/MTU_Logo.png  used on input line 52.
@@ -562,7 +562,7 @@ Package hyperref Warning: Suppressing empty link on input line 100.
  [6] (Thesis.lof [7
 
 
-] [8])
+] [8] [9])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
@@ -570,93 +570,93 @@ Package hyperref Warning: Suppressing empty link on input line 100.
 ------------------------------------------------------------------------------
  List of Code Listings
 ------------------------------------------------------------------------------
-[9] (Thesis.lol)
+[10] (Thesis.lol)
 \tf@lol=\write6
 \openout6 = `Thesis.lol'.
 
- [10
+ [11
 
 ] (Thesis.lot)
 \tf@lot=\write7
 \openout7 = `Thesis.lot'.
 
- [11
+ [12
 
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[12
+[13
 
 
 ]
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[13
+[14
 
 ] (Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-<Figures/start_pics/IMG-20200219-WA0002.jpg, id=660, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200219-WA0002.jpg, id=767, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200219-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200219-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200219-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0000.jpg, id=661, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0000.jpg, id=768, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0000.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0000.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0000.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0002.jpg, id=662, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0002.jpg, id=769, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0002.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0002.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0002.jpg  used on input line 16.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0003.jpg, id=663, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0003.jpg, id=770, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0003.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0003.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0003.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0004.jpg, id=664, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0004.jpg, id=771, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0004.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0004.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0004.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0005.jpg, id=665, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0005.jpg, id=772, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0005.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0005.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0005.jpg  used on input line 17.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0006.jpg, id=666, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0006.jpg, id=773, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0006.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0006.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0006.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0007.jpg, id=667, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0007.jpg, id=774, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0007.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0007.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0007.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0009.jpg, id=668, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0009.jpg, id=775, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0009.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0009.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0009.jpg  used on input line 18.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0010.jpg, id=669, 1204.5pt x 1606.0pt>
+<Figures/start_pics/IMG-20200220-WA0010.jpg, id=776, 1204.5pt x 1606.0pt>
 File: Figures/start_pics/IMG-20200220-WA0010.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0010.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0010.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.61781pt x 68.49303pt.
-<Figures/start_pics/IMG-20200220-WA0011.jpg, id=670, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0011.jpg, id=777, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0011.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0011.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0011.jpg  used on input line 19.
 (pdftex.def)             Requested size: 62.6117pt x 68.49915pt.
-<Figures/start_pics/IMG-20200220-WA0013.jpg, id=671, 1606.0pt x 1204.5pt>
+<Figures/start_pics/IMG-20200220-WA0013.jpg, id=778, 1606.0pt x 1204.5pt>
 File: Figures/start_pics/IMG-20200220-WA0013.jpg Graphic file (type jpg)
 <use Figures/start_pics/IMG-20200220-WA0013.jpg>
 Package pdftex.def Info: Figures/start_pics/IMG-20200220-WA0013.jpg  used on input line 19.
@@ -673,114 +673,114 @@ Chapter 2.
 [8
 
 ] [9]
-<Figures/tesseract_ocr.jpg, id=723, 960.58875pt x 515.67656pt>
+<Figures/tesseract_ocr.jpg, id=830, 960.58875pt x 515.67656pt>
 File: Figures/tesseract_ocr.jpg Graphic file (type jpg)
 <use Figures/tesseract_ocr.jpg>
 Package pdftex.def Info: Figures/tesseract_ocr.jpg  used on input line 32.
 (pdftex.def)             Requested size: 250.48637pt x 134.46617pt.
  [10 <./Figures/tesseract_ocr.jpg>]
-<Figures/tesseract_papers/Andersson_2022.jpg, id=731, 860.46469pt x 274.02374pt>
+<Figures/tesseract_papers/Andersson_2022.jpg, id=839, 860.46469pt x 274.02374pt>
 File: Figures/tesseract_papers/Andersson_2022.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Andersson_2022.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Andersson_2022.jpg  used on input line 44.
 (pdftex.def)             Requested size: 367.37833pt x 116.99583pt.
-<Figures/tesseract_papers/Ahuja_2021.jpg, id=735, 814.54312pt x 207.77625pt>
+<Figures/tesseract_papers/Ahuja_2021.jpg, id=843, 814.54312pt x 207.77625pt>
 File: Figures/tesseract_papers/Ahuja_2021.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Ahuja_2021.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Ahuja_2021.jpg  used on input line 62.
 (pdftex.def)             Requested size: 367.37833pt x 93.71085pt.
  [11 <./Figures/tesseract_papers/Andersson_2022.jpg>]
-<Figures/tesseract_papers/Giridhar_2019.jpg, id=744, 883.80188pt x 454.69875pt>
+<Figures/tesseract_papers/Giridhar_2019.jpg, id=851, 883.80188pt x 454.69875pt>
 File: Figures/tesseract_papers/Giridhar_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Giridhar_2019.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Giridhar_2019.jpg  used on input line 80.
 (pdftex.def)             Requested size: 367.37833pt x 189.00867pt.
  [12 <./Figures/tesseract_papers/Ahuja_2021.jpg>]
-<Figures/tesseract_papers/Cakic_2020.jpg, id=751, 608.2725pt x 260.47313pt>
+<Figures/tesseract_papers/Cakic_2020.jpg, id=858, 608.2725pt x 260.47313pt>
 File: Figures/tesseract_papers/Cakic_2020.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Cakic_2020.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Cakic_2020.jpg  used on input line 97.
 (pdftex.def)             Requested size: 367.37833pt x 157.32242pt.
  [13 <./Figures/tesseract_papers/Giridhar_2019.jpg>]
-<Figures/tesseract_papers/Robby_2019.jpg, id=758, 2323.93219pt x 258.21469pt>
+<Figures/tesseract_papers/Robby_2019.jpg, id=865, 2323.93219pt x 258.21469pt>
 File: Figures/tesseract_papers/Robby_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Robby_2019.jpg>
 Package pdftex.def Info: Figures/tesseract_papers/Robby_2019.jpg  used on input line 108.
 (pdftex.def)             Requested size: 367.37833pt x 40.81874pt.
  [14 <./Figures/tesseract_papers/Cakic_2020.jpg> <./Figures/tesseract_papers/Robby_2019.jpg>] [15] [16]
-<Figures/CRNN_Papers/Biro_2023.jpg, id=780, 1596.71532pt x 590.95781pt>
+<Figures/CRNN_Papers/Biro_2023.jpg, id=888, 1596.71532pt x 590.95781pt>
 File: Figures/CRNN_Papers/Biro_2023.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Biro_2023.jpg>
 Package pdftex.def Info: Figures/CRNN_Papers/Biro_2023.jpg  used on input line 141.
 (pdftex.def)             Requested size: 367.37833pt x 135.97153pt.
  [17 <./Figures/CRNN_Papers/Biro_2023.jpg>]
-<Figures/CRNN_Papers/Shinde_2020.jpg, id=790, 1241.38782pt x 371.88937pt>
+<Figures/CRNN_Papers/Shinde_2020.jpg, id=897, 1241.38782pt x 371.88937pt>
 File: Figures/CRNN_Papers/Shinde_2020.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Shinde_2020.jpg>
 Package pdftex.def Info: Figures/CRNN_Papers/Shinde_2020.jpg  used on input line 155.
 (pdftex.def)             Requested size: 367.37833pt x 110.05823pt.
  [18 <./Figures/CRNN_Papers/Shinde_2020.jpg>]
-<Figures/CRNN_Papers/Rawl_2018.jpg, id=798, 1015.54407pt x 1206.00563pt>
+<Figures/CRNN_Papers/Rawl_2018.jpg, id=905, 1015.54407pt x 1206.00563pt>
 File: Figures/CRNN_Papers/Rawl_2018.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Rawl_2018.jpg>
 Package pdftex.def Info: Figures/CRNN_Papers/Rawl_2018.jpg  used on input line 171.
 (pdftex.def)             Requested size: 242.13513pt x 287.53343pt.
  [19 <./Figures/CRNN_Papers/Rawl_2018.jpg>]
-<Figures/CRNN_Papers/Feng_2020.jpg, id=806, 822.82407pt x 1014.03844pt>
+<Figures/CRNN_Papers/Feng_2020.jpg, id=913, 822.82407pt x 1014.03844pt>
 File: Figures/CRNN_Papers/Feng_2020.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Feng_2020.jpg>
 Package pdftex.def Info: Figures/CRNN_Papers/Feng_2020.jpg  used on input line 185.
 (pdftex.def)             Requested size: 242.13513pt x 298.39604pt.
  [20 <./Figures/CRNN_Papers/Feng_2020.jpg>]
-<Figures/CRNN_Papers/Azadbakht_2022.jpg, id=814, 1222.5675pt x 719.68875pt>
+<Figures/CRNN_Papers/Azadbakht_2022.jpg, id=921, 1222.5675pt x 719.68875pt>
 File: Figures/CRNN_Papers/Azadbakht_2022.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Azadbakht_2022.jpg>
 Package pdftex.def Info: Figures/CRNN_Papers/Azadbakht_2022.jpg  used on input line 199.
 (pdftex.def)             Requested size: 325.62848pt x 191.68298pt.
  [21 <./Figures/CRNN_Papers/Azadbakht_2022.jpg>]
-<Figures/LSTM_Breuel.jpg, id=823, 435.87843pt x 237.88875pt>
+<Figures/LSTM_Breuel.jpg, id=930, 435.87843pt x 237.88875pt>
 File: Figures/LSTM_Breuel.jpg Graphic file (type jpg)
 <use Figures/LSTM_Breuel.jpg>
 Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 218.
 (pdftex.def)             Requested size: 333.97972pt x 182.27467pt.
  [22 <./Figures/LSTM_Breuel.jpg>]
-<Figures/Trans_MLi.jpg, id=831, 855.94781pt x 411.78844pt>
+<Figures/Trans_MLi.jpg, id=939, 855.94781pt x 411.78844pt>
 File: Figures/Trans_MLi.jpg Graphic file (type jpg)
 <use Figures/Trans_MLi.jpg>
 Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 237.
 (pdftex.def)             Requested size: 250.48637pt x 120.50261pt.
  [23 <./Figures/Trans_MLi.jpg>]
-<Figures/AT_Li.jpg, id=840, 773.13844pt x 518.6878pt>
+<Figures/AT_Li.jpg, id=947, 773.13844pt x 518.6878pt>
 File: Figures/AT_Li.jpg Graphic file (type jpg)
 <use Figures/AT_Li.jpg>
 Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 261.
 (pdftex.def)             Requested size: 250.48637pt x 168.04918pt.
  [24 <./Figures/AT_Li.jpg>]
-<Figures/RB_Doush.jpg, id=848, 341.02406pt x 305.64188pt>
+<Figures/RB_Doush.jpg, id=955, 341.02406pt x 305.64188pt>
 File: Figures/RB_Doush.jpg Graphic file (type jpg)
 <use Figures/RB_Doush.jpg>
 Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 282.
 (pdftex.def)             Requested size: 250.48637pt x 224.50182pt.
  [25 <./Figures/RB_Doush.jpg>]
-<Figures/SVM_Joshua.jpg, id=856, 376.40625pt x 261.97874pt>
+<Figures/SVM_Joshua.jpg, id=963, 376.40625pt x 261.97874pt>
 File: Figures/SVM_Joshua.jpg Graphic file (type jpg)
 <use Figures/SVM_Joshua.jpg>
 Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 301.
 (pdftex.def)             Requested size: 333.97972pt x 232.46478pt.
  [26 <./Figures/SVM_Joshua.jpg>]
-<Figures/HMM_Rashid.jpg, id=863, 618.05907pt x 316.93407pt>
+<Figures/HMM_Rashid.jpg, id=970, 618.05907pt x 316.93407pt>
 File: Figures/HMM_Rashid.jpg Graphic file (type jpg)
 <use Figures/HMM_Rashid.jpg>
 Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 322.
 (pdftex.def)             Requested size: 333.97972pt x 171.26758pt.
  [27 <./Figures/HMM_Rashid.jpg>]
-<Figures/KNN_Hazra.jpg, id=872, 397.485pt x 247.67531pt>
+<Figures/KNN_Hazra.jpg, id=979, 397.485pt x 247.67531pt>
 File: Figures/KNN_Hazra.jpg Graphic file (type jpg)
 <use Figures/KNN_Hazra.jpg>
 Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 339.
 (pdftex.def)             Requested size: 333.97972pt x 208.11008pt.
  [28 <./Figures/KNN_Hazra.jpg>]
-<Figures/TM_Hossain.jpg, id=879, 336.50719pt x 509.65407pt>
+<Figures/TM_Hossain.jpg, id=987, 336.50719pt x 509.65407pt>
 File: Figures/TM_Hossain.jpg Graphic file (type jpg)
 <use Figures/TM_Hossain.jpg>
 Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 356.
@@ -793,190 +793,190 @@ Chapter 3.
 [32
 
 ] [33] [34] [35]
-<Figures/EDA_Charts/2/montage.png, id=929, 352.6776pt x 281.1303pt>
+<Figures/EDA_Charts/2/montage.png, id=1036, 352.6776pt x 281.1303pt>
 File: Figures/EDA_Charts/2/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/2/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/2/montage.png  used on input line 80.
 (pdftex.def)             Requested size: 104.36826pt x 83.19438pt.
-<Figures/EDA_Charts/2/rgb.png, id=931, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/2/rgb.png, id=1038, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/2/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/2/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/2/rgb.png  used on input line 85.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/2/da.png, id=932, 1443.2319pt x 714.7503pt>
+<Figures/EDA_Charts/2/da.png, id=1039, 1443.2319pt x 714.7503pt>
 File: Figures/EDA_Charts/2/da.png Graphic file (type png)
 <use Figures/EDA_Charts/2/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/2/da.png  used on input line 90.
 (pdftex.def)             Requested size: 208.73653pt x 103.36893pt.
-<Figures/EDA_Charts/3/montage.png, id=933, 352.6776pt x 281.1303pt>
+<Figures/EDA_Charts/3/montage.png, id=1040, 352.6776pt x 281.1303pt>
 File: Figures/EDA_Charts/3/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/3/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/3/montage.png  used on input line 105.
 (pdftex.def)             Requested size: 104.36826pt x 83.19438pt.
-<Figures/EDA_Charts/3/rgb.png, id=934, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/3/rgb.png, id=1041, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/3/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/3/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/3/rgb.png  used on input line 110.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/3/da.png, id=935, 1446.1227pt x 714.7503pt>
+<Figures/EDA_Charts/3/da.png, id=1042, 1446.1227pt x 714.7503pt>
 File: Figures/EDA_Charts/3/da.png Graphic file (type png)
 <use Figures/EDA_Charts/3/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/3/da.png  used on input line 115.
 (pdftex.def)             Requested size: 208.73653pt x 103.16171pt.
  [36 <./Figures/EDA_Charts/2/montage.png> <./Figures/EDA_Charts/2/rgb.png> <./Figures/EDA_Charts/2/da.png> <./Figures/EDA_Charts/3/montage.png> <./Figures/EDA_Charts/3/rgb.png> <./Figures/EDA_Charts/3/da.png>]
-<Figures/EDA_Charts/4/montage.png, id=946, 372.9132pt x 221.8689pt>
+<Figures/EDA_Charts/4/montage.png, id=1053, 372.9132pt x 221.8689pt>
 File: Figures/EDA_Charts/4/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/4/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/4/montage.png  used on input line 132.
 (pdftex.def)             Requested size: 104.36826pt x 62.09578pt.
-<Figures/EDA_Charts/4/rgb.png, id=947, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/4/rgb.png, id=1054, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/4/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/4/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/4/rgb.png  used on input line 137.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/4/da.png, id=948, 1449.7362pt x 714.7503pt>
+<Figures/EDA_Charts/4/da.png, id=1055, 1449.7362pt x 714.7503pt>
 File: Figures/EDA_Charts/4/da.png Graphic file (type png)
 <use Figures/EDA_Charts/4/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/4/da.png  used on input line 142.
 (pdftex.def)             Requested size: 208.73653pt x 102.91087pt.
-<Figures/EDA_Charts/5/montage.png, id=949, 352.6776pt x 281.1303pt>
+<Figures/EDA_Charts/5/montage.png, id=1056, 352.6776pt x 281.1303pt>
 File: Figures/EDA_Charts/5/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/5/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/5/montage.png  used on input line 158.
 (pdftex.def)             Requested size: 104.36826pt x 83.19438pt.
-<Figures/EDA_Charts/5/rgb.png, id=950, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/5/rgb.png, id=1057, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/5/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/5/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/5/rgb.png  used on input line 163.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/5/da.png, id=951, 1450.4589pt x 714.7503pt>
+<Figures/EDA_Charts/5/da.png, id=1058, 1450.4589pt x 714.7503pt>
 File: Figures/EDA_Charts/5/da.png Graphic file (type png)
 <use Figures/EDA_Charts/5/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/5/da.png  used on input line 168.
 (pdftex.def)             Requested size: 208.73653pt x 102.85634pt.
  [37 <./Figures/EDA_Charts/4/montage.png> <./Figures/EDA_Charts/4/rgb.png> <./Figures/EDA_Charts/4/da.png> <./Figures/EDA_Charts/5/montage.png> <./Figures/EDA_Charts/5/rgb.png> <./Figures/EDA_Charts/5/da.png>]
-<Figures/EDA_Charts/7/montage.png, id=962, 372.9132pt x 221.8689pt>
+<Figures/EDA_Charts/7/montage.png, id=1069, 372.9132pt x 221.8689pt>
 File: Figures/EDA_Charts/7/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/7/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/7/montage.png  used on input line 212.
 (pdftex.def)             Requested size: 104.36826pt x 62.09578pt.
-<Figures/EDA_Charts/7/rgb.png, id=963, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/7/rgb.png, id=1070, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/7/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/7/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/7/rgb.png  used on input line 217.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/7/da.png, id=964, 1449.7362pt x 714.7503pt>
+<Figures/EDA_Charts/7/da.png, id=1071, 1449.7362pt x 714.7503pt>
 File: Figures/EDA_Charts/7/da.png Graphic file (type png)
 <use Figures/EDA_Charts/7/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/7/da.png  used on input line 222.
 (pdftex.def)             Requested size: 208.73653pt x 102.91087pt.
-<Figures/EDA_Charts/8/montage.png, id=965, 372.9132pt x 264.5082pt>
+<Figures/EDA_Charts/8/montage.png, id=1072, 372.9132pt x 264.5082pt>
 File: Figures/EDA_Charts/8/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/8/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/8/montage.png  used on input line 238.
 (pdftex.def)             Requested size: 104.36826pt x 74.0295pt.
-<Figures/EDA_Charts/8/rgb.png, id=966, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/8/rgb.png, id=1073, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/8/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/8/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/8/rgb.png  used on input line 243.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/8/da.png, id=967, 1449.0135pt x 714.7503pt>
+<Figures/EDA_Charts/8/da.png, id=1074, 1449.0135pt x 714.7503pt>
 File: Figures/EDA_Charts/8/da.png Graphic file (type png)
 <use Figures/EDA_Charts/8/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/8/da.png  used on input line 248.
 (pdftex.def)             Requested size: 208.73653pt x 102.9545pt.
  [38 <./Figures/EDA_Charts/7/montage.png> <./Figures/EDA_Charts/7/rgb.png> <./Figures/EDA_Charts/7/da.png> <./Figures/EDA_Charts/8/montage.png> <./Figures/EDA_Charts/8/rgb.png> <./Figures/EDA_Charts/8/da.png>]
-<Figures/EDA_Charts/9/montage.png, id=978, 352.6776pt x 281.1303pt>
+<Figures/EDA_Charts/9/montage.png, id=1085, 352.6776pt x 281.1303pt>
 File: Figures/EDA_Charts/9/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/9/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/9/montage.png  used on input line 265.
 (pdftex.def)             Requested size: 104.36826pt x 83.19438pt.
-<Figures/EDA_Charts/9/rgb.png, id=979, 412.6617pt x 328.8285pt>
+<Figures/EDA_Charts/9/rgb.png, id=1086, 412.6617pt x 328.8285pt>
 File: Figures/EDA_Charts/9/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/9/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/9/rgb.png  used on input line 270.
 (pdftex.def)             Requested size: 104.36826pt x 83.16527pt.
-<Figures/EDA_Charts/9/da.png, id=980, 1449.0135pt x 714.7503pt>
+<Figures/EDA_Charts/9/da.png, id=1087, 1449.0135pt x 714.7503pt>
 File: Figures/EDA_Charts/9/da.png Graphic file (type png)
 <use Figures/EDA_Charts/9/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/9/da.png  used on input line 275.
 (pdftex.def)             Requested size: 208.73653pt x 102.9545pt.
-<Figures/EDA_Charts/11/montage.png, id=981, 372.9132pt x 280.4076pt>
+<Figures/EDA_Charts/11/montage.png, id=1088, 372.9132pt x 280.4076pt>
 File: Figures/EDA_Charts/11/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/11/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/11/montage.png  used on input line 315.
 (pdftex.def)             Requested size: 104.36826pt x 78.47935pt.
-<Figures/EDA_Charts/11/rgb.png, id=982, 414.8298pt x 328.8285pt>
+<Figures/EDA_Charts/11/rgb.png, id=1089, 414.8298pt x 328.8285pt>
 File: Figures/EDA_Charts/11/rgb.png Graphic file (type png)
 <use Figures/EDA_Charts/11/rgb.png>
 Package pdftex.def Info: Figures/EDA_Charts/11/rgb.png  used on input line 320.
 (pdftex.def)             Requested size: 104.36826pt x 82.72874pt.
-<Figures/EDA_Charts/11/da.png, id=983, 1442.5092pt x 714.7503pt>
+<Figures/EDA_Charts/11/da.png, id=1090, 1442.5092pt x 714.7503pt>
 File: Figures/EDA_Charts/11/da.png Graphic file (type png)
 <use Figures/EDA_Charts/11/da.png>
 Package pdftex.def Info: Figures/EDA_Charts/11/da.png  used on input line 325.
 (pdftex.def)             Requested size: 208.73653pt x 103.42346pt.
  [39 <./Figures/EDA_Charts/9/montage.png> <./Figures/EDA_Charts/9/rgb.png> <./Figures/EDA_Charts/9/da.png> <./Figures/EDA_Charts/11/montage.png> <./Figures/EDA_Charts/11/rgb.png> <./Figures/EDA_Charts/11/da.png>]
-<Figures/firstrun/tesseract_config.jpg, id=994, 852.93657pt x 48.93282pt>
+<Figures/firstrun/tesseract_config.jpg, id=1101, 852.93657pt x 48.93282pt>
 File: Figures/firstrun/tesseract_config.jpg Graphic file (type jpg)
 <use Figures/firstrun/tesseract_config.jpg>
 Package pdftex.def Info: Figures/firstrun/tesseract_config.jpg  used on input line 341.
 (pdftex.def)             Requested size: 375.7232pt x 21.55513pt.
-<Figures/gray/original.png, id=996, 513.117pt x 586.8324pt>
+<Figures/gray/original.png, id=1103, 513.117pt x 586.8324pt>
 File: Figures/gray/original.png Graphic file (type png)
 <use Figures/gray/original.png>
 Package pdftex.def Info: Figures/gray/original.png  used on input line 353.
 (pdftex.def)             Requested size: 169.0743pt x 193.35979pt.
-<Figures/gray/grey.png, id=997, 513.117pt x 586.8324pt>
+<Figures/gray/grey.png, id=1104, 513.117pt x 586.8324pt>
 File: Figures/gray/grey.png Graphic file (type png)
 <use Figures/gray/grey.png>
 Package pdftex.def Info: Figures/gray/grey.png  used on input line 358.
 (pdftex.def)             Requested size: 169.0743pt x 193.35979pt.
  [40 <./Figures/firstrun/tesseract_config.jpg> <./Figures/gray/original.png> <./Figures/gray/grey.png>]
-<Figures/otsu/original.png, id=1006, 182.1204pt x 164.7756pt>
+<Figures/otsu/original.png, id=1114, 182.1204pt x 164.7756pt>
 File: Figures/otsu/original.png Graphic file (type png)
 <use Figures/otsu/original.png>
 Package pdftex.def Info: Figures/otsu/original.png  used on input line 383.
 (pdftex.def)             Requested size: 169.0743pt x 152.98073pt.
-<Figures/otsu/otsu.png, id=1007, 182.1204pt x 164.7756pt>
+<Figures/otsu/otsu.png, id=1115, 182.1204pt x 164.7756pt>
 File: Figures/otsu/otsu.png Graphic file (type png)
 <use Figures/otsu/otsu.png>
 Package pdftex.def Info: Figures/otsu/otsu.png  used on input line 388.
 (pdftex.def)             Requested size: 169.0743pt x 152.98073pt.
  [41 <./Figures/otsu/original.png> <./Figures/otsu/otsu.png>]
-<Figures/closing/original.png, id=1018, 182.1204pt x 156.1032pt>
+<Figures/closing/original.png, id=1125, 182.1204pt x 156.1032pt>
 File: Figures/closing/original.png Graphic file (type png)
 <use Figures/closing/original.png>
 Package pdftex.def Info: Figures/closing/original.png  used on input line 406.
 (pdftex.def)             Requested size: 112.7181pt x 96.61623pt.
-<Figures/closing/dilated.png, id=1019, 182.1204pt x 156.1032pt>
+<Figures/closing/dilated.png, id=1126, 182.1204pt x 156.1032pt>
 File: Figures/closing/dilated.png Graphic file (type png)
 <use Figures/closing/dilated.png>
 Package pdftex.def Info: Figures/closing/dilated.png  used on input line 411.
 (pdftex.def)             Requested size: 112.7181pt x 96.61623pt.
-<Figures/closing/closing.png, id=1020, 182.1204pt x 156.1032pt>
+<Figures/closing/closing.png, id=1127, 182.1204pt x 156.1032pt>
 File: Figures/closing/closing.png Graphic file (type png)
 <use Figures/closing/closing.png>
 Package pdftex.def Info: Figures/closing/closing.png  used on input line 416.
 (pdftex.def)             Requested size: 112.7181pt x 96.61623pt.
-<Figures/second_run/lang.jpg, id=1022, 711.4078pt x 60.225pt>
+<Figures/second_run/lang.jpg, id=1129, 711.4078pt x 60.225pt>
 File: Figures/second_run/lang.jpg Graphic file (type jpg)
 <use Figures/second_run/lang.jpg>
 Package pdftex.def Info: Figures/second_run/lang.jpg  used on input line 428.
 (pdftex.def)             Requested size: 375.7232pt x 31.80789pt.
  [42 <./Figures/closing/original.png> <./Figures/closing/dilated.png> <./Figures/closing/closing.png> <./Figures/second_run/lang.jpg>] [43] [44]
-<Figures/red_mask/original.png, id=1046, 164.0529pt x 197.2971pt>
+<Figures/red_mask/original.png, id=1153, 164.0529pt x 197.2971pt>
 File: Figures/red_mask/original.png Graphic file (type png)
 <use Figures/red_mask/original.png>
 Package pdftex.def Info: Figures/red_mask/original.png  used on input line 480.
 (pdftex.def)             Requested size: 169.0743pt x 203.3417pt.
-<Figures/red_mask/red_mask.png, id=1047, 164.0529pt x 197.2971pt>
+<Figures/red_mask/red_mask.png, id=1154, 164.0529pt x 197.2971pt>
 File: Figures/red_mask/red_mask.png Graphic file (type png)
 <use Figures/red_mask/red_mask.png>
 Package pdftex.def Info: Figures/red_mask/red_mask.png  used on input line 485.
 (pdftex.def)             Requested size: 169.0743pt x 203.3417pt.
  [45 <./Figures/red_mask/original.png> <./Figures/red_mask/red_mask.png>]
-<Figures/Methodology/sipa_02/red_analysis.png, id=1055, 10031.076pt x 4321.746pt>
+<Figures/Methodology/sipa_02/red_analysis.png, id=1162, 10031.076pt x 4321.746pt>
 File: Figures/Methodology/sipa_02/red_analysis.png Graphic file (type png)
 <use Figures/Methodology/sipa_02/red_analysis.png>
 Package pdftex.def Info: Figures/Methodology/sipa_02/red_analysis.png  used on input line 498.
@@ -987,7 +987,7 @@ File: Figures/EDA_Charts/2/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/2/montage.png  used on input line 513.
 (pdftex.def)             Requested size: 375.7232pt x 299.51524pt.
  [47]
-<Figures/Methodology/sipa_02/sample_output.jpg, id=1070, 1056.19594pt x 674.52pt>
+<Figures/Methodology/sipa_02/sample_output.jpg, id=1177, 1056.19594pt x 674.52pt>
 File: Figures/Methodology/sipa_02/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_02/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_02/sample_output.jpg  used on input line 533.
@@ -998,7 +998,7 @@ File: Figures/EDA_Charts/3/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/3/montage.png  used on input line 545.
 (pdftex.def)             Requested size: 375.7232pt x 299.51524pt.
  [49]
-<Figures/Methodology/sipa_03/sample_output.jpg, id=1087, 992.95969pt x 798.73407pt>
+<Figures/Methodology/sipa_03/sample_output.jpg, id=1194, 992.95969pt x 798.73407pt>
 File: Figures/Methodology/sipa_03/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_03/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_03/sample_output.jpg  used on input line 565.
@@ -1008,7 +1008,7 @@ File: Figures/EDA_Charts/4/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/4/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/4/montage.png  used on input line 620.
 (pdftex.def)             Requested size: 375.7232pt x 223.54413pt.
-<Figures/Methodology/sipa_04/result_sample.jpg, id=1106, 511.9125pt x 827.34094pt>
+<Figures/Methodology/sipa_04/result_sample.jpg, id=1213, 511.9125pt x 827.34094pt>
 File: Figures/Methodology/sipa_04/result_sample.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_04/result_sample.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_04/result_sample.jpg  used on input line 629.
@@ -1019,7 +1019,7 @@ File: Figures/EDA_Charts/5/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/5/montage.png  used on input line 650.
 (pdftex.def)             Requested size: 375.7232pt x 299.51524pt.
  [54]
-<Figures/Methodology/sipa_05/sample_output.jpg, id=1134, 387.69844pt x 838.63312pt>
+<Figures/Methodology/sipa_05/sample_output.jpg, id=1241, 387.69844pt x 838.63312pt>
 File: Figures/Methodology/sipa_05/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_05/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_05/sample_output.jpg  used on input line 671.
@@ -1029,12 +1029,12 @@ File: Figures/EDA_Charts/7/montage.png Graphic file (type png)
 <use Figures/EDA_Charts/7/montage.png>
 Package pdftex.def Info: Figures/EDA_Charts/7/montage.png  used on input line 697.
 (pdftex.def)             Requested size: 375.7232pt x 223.54413pt.
-<Figures/green_mask/original.png, id=1142, 182.1204pt x 130.8087pt>
+<Figures/green_mask/original.png, id=1249, 182.1204pt x 130.8087pt>
 File: Figures/green_mask/original.png Graphic file (type png)
 <use Figures/green_mask/original.png>
 Package pdftex.def Info: Figures/green_mask/original.png  used on input line 714.
 (pdftex.def)             Requested size: 169.0743pt x 121.44522pt.
-<Figures/green_mask/green_mask.png, id=1143, 182.1204pt x 130.8087pt>
+<Figures/green_mask/green_mask.png, id=1250, 182.1204pt x 130.8087pt>
 File: Figures/green_mask/green_mask.png Graphic file (type png)
 <use Figures/green_mask/green_mask.png>
 Package pdftex.def Info: Figures/green_mask/green_mask.png  used on input line 719.
@@ -1044,7 +1044,7 @@ Package pdftex.def Info: Figures/green_mask/green_mask.png  used on input line 7
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [56] [57 <./Figures/green_mask/original.png> <./Figures/green_mask/green_mask.png>]
-<Figures/Methodology/sipa_07/sample_output.jpg, id=1158, 490.08093pt x 1338.50063pt>
+<Figures/Methodology/sipa_07/sample_output.jpg, id=1265, 490.08093pt x 1338.50063pt>
 File: Figures/Methodology/sipa_07/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_07/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_07/sample_output.jpg  used on input line 754.
@@ -1055,7 +1055,7 @@ File: Figures/EDA_Charts/8/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/8/montage.png  used on input line 766.
 (pdftex.def)             Requested size: 375.7232pt x 266.50539pt.
  [59]
-<Figures/Methodology/sipa_08/sample_output.jpg, id=1177, 1223.32031pt x 868.74562pt>
+<Figures/Methodology/sipa_08/sample_output.jpg, id=1284, 1223.32031pt x 868.74562pt>
 File: Figures/Methodology/sipa_08/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_08/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_08/sample_output.jpg  used on input line 786.
@@ -1066,7 +1066,7 @@ File: Figures/EDA_Charts/9/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/9/montage.png  used on input line 798.
 (pdftex.def)             Requested size: 375.7232pt x 299.51524pt.
  [61]
-<Figures/Methodology/sipa_09/sample_output.jpg, id=1193, 1228.59pt x 756.57657pt>
+<Figures/Methodology/sipa_09/sample_output.jpg, id=1300, 1228.59pt x 756.57657pt>
 File: Figures/Methodology/sipa_09/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_09/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_09/sample_output.jpg  used on input line 816.
@@ -1077,19 +1077,19 @@ File: Figures/EDA_Charts/11/montage.png Graphic file (type png)
 Package pdftex.def Info: Figures/EDA_Charts/11/montage.png  used on input line 842.
 (pdftex.def)             Requested size: 375.7232pt x 282.52484pt.
  [63]
-<Figures/Methodology/sipa_11/sample_output.jpg, id=1208, 536.75531pt x 1050.92625pt>
+<Figures/Methodology/sipa_11/sample_output.jpg, id=1315, 536.75531pt x 1050.92625pt>
 File: Figures/Methodology/sipa_11/sample_output.jpg Graphic file (type jpg)
 <use Figures/Methodology/sipa_11/sample_output.jpg>
 Package pdftex.def Info: Figures/Methodology/sipa_11/sample_output.jpg  used on input line 862.
 (pdftex.def)             Requested size: 250.48637pt x 490.42357pt.
  [64 <./Figures/Methodology/sipa_11/sample_output.jpg>]
-<Figures/find_font/myfonts.jpg, id=1216, 1387.43344pt x 1292.57906pt>
+<Figures/find_font/myfonts.jpg, id=1324, 1387.43344pt x 1292.57906pt>
 File: Figures/find_font/myfonts.jpg Graphic file (type jpg)
 <use Figures/find_font/myfonts.jpg>
 Package pdftex.def Info: Figures/find_font/myfonts.jpg  used on input line 886.
 (pdftex.def)             Requested size: 166.98668pt x 155.55643pt.
  [65 <./Figures/find_font/myfonts.jpg>] [66] [67] [68] [69]
-<Figures/Results/crnn/sample_predict.jpg, id=1244, 750.55406pt x 1004.25188pt>
+<Figures/Results/crnn/sample_predict.jpg, id=1351, 750.55406pt x 1004.25188pt>
 File: Figures/Results/crnn/sample_predict.jpg Graphic file (type jpg)
 <use Figures/Results/crnn/sample_predict.jpg>
 Package pdftex.def Info: Figures/Results/crnn/sample_predict.jpg  used on input line 969.
@@ -1101,89 +1101,136 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [72
 
-] [73]
-Overfull \hbox (5.54901pt too wide) in paragraph at lines 77--93
+]
+<Figures/Results/tesseract_sprints_one.png, id=1365, 859.2903pt x 426.393pt>
+File: Figures/Results/tesseract_sprints_one.png Graphic file (type png)
+<use Figures/Results/tesseract_sprints_one.png>
+Package pdftex.def Info: Figures/Results/tesseract_sprints_one.png  used on input line 41.
+(pdftex.def)             Requested size: 292.22987pt x 145.00423pt.
+ [73 <./Figures/Results/tesseract_sprints_one.png>]
+<Figures/Results/tesseract_sprints_two.png, id=1371, 859.2903pt x 426.393pt>
+File: Figures/Results/tesseract_sprints_two.png Graphic file (type png)
+<use Figures/Results/tesseract_sprints_two.png>
+Package pdftex.def Info: Figures/Results/tesseract_sprints_two.png  used on input line 82.
+(pdftex.def)             Requested size: 292.22987pt x 145.00423pt.
+ [74 <./Figures/Results/tesseract_sprints_two.png>]
+<Figures/Results/tesseract_sprints_three.png, id=1377, 859.2903pt x 424.9476pt>
+File: Figures/Results/tesseract_sprints_three.png Graphic file (type png)
+<use Figures/Results/tesseract_sprints_three.png>
+Package pdftex.def Info: Figures/Results/tesseract_sprints_three.png  used on input line 119.
+(pdftex.def)             Requested size: 292.22987pt x 144.51268pt.
+ [75 <./Figures/Results/tesseract_sprints_three.png>]
+<Figures/Results/tesseract_sprints.png, id=1383, 1438.173pt x 711.8595pt>
+File: Figures/Results/tesseract_sprints.png Graphic file (type png)
+<use Figures/Results/tesseract_sprints.png>
+Package pdftex.def Info: Figures/Results/tesseract_sprints.png  used on input line 134.
+(pdftex.def)             Requested size: 375.7232pt x 185.96979pt.
+ [76 <./Figures/Results/tesseract_sprints.png>] [77]
+<Figures/Results/crnn.png, id=1397, 1011.0573pt x 648.9846pt>
+File: Figures/Results/crnn.png Graphic file (type png)
+<use Figures/Results/crnn.png>
+Package pdftex.def Info: Figures/Results/crnn.png  used on input line 190.
+(pdftex.def)             Requested size: 413.30063pt x 265.2932pt.
+ [78 <./Figures/Results/crnn.png>]
+Overfull \hbox (5.54901pt too wide) in paragraph at lines 203--219
  [][] 
  []
 
-) (Chapters/Chapter5.tex [74]
+<Figures/Results/tesseract_vs_crnn.png, id=1403, 1011.0573pt x 648.9846pt>
+File: Figures/Results/tesseract_vs_crnn.png Graphic file (type png)
+<use Figures/Results/tesseract_vs_crnn.png>
+Package pdftex.def Info: Figures/Results/tesseract_vs_crnn.png  used on input line 223.
+(pdftex.def)             Requested size: 413.30063pt x 265.2932pt.
+[79 <./Figures/Results/tesseract_vs_crnn.png>] [80]) (Chapters/Chapter5.tex [81]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Discussion and Conclusion
 ------------------------------------------------------------------------------
-[75
+[82
 
-]) (Thesis.bbl [76] [77
+] [83] [84]
+<Figures/discussion/unread_images.jpg, id=1434, 596.98032pt x 794.2172pt>
+File: Figures/discussion/unread_images.jpg Graphic file (type jpg)
+<use Figures/discussion/unread_images.jpg>
+Package pdftex.def Info: Figures/discussion/unread_images.jpg  used on input line 62.
+(pdftex.def)             Requested size: 250.48637pt x 333.24174pt.
+ [85 <./Figures/discussion/unread_images.jpg>] [86] [87] [88] [89] [90] [91] [92] [93]
+Overfull \hbox (18.6417pt too wide) in paragraph at lines 232--233
+\OT1/cmr/m/n/10.95 an-no-ta-tion re-quire-ments of data, semi-supervised and un-su-per-vised learn-ing paradigms
+ []
 
-] [78]) (Appendices/AppendixA.tex [79]
+[94]) (Thesis.bbl [95] [96
+
+] [97]) (Appendices/AppendixA.tex [98]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix A
 ------------------------------------------------------------------------------
-<Figures/Results/sipa_02/count_analysis.png, id=1322, 726.3135pt x 506.6127pt>
+[99
+
+]
+<Figures/Results/sipa_02/count_analysis.png, id=1550, 726.3135pt x 506.6127pt>
 File: Figures/Results/sipa_02/count_analysis.png Graphic file (type png)
 <use Figures/Results/sipa_02/count_analysis.png>
-Package pdftex.def Info: Figures/Results/sipa_02/count_analysis.png  used on input line 12.
+Package pdftex.def Info: Figures/Results/sipa_02/count_analysis.png  used on input line 22.
 (pdftex.def)             Requested size: 375.7232pt x 262.07957pt.
-[80
-
- <./Figures/Results/sipa_02/count_analysis.png>] [81]
-<Figures/Results/sipa_02/contrast.png, id=1332, 607.7907pt x 395.3169pt>
+ [100 <./Figures/Results/sipa_02/count_analysis.png>]
+<Figures/Results/sipa_02/contrast.png, id=1557, 607.7907pt x 395.3169pt>
 File: Figures/Results/sipa_02/contrast.png Graphic file (type png)
 <use Figures/Results/sipa_02/contrast.png>
-Package pdftex.def Info: Figures/Results/sipa_02/contrast.png  used on input line 32.
+Package pdftex.def Info: Figures/Results/sipa_02/contrast.png  used on input line 42.
 (pdftex.def)             Requested size: 375.7232pt x 244.37611pt.
- [82 <./Figures/Results/sipa_02/contrast.png>]
-<Figures/Results/sipa_02/brightness.png, id=1338, 614.295pt x 395.3169pt>
+ [101 <./Figures/Results/sipa_02/contrast.png>]
+<Figures/Results/sipa_02/brightness.png, id=1563, 614.295pt x 395.3169pt>
 File: Figures/Results/sipa_02/brightness.png Graphic file (type png)
 <use Figures/Results/sipa_02/brightness.png>
-Package pdftex.def Info: Figures/Results/sipa_02/brightness.png  used on input line 50.
+Package pdftex.def Info: Figures/Results/sipa_02/brightness.png  used on input line 60.
 (pdftex.def)             Requested size: 375.7232pt x 241.78838pt.
- [83 <./Figures/Results/sipa_02/brightness.png>]
-<Figures/Results/sipa_02/sd.png, id=1345, 607.7907pt x 395.3169pt>
+ [102 <./Figures/Results/sipa_02/brightness.png>]
+<Figures/Results/sipa_02/sd.png, id=1569, 607.7907pt x 395.3169pt>
 File: Figures/Results/sipa_02/sd.png Graphic file (type png)
 <use Figures/Results/sipa_02/sd.png>
-Package pdftex.def Info: Figures/Results/sipa_02/sd.png  used on input line 70.
+Package pdftex.def Info: Figures/Results/sipa_02/sd.png  used on input line 80.
 (pdftex.def)             Requested size: 375.7232pt x 244.37611pt.
- [84 <./Figures/Results/sipa_02/sd.png>]
-<Figures/Results/sipa_02/homogeneity.png, id=1351, 617.9085pt x 395.3169pt>
+ [103 <./Figures/Results/sipa_02/sd.png>]
+<Figures/Results/sipa_02/homogeneity.png, id=1575, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/homogeneity.png Graphic file (type png)
 <use Figures/Results/sipa_02/homogeneity.png>
-Package pdftex.def Info: Figures/Results/sipa_02/homogeneity.png  used on input line 85.
+Package pdftex.def Info: Figures/Results/sipa_02/homogeneity.png  used on input line 95.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [85 <./Figures/Results/sipa_02/homogeneity.png>]
-<Figures/Results/sipa_02/sharpness.png, id=1357, 620.7993pt x 395.3169pt>
+ [104 <./Figures/Results/sipa_02/homogeneity.png>]
+<Figures/Results/sipa_02/sharpness.png, id=1581, 620.7993pt x 395.3169pt>
 File: Figures/Results/sipa_02/sharpness.png Graphic file (type png)
 <use Figures/Results/sipa_02/sharpness.png>
-Package pdftex.def Info: Figures/Results/sipa_02/sharpness.png  used on input line 104.
+Package pdftex.def Info: Figures/Results/sipa_02/sharpness.png  used on input line 114.
 (pdftex.def)             Requested size: 375.7232pt x 239.26094pt.
- [86 <./Figures/Results/sipa_02/sharpness.png>]
-<Figures/Results/sipa_02/dissimilarity.png, id=1363, 617.9085pt x 395.3169pt>
+ [105 <./Figures/Results/sipa_02/sharpness.png>]
+<Figures/Results/sipa_02/dissimilarity.png, id=1587, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/dissimilarity.png Graphic file (type png)
 <use Figures/Results/sipa_02/dissimilarity.png>
-Package pdftex.def Info: Figures/Results/sipa_02/dissimilarity.png  used on input line 123.
+Package pdftex.def Info: Figures/Results/sipa_02/dissimilarity.png  used on input line 133.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [87 <./Figures/Results/sipa_02/dissimilarity.png>]
-<Figures/Results/sipa_02/area.png, id=1369, 611.4042pt x 395.3169pt>
+ [106 <./Figures/Results/sipa_02/dissimilarity.png>]
+<Figures/Results/sipa_02/area.png, id=1594, 611.4042pt x 395.3169pt>
 File: Figures/Results/sipa_02/area.png Graphic file (type png)
 <use Figures/Results/sipa_02/area.png>
-Package pdftex.def Info: Figures/Results/sipa_02/area.png  used on input line 142.
+Package pdftex.def Info: Figures/Results/sipa_02/area.png  used on input line 152.
 (pdftex.def)             Requested size: 375.7232pt x 242.94049pt.
- [88 <./Figures/Results/sipa_02/area.png>]
-<Figures/Results/sipa_02/correlation.png, id=1375, 617.9085pt x 395.3169pt>
+ [107 <./Figures/Results/sipa_02/area.png>]
+<Figures/Results/sipa_02/correlation.png, id=1600, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/correlation.png Graphic file (type png)
 <use Figures/Results/sipa_02/correlation.png>
-Package pdftex.def Info: Figures/Results/sipa_02/correlation.png  used on input line 167.
+Package pdftex.def Info: Figures/Results/sipa_02/correlation.png  used on input line 177.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [89 <./Figures/Results/sipa_02/correlation.png>]
-<Figures/Results/sipa_02/energy.png, id=1382, 617.9085pt x 395.3169pt>
+ [108 <./Figures/Results/sipa_02/correlation.png>]
+<Figures/Results/sipa_02/energy.png, id=1606, 617.9085pt x 395.3169pt>
 File: Figures/Results/sipa_02/energy.png Graphic file (type png)
 <use Figures/Results/sipa_02/energy.png>
-Package pdftex.def Info: Figures/Results/sipa_02/energy.png  used on input line 189.
+Package pdftex.def Info: Figures/Results/sipa_02/energy.png  used on input line 199.
 (pdftex.def)             Requested size: 375.7232pt x 240.37085pt.
- [90 <./Figures/Results/sipa_02/energy.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 207.
-) [91]
+ [109 <./Figures/Results/sipa_02/energy.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 217.
+) [110]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1193,20 +1240,20 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4A9A41423EB429174B191E993B8E726E;17180.
+(rerunfilecheck)             Checksum: 541E7CE95CD76785B8CFE7F192ED7881;22239.
  ) 
 Here is how much of TeX's memory you used:
- 16322 strings out of 475551
- 270175 string characters out of 5763027
+ 16468 strings out of 475551
+ 273769 string characters out of 5763027
  1937238 words of memory out of 5000000
- 36895 multiletter control sequences out of 15000+600000
+ 36970 multiletter control sequences out of 15000+600000
  568414 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,13n,81p,13205b,1329s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (105 pages, 10771259 bytes).
+Output written on Thesis.pdf (125 pages, 11267523 bytes).
 PDF statistics:
- 1554 PDF objects out of 1728 (max. 8388607)
- 393 named destinations out of 1000 (max. 500000)
- 1155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1794 PDF objects out of 2073 (max. 8388607)
+ 464 named destinations out of 1000 (max. 500000)
+ 1326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
