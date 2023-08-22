@@ -219,6 +219,13 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
+INPUT .\Figures\signature\ad_signature.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -849,6 +856,13 @@ INPUT .\Figures\find_font\myfonts.jpg
 INPUT .\Figures\find_font\myfonts.jpg
 INPUT .\Figures\find_font\myfonts.jpg
 INPUT .\Figures\find_font\myfonts.jpg
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
+INPUT .\Figures\Methodology\crnn\vertical_sum_graph.png
 INPUT .\Figures\Results\crnn\sample_predict.jpg
 INPUT .\Figures\Results\crnn\sample_predict.jpg
 INPUT .\Figures\Results\crnn\sample_predict.jpg

@@ -11,7 +11,7 @@
 
 This chapter provides a comprehensive and detailed explanation of the techniques and procedures adopted during the course of the research. It serves to provide an in-depth account of the methods used in this study, thereby ensuring the research's transparency and reproducibility.
 
-This research aims to enhance the performance of Optical Character Recognition (OCR) systems - specifically Tesseract OCR and Convolutional Recurrent Neural Network (CRNN) models - on images of sensor readings. To accomplish this, a systematic approach is adopted involving an initial global run of the OCR systems on the raw image datasets, followed by the application of specific image pre-processing techniques and subsequent localized OCR applications.
+This research aims to enhance the performance of OCR systems - specifically Tesseract OCR and Convolutional Recurrent Neural Network (CRNN) models - on images of sensor readings. To accomplish this, a systematic approach is adopted involving an initial global run of the OCR systems on the raw image datasets, followed by the application of specific image pre-processing techniques and subsequent localized OCR applications.
 
 The purpose of these processes is to establish a baseline of OCR performance, then test the hypothesis that image pre-processing can enhance OCR results. The pre-processing, focused on applying colour masks before converting the images to grayscale, aims to increase the clarity of the images, thereby increasing the efficiency of the OCR processes.
 
@@ -283,7 +283,7 @@ There are 14 JPEG files totalling a size of 6.16mb in Image Folder H. The images
 \section{First Sprint - Global Generic}
 
 
-\textbf{Objective:} To successfully perform Optical Character Recognition (OCR) on the entire dataset of images using the pytesseract library, while implementing and evaluating the impact of image pre-processing techniques, specifically the conversion of images to greyscale, to optimize OCR accuracy.
+\textbf{Objective:} To successfully perform OCR on the entire dataset of images using the pytesseract library, while implementing and evaluating the impact of image pre-processing techniques, specifically the conversion of images to greyscale, to optimize OCR accuracy.
 
 Utilizing the pytesseract library's Python interface for the Tesseract OCR engine, this sprint delves into the practical execution of our objective, focusing on the nuances of image pre-processing.
 
@@ -391,12 +391,12 @@ The language files used in this research are as follows:
 
 \subsection*{Method - Resizing}
 
-To improve the results of optical character recognition (OCR) using Tesseract, image resizing during pre-processing was explored. Tesseract's performance can be sensitive to the scale of the image, as the size of the text can greatly impact the OCR engine's ability to accurately recognize characters. Therefore, resizing images to various scales became an essential part of the pre-processing pipeline.
+To improve the results of OCR using Tesseract, image resizing during pre-processing was explored. Tesseract's performance can be sensitive to the scale of the image, as the size of the text can greatly impact the OCR engine's ability to accurately recognize characters. Therefore, resizing images to various scales became an essential part of the pre-processing pipeline.
 
 Resizing is performed using OpenCV's resize() function, which allows images to be scaled up or down. By altering the resolution, the text in the images is effectively manipulated to appear larger or smaller. It is worth noting that while upscaling can sometimes help in capturing more detail and thereby improving OCR accuracy, it also increases computational load. Conversely, downscaling an image reduces the computational burden but might cause loss of important details that can negatively affect OCR performance. \cite{dasCovid19FaceMask2020}
 
 
-The Python script was redesigned to run the control function in a loop incrementally adjusting the image resize parameter from 50 pixels to 749 pixels and evaluating the subsequent influence on Optical Character Recognition (OCR) performance. The aim was to find an ideal image size that would not make the text too small or too large, thus optimizing the recognition potential of Tesseract.
+The Python script was redesigned to run the control function in a loop incrementally adjusting the image resize parameter from 50 pixels to 749 pixels and evaluating the subsequent influence on OCR performance. The aim was to find an ideal image size that would not make the text too small or too large, thus optimizing the recognition potential of Tesseract.
 
 
 \subsection{Second Sprint Conclusion}
@@ -411,7 +411,7 @@ The process highlighted not just the intricacies of fine-tuning OCR techniques b
 
 \section{Third Sprint - Analysis Tesseract Separate Folders}
 
-\textbf{Objective for the Third Sprint:} To further refine the Optical Character Recognition (OCR) capabilities across a variety of image sets by introducing specialized pre-processing techniques tailored to each folder's distinct properties. Techniques such as Red Mask, Green Mask, Deblurring, Thresholding, and Skewness Correction were employed. Additionally, the sprint aimed to address specific challenges presented by each image set, such as diverse colour profiles, skewness, and noise, ensuring the highest possible OCR accuracy.
+\textbf{Objective for the Third Sprint:} To further refine the OCR capabilities across a variety of image sets by introducing specialized pre-processing techniques tailored to each folder's distinct properties. Techniques such as Red Mask, Green Mask, Deblurring, Thresholding, and Skewness Correction were employed. Additionally, the sprint aimed to address specific challenges presented by each image set, such as diverse colour profiles, skewness, and noise, ensuring the highest possible OCR accuracy.
 
 The diverse attributes of the images in the dataset, ranging from colour profiles to skewness, posed intricate challenges for OCR using Tesseract. Instead of applying a one-size-fits-all approach, this sprint underscored the importance of adaptability. In the ensuing sections, we delve deeper into advanced pre-processing techniques, notably highlighting the Red Mask application via OpenCV. The focus remains on customizing processes for individual image subsets, showcasing the project's commitment to precision and tailored solutions.
 
@@ -610,7 +610,7 @@ The methodology for Image Folder D involved a series of systematic steps to accu
 
     \item \textbf{Median Blurring:} The grayscale images underwent a median blur process. This step helps in reducing noise within the images, thereby enhancing the efficiency of the OCR.
 
-    \item \textbf{Text Recognition:} The processed images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Seven Segment Display (SSD) configuration files. The SSD configuration, an algorithm for object detection, aids in accurately identifying and locating the text within the image.
+    \item \textbf{Text Recognition:} The processed images were then used to read text using OCR with English language (ENG) and Seven Segment Display (SSD) configuration files. The SSD configuration, an algorithm for object detection, aids in accurately identifying and locating the text within the image.
 
     \item \textbf{Data Export:} Finally, the text recognized from the images was analysed, and the output was exported to a CSV file for further analysis and record-keeping.
 \end{enumerate}
@@ -676,7 +676,7 @@ The methodology for Image Folder E utilized a sequential process to efficiently 
 
     \item \textbf{Denoising:} The binary images underwent a denoising process to further reduce noise and improve the effectiveness of the subsequent OCR process.
 
-    \item \textbf{Text Recognition:} The denoised images were then used to read text using Optical Character Recognition (OCR) with English language (ENG) and Seven Segment Display (SSD) configuration files. SSD configuration, a method for object detection, is used to accurately identify and locate the text within the images.
+    \item \textbf{Text Recognition:} The denoised images were then used to read text using OCR with English language (ENG) and Seven Segment Display (SSD) configuration files. SSD configuration, a method for object detection, is used to accurately identify and locate the text within the images.
 
     \item \textbf{Data Export:} The recognized text from the images was analysed, and the output was exported to a CSV file for further analysis and record-keeping.
 \end{enumerate}
@@ -791,11 +791,11 @@ In the Third Sprint, the project delved deeper into the nuances of OCR by cateri
 
 \section{Fourth Sprint - CRNN Methodology}
 
-\textbf{Objective for the Fourth Sprint:} To harness the combined strengths of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) by implementing and fine-tuning a Convolutional Recurrent Neural Network (CRNN) methodology for Optical Character Recognition (OCR). The sprint encompasses the creation of a bespoke digit dataset tailored to specific image fonts, model architecture definition, data preparation and pre-processing, culminating in accurate digit predictions. The overarching goal is to achieve superior OCR accuracy by capitalizing on the spatial and sequential processing capabilities of the CRNN.
+\textbf{Objective for the Fourth Sprint:} To harness the combined strengths of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) by implementing and fine-tuning a Convolutional Recurrent Neural Network (CRNN) methodology for OCR. The sprint encompasses the creation of a bespoke digit dataset tailored to specific image fonts, model architecture definition, data preparation and pre-processing, culminating in accurate digit predictions. The overarching goal is to achieve superior OCR accuracy by capitalizing on the spatial and sequential processing capabilities of the CRNN.
 
 \subsection{Introduction}
 
-In this subsection, the specifics of utilizing Convolutional Recurrent Neural Networks (CRNNs) for the task are discussed. The CRNN, a hybrid model, harnesses the spatial feature extraction capabilities of CNNs with the sequence modelling prowess of RNNs. The subsequent sections guide through the systematic process: from building the training databases to defining the architecture of the CRNN model, followed by data preparation through loading, normalization, and one-hot encoding. Finally, the model's compilation and the prediction of numbers are addressed.
+In this subsection, the specifics of utilizing CRNNs for the task are discussed. The CRNN, a hybrid model, harnesses the spatial feature extraction capabilities of CNNs with the sequence modelling prowess of RNNs. The subsequent sections guide through the systematic process: from building the training databases to defining the architecture of the CRNN model, followed by data preparation through loading, normalization, and one-hot encoding. Finally, the model's compilation and the prediction of numbers are addressed.
 
 
 \subsection{Building the Training Databases}
@@ -870,8 +870,19 @@ The batch size, set at 64, defines the number of samples that will be passed thr
 The training process starts with the fit function. Here, X\_train and y\_train are the training images and labels respectively. The training proceeds with a batch size of 64 and for 25 epochs as defined earlier. The model's performance is evaluated on the validation dataset, X\_test and y\_test, after each epoch, providing a view on the model's ability to generalize from the training data to unseen data. The output from this function, including the loss and accuracy of the model after each epoch, is saved to the history variable for potential later analysis.
 
 \subsection{Image Folder Pre-processing}
+Several functions were developed to cater to the unique characteristics of the image folder and its segmentation requirements. These functions transform the image to grayscale, streamlining the process for subsequent contour detection. Contours falling below a certain area threshold are filtered out, ensuring only meaningful segments are retained. The accepted contours are organized based on their x-coordinates, which guarantees a sequential extraction of digits. For each pertinent contour, a bounding box is drawn, and segments meeting the area criteria are isolated as individual digits. The collective output of these functions comprises both the valid contours and the segmented digits, equipping the system for further analysis or operations.
 
-Several functions were developed to cater to the unique characteristics of the image folder and its segmentation requirements. These functions transform the image to grayscale, streamlining the process for subsequent contour detection. Contours falling below a certain area threshold are filtered out, ensuring only meaningful segments are retained. The accepted contours are organized based on their x-coordinates, which guarantees a sequential extraction of digits. For each pertinent contour, a bounding box is drawn, and segments meeting the area criteria are isolated as individual digits. The collective output of these functions comprises both the valid contours and the segmented digits, equipping the system for any further analysis or operations.
+Building on this foundation, for dot-matrix display images specifically, each image undergoes additional pre-processing steps. These include masking green elements, enhancing contrast via inversion and thresholding, and finally re-inverting to represent digits in white against a black background.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/Methodology/crnn/vertical_sum_graph.png}
+    \caption[Vertical Sum Graph]{Vertical Sum Graph}
+    \label{fig:Vertical Sum Graph}
+\end{figure}
+
+
+The \texttt{extract\_dotmatrix\_segments} function is then employed to segment individual digit sections by evaluating the vertical sum of each column in the image. This specialized approach effectively identifies stretches of columns representing parts of digits, distinguishing them from the blank spaces typical of dot-matrix displays. Post-segmentation, each digit is processed and presented to a CRNN model for prediction, culminating in the identification of the displayed number.
 
 \subsection{Prediction of Numbers}
 
@@ -890,7 +901,7 @@ After pre-processing the binary digit image, the model predicts its value, and t
 
 \subsection{Fourth Sprint Conclusion}
 
-Throughout the fourth sprint, the focus has been the integration and fine-tuning of Convolutional Recurrent Neural Network (CRNN) methodologies for Optical Character Recognition (OCR). This hybrid model, which synergizes the spatial prowess of CNNs with the sequential expertise of RNNs, was found to be significantly adept at recognizing digits, especially when trained on custom datasets tailored to specific fonts in the images.
+Throughout the fourth sprint, the focus has been the integration and fine-tuning of Convolutional Recurrent Neural Network (CRNN) methodologies for OCR. This hybrid model, which synergizes the spatial prowess of CNNs with the sequential expertise of RNNs, was found to be significantly adept at recognizing digits, especially when trained on custom datasets tailored to specific fonts in the images.
 
 Our comprehensive exploration began with generating an expansive and varied training dataset. Emphasis was placed on the quality and diversity of the dataset, ensuring the CRNN model was exposed to an array of digit representations, mimicking real-world nuances. The meticulous process of defining the CRNN model architecture was undertaken, capitalizing on the complementary strengths of CNNs and RNNs. This was followed by data preparation steps, involving loading, normalization, and one-hot encoding to ensure data compatibility with the model.
 
@@ -898,13 +909,11 @@ The segment on Image Folder Pre-processing underlined the importance of accurate
 
 In essence, this sprint has showcased the efficacy of CRNNs in the realm of OCR, demonstrating its potential in handling both spatial and sequential intricacies inherent in the task. The detailed breakdown, from data generation to prediction, serves as a testament to the rigorous approach adopted in this phase, solidifying the foundation for subsequent sprints and investigations.
 
-% \subsection{Conclusion}
-
-% In this chapter, an exploration of the research methodology has been presented. The primary objective being the enhancement of the performance of Optical Character Recognition (OCR) systems, with a specific focus on Tesseract OCR and Convolutional Recurrent Neural Network (CRNN) models. A systematic approach was employed, initiating a global run of OCR systems on raw image datasets. This highlighted the pivotal role of image pre-processing in augmenting OCR results. The importance of pre-processing, especially the application of colour masks before grayscale conversion, was underscored as a method to improve image clarity and subsequently the efficiency of the OCR processes. Serving as a detailed roadmap, the chapter elucidated each phase of the research methodology, from the initial evaluation of OCR systems to the intricate details of the pre-processing techniques.
+\newpage
 
 \section{Methodology Chapter Conclusion}
 
-This chapter details the research methodology, emphasizing dedicated efforts to enhance the performance of Optical Character Recognition (OCR) systems. Specifically, the focus on Tesseract OCR and the Convolutional Recurrent Neural Network (CRNN) models led to a comprehensive evaluation of OCR systems using unprocessed image datasets.
+This chapter details the research methodology, emphasizing dedicated efforts to enhance the performance of OCR systems. Specifically, the focus on Tesseract OCR and the Convolutional Recurrent Neural Network (CRNN) models led to a comprehensive evaluation of OCR systems using unprocessed image datasets.
 
 Data capture, as outlined in Objective 2, equipped the study with a diverse set of sensor reading images, reflecting the multifaceted nature of the subject under investigation.
 

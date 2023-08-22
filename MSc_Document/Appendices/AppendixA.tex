@@ -291,6 +291,67 @@ There is considerable overlap between the two categories. This indicates that wh
     
 \end{lstlisting}
 % \end{singlespacing}
+\newpage
+\subsection{Extract Dot Matrix Digits Function}
+
+\begin{singlespacing}
+    \begin{lstlisting}[language=Python, caption=Extract Dot Matrix Digits]
+    def extract_dotmatrix_segments(img):
+        """
+        Extract segments of digits from a dot-matrix display image.
+
+        Args:
+        - img (numpy.ndarray): 2D array representing the grayscale dot-matrix image.
+
+        Returns:
+        - list: A list of numpy arrays, each representing a digit segment in the image.
+
+        Note:
+        This function identifies segments by examining the vertical sum of each column in the image.
+        Columns with a sum less than a threshold are considered as part of a digit segment.
+        """
+
+        # Threshold value to identify a blank column (i.e., no part of a digit).
+        blank_column_val = 50745
+
+        # Width threshold to distinguish a decimal point from a full digit.
+        decimal_point_width = 35
+
+        # Flag to track the start of a new segment.
+        start_flag = True
+        # List to store start and end columns of each detected segment.
+        segments = []
+        # List to store the actual image slices for each segment.
+        digit_segments = []
+
+        # Calculate the vertical sum for each column.
+        vertical_sum = np.sum(img, axis=0)
+
+        for i, sum_val in enumerate(vertical_sum):
+            # Check if we are at the start of a new segment.
+            if start_flag == True and sum_val < blank_column_val:
+                start_flag = False
+                start_col = i
+
+            # Check if we have reached the end of the current segment.
+            if start_flag == False and sum_val >= blank_column_val:
+                end_col = i
+
+                # If the width of the segment is larger than the decimal point width, consider it as a digit segment.
+                if end_col - start_col > decimal_point_width:
+                    segments.append((start_col, end_col))
+
+                # Reset the flag to search for the next segment.
+                start_flag = True
+
+        # Extract the actual image slices for each detected segment.
+        for index, (start, end) in enumerate(segments):
+            digit_segment = img[:, start:end]
+            digit_segments.append(digit_segment)
+
+        return digit_segments
+\end{lstlisting}
+\end{singlespacing}
 
 
 

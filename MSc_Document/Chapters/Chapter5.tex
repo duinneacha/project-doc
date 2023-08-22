@@ -4,10 +4,10 @@
 
 \section{Introduction}
 
-The motivation for this project was the prevalent challenges faced in manual and infrequent environmental sensor readings in operational settings, and the potential of Optical Character Recognition (OCR) technology to enhance continuous data capture, reduce errors, and optimize system efficiency.
+The motivation for this project was the prevalent challenges faced in manual and infrequent environmental sensor readings in operational settings, and the potential of OCR technology to enhance continuous data capture, reduce errors, and optimize system efficiency.
 
 
-The research aims to enhance the efficiency and accuracy of Optical Character Recognition (OCR) on sensor reading images through novel pre-processing and optimized image capture settings, with a focus on Tesseract OCR and CRNN models. The specific objectives are as follows:
+The research aims to enhance the efficiency and accuracy of OCR on sensor reading images through novel pre-processing and optimized image capture settings, with a focus on Tesseract OCR and CRNN models. The specific objectives are as follows:
 
 \begin{itemize}
     \item Conducting a comprehensive literature review on OCR methods.
@@ -25,7 +25,7 @@ The research aims to enhance the efficiency and accuracy of Optical Character Re
 
 The research study involved the analysis of 286 sensor digit reading images distributed across 8 distinct folders. Each folder encapsulated images that presented unique challenges, including skewness, sun reflection, and suboptimal image quality. The underlying distinctiveness of each folder was the type of digit font used in the sensor readings.
 
-For the optical character recognition (OCR) process, Tesseract version 5.2.0.20220712 was chosen, leveraging pretrained models tailored for English and Seven Segment Display. The configurations \texttt{--psm 13} and \texttt{tessedit\_char\_whitelist=123456789} were employed to optimize the recognition.
+For the OCR process, Tesseract version 5.2.0.20220712 was chosen, leveraging pretrained models tailored for English and Seven Segment Display. The configurations \texttt{--psm 13} and \texttt{tessedit\_char\_whitelist=123456789} were employed to optimize the recognition.
 
 \subsection{OCR Sprints and Strategies}
 
@@ -78,7 +78,7 @@ In addition to Tesseract, the study also evaluated the performance of Convolutio
     \item \textbf{Complexity:} The interplay between CNN and RNN layers can make CRNNs computationally intensive, affecting training and fine-tuning durations.
 
 
-    \item \textbf{Alignment Issues:} In tasks like Optical Character Recognition (OCR), there can be misalignment between the predicted sequence and the ground truth, leading to discrepancies in results.
+    \item \textbf{Alignment Issues:} In tasks like OCR, there can be misalignment between the predicted sequence and the ground truth, leading to discrepancies in results.
 
     \item \textbf{Lack of Invariance:} If not trained on a diverse set of data, CRNNs might not handle variations like rotations, scaling's, or other transformations effectively. Variations were introduced into the training data, however it is likely that these variations were not sufficient to ensure invariance.
 
@@ -261,4 +261,37 @@ These facets merely scratch the surface of the vast expanse of potential researc
 
 The journey of this research is a reflection of the evolving nature of OCR, and while conclusions have been drawn, it also marks the beginning of numerous possibilities and questions yet to be explored.
 
+\section{Reflection}
+
+\subsection{Introduction}
+This research aimed to develop a method for accurately interpreting sensor data from digitized images, often compromised by issues like low contrast and varied quality. Utilizing OCR through Tesseract and CRNN models was a strategic choice. A standout aspect of our approach was the unique pre-processing technique, particularly the colour masking, which significantly boosted OCR accuracy.
+
+\subsection{Decisions Made}
+For the seven-segment displays, applying a red mask had a positive impact on digit clarity, given their widespread use of red LED segments. Conversely, dot-matrix displays saw an improvement with the use of a green mask to minimize noise. A notable element of our method was merging these masks with Tesseract OCR, a technique not often seen in existing literature, which, while not perfect, did offer enhanced results.
+
+\subsection{Outcomes vs. Expectations}
+While many outcomes met initial expectations, variations were evident in certain results. The inconsistencies in displays posed challenges. However, results showed marked improvement over the sprints, indicating the evolving effectiveness of the approach.
+
+\subsection{Learning Points}
+
+\begin{itemize}
+    \item The project underscored the importance of thorough pre-processing. The performance of models, especially CRNN, is significantly influenced by the quality of input data.
+    \item Tailoring techniques to address specific challenges has a positive impact on results.
+    \item Research skills developed substantially over the course of the project, leading to deeper dives into topics and more effective problem-solving strategies.
+    \item Hands-on experience with tools like OpenCV and Tesseract proved invaluable, enhancing both technical proficiency and understanding of their capabilities and limitations.
+    \item Working with CRNN deepened the appreciation for the intricacies of neural network models and their applications in OCR.
+\end{itemize}
+
+\subsection{What Could Have Been Done Better}
+
+\begin{itemize}
+    \item Expanding the dataset to include a wider range of display types might have enhanced model accuracy.
+    \item A more meticulous sourcing of training fonts could have led to better training and, consequently, improved recognition results.
+    \item Beyond just hybrid models, a broader exploration of different model architectures might have presented alternative solutions or optimizations for the challenges faced.
+    \item Although the methods used yielded significant progress, research is an ongoing process. There is always room for improvement, and continuous evaluation and iteration are essential.
+\end{itemize}
+
+
+\subsection{Conclusion}
+The research, with its highs and lows, was a rich learning experience, underscoring the interplay between pre-processing and model performance.
 
