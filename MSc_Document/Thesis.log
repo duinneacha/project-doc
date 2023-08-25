@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  23 AUG 2023 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.6)  25 AUG 2023 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,114 +687,114 @@ Chapter 2.
 <Figures/tesseract_ocr.jpg, id=927, 960.58875pt x 515.67656pt>
 File: Figures/tesseract_ocr.jpg Graphic file (type jpg)
 <use Figures/tesseract_ocr.jpg>
-Package pdftex.def Info: Figures/tesseract_ocr.jpg  used on input line 32.
+Package pdftex.def Info: Figures/tesseract_ocr.jpg  used on input line 29.
 (pdftex.def)             Requested size: 250.48637pt x 134.46617pt.
  [10 <./Figures/tesseract_ocr.jpg>]
 <Figures/tesseract_papers/Andersson_2022.jpg, id=935, 860.46469pt x 274.02374pt>
 File: Figures/tesseract_papers/Andersson_2022.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Andersson_2022.jpg>
-Package pdftex.def Info: Figures/tesseract_papers/Andersson_2022.jpg  used on input line 46.
+Package pdftex.def Info: Figures/tesseract_papers/Andersson_2022.jpg  used on input line 41.
 (pdftex.def)             Requested size: 367.37833pt x 116.99583pt.
 <Figures/tesseract_papers/Ahuja_2021.jpg, id=939, 814.54312pt x 207.77625pt>
 File: Figures/tesseract_papers/Ahuja_2021.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Ahuja_2021.jpg>
-Package pdftex.def Info: Figures/tesseract_papers/Ahuja_2021.jpg  used on input line 64.
+Package pdftex.def Info: Figures/tesseract_papers/Ahuja_2021.jpg  used on input line 59.
 (pdftex.def)             Requested size: 367.37833pt x 93.71085pt.
  [11 <./Figures/tesseract_papers/Andersson_2022.jpg> <./Figures/tesseract_papers/Ahuja_2021.jpg>]
 <Figures/tesseract_papers/Giridhar_2019.jpg, id=947, 883.80188pt x 454.69875pt>
 File: Figures/tesseract_papers/Giridhar_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Giridhar_2019.jpg>
-Package pdftex.def Info: Figures/tesseract_papers/Giridhar_2019.jpg  used on input line 82.
+Package pdftex.def Info: Figures/tesseract_papers/Giridhar_2019.jpg  used on input line 77.
 (pdftex.def)             Requested size: 367.37833pt x 189.00867pt.
  [12]
 <Figures/tesseract_papers/Cakic_2020.jpg, id=954, 608.2725pt x 260.47313pt>
 File: Figures/tesseract_papers/Cakic_2020.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Cakic_2020.jpg>
-Package pdftex.def Info: Figures/tesseract_papers/Cakic_2020.jpg  used on input line 99.
+Package pdftex.def Info: Figures/tesseract_papers/Cakic_2020.jpg  used on input line 94.
 (pdftex.def)             Requested size: 367.37833pt x 157.32242pt.
  [13 <./Figures/tesseract_papers/Giridhar_2019.jpg>]
 <Figures/tesseract_papers/Robby_2019.jpg, id=961, 2323.93219pt x 258.21469pt>
 File: Figures/tesseract_papers/Robby_2019.jpg Graphic file (type jpg)
 <use Figures/tesseract_papers/Robby_2019.jpg>
-Package pdftex.def Info: Figures/tesseract_papers/Robby_2019.jpg  used on input line 110.
+Package pdftex.def Info: Figures/tesseract_papers/Robby_2019.jpg  used on input line 105.
 (pdftex.def)             Requested size: 367.37833pt x 40.81874pt.
  [14 <./Figures/tesseract_papers/Cakic_2020.jpg> <./Figures/tesseract_papers/Robby_2019.jpg>] [15] [16]
 <Figures/CRNN_Papers/Biro_2023.jpg, id=984, 1596.71532pt x 590.95781pt>
 File: Figures/CRNN_Papers/Biro_2023.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Biro_2023.jpg>
-Package pdftex.def Info: Figures/CRNN_Papers/Biro_2023.jpg  used on input line 143.
+Package pdftex.def Info: Figures/CRNN_Papers/Biro_2023.jpg  used on input line 138.
 (pdftex.def)             Requested size: 367.37833pt x 135.97153pt.
  [17 <./Figures/CRNN_Papers/Biro_2023.jpg>]
 <Figures/CRNN_Papers/Shinde_2020.jpg, id=993, 1241.38782pt x 371.88937pt>
 File: Figures/CRNN_Papers/Shinde_2020.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Shinde_2020.jpg>
-Package pdftex.def Info: Figures/CRNN_Papers/Shinde_2020.jpg  used on input line 157.
+Package pdftex.def Info: Figures/CRNN_Papers/Shinde_2020.jpg  used on input line 152.
 (pdftex.def)             Requested size: 367.37833pt x 110.05823pt.
  [18 <./Figures/CRNN_Papers/Shinde_2020.jpg>]
 <Figures/CRNN_Papers/Rawl_2018.jpg, id=1001, 1015.54407pt x 1206.00563pt>
 File: Figures/CRNN_Papers/Rawl_2018.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Rawl_2018.jpg>
-Package pdftex.def Info: Figures/CRNN_Papers/Rawl_2018.jpg  used on input line 173.
+Package pdftex.def Info: Figures/CRNN_Papers/Rawl_2018.jpg  used on input line 168.
 (pdftex.def)             Requested size: 242.13513pt x 287.53343pt.
  [19 <./Figures/CRNN_Papers/Rawl_2018.jpg>]
 <Figures/CRNN_Papers/Feng_2020.jpg, id=1009, 822.82407pt x 1014.03844pt>
 File: Figures/CRNN_Papers/Feng_2020.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Feng_2020.jpg>
-Package pdftex.def Info: Figures/CRNN_Papers/Feng_2020.jpg  used on input line 187.
+Package pdftex.def Info: Figures/CRNN_Papers/Feng_2020.jpg  used on input line 182.
 (pdftex.def)             Requested size: 242.13513pt x 298.39604pt.
  [20 <./Figures/CRNN_Papers/Feng_2020.jpg>]
 <Figures/CRNN_Papers/Azadbakht_2022.jpg, id=1018, 1222.5675pt x 719.68875pt>
 File: Figures/CRNN_Papers/Azadbakht_2022.jpg Graphic file (type jpg)
 <use Figures/CRNN_Papers/Azadbakht_2022.jpg>
-Package pdftex.def Info: Figures/CRNN_Papers/Azadbakht_2022.jpg  used on input line 201.
+Package pdftex.def Info: Figures/CRNN_Papers/Azadbakht_2022.jpg  used on input line 196.
 (pdftex.def)             Requested size: 325.62848pt x 191.68298pt.
  [21 <./Figures/CRNN_Papers/Azadbakht_2022.jpg>]
 <Figures/LSTM_Breuel.jpg, id=1027, 435.87843pt x 237.88875pt>
 File: Figures/LSTM_Breuel.jpg Graphic file (type jpg)
 <use Figures/LSTM_Breuel.jpg>
-Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 220.
+Package pdftex.def Info: Figures/LSTM_Breuel.jpg  used on input line 215.
 (pdftex.def)             Requested size: 333.97972pt x 182.27467pt.
  [22 <./Figures/LSTM_Breuel.jpg>]
 <Figures/Trans_MLi.jpg, id=1035, 855.94781pt x 411.78844pt>
 File: Figures/Trans_MLi.jpg Graphic file (type jpg)
 <use Figures/Trans_MLi.jpg>
-Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 239.
+Package pdftex.def Info: Figures/Trans_MLi.jpg  used on input line 234.
 (pdftex.def)             Requested size: 250.48637pt x 120.50261pt.
  [23 <./Figures/Trans_MLi.jpg>]
 <Figures/AT_Li.jpg, id=1043, 773.13844pt x 518.6878pt>
 File: Figures/AT_Li.jpg Graphic file (type jpg)
 <use Figures/AT_Li.jpg>
-Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 263.
+Package pdftex.def Info: Figures/AT_Li.jpg  used on input line 258.
 (pdftex.def)             Requested size: 250.48637pt x 168.04918pt.
  [24 <./Figures/AT_Li.jpg>]
 <Figures/RB_Doush.jpg, id=1051, 341.02406pt x 305.64188pt>
 File: Figures/RB_Doush.jpg Graphic file (type jpg)
 <use Figures/RB_Doush.jpg>
-Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 284.
+Package pdftex.def Info: Figures/RB_Doush.jpg  used on input line 279.
 (pdftex.def)             Requested size: 250.48637pt x 224.50182pt.
  [25 <./Figures/RB_Doush.jpg>]
 <Figures/SVM_Joshua.jpg, id=1059, 376.40625pt x 261.97874pt>
 File: Figures/SVM_Joshua.jpg Graphic file (type jpg)
 <use Figures/SVM_Joshua.jpg>
-Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 303.
+Package pdftex.def Info: Figures/SVM_Joshua.jpg  used on input line 298.
 (pdftex.def)             Requested size: 333.97972pt x 232.46478pt.
  [26 <./Figures/SVM_Joshua.jpg>]
 <Figures/HMM_Rashid.jpg, id=1067, 618.05907pt x 316.93407pt>
 File: Figures/HMM_Rashid.jpg Graphic file (type jpg)
 <use Figures/HMM_Rashid.jpg>
-Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 324.
+Package pdftex.def Info: Figures/HMM_Rashid.jpg  used on input line 319.
 (pdftex.def)             Requested size: 333.97972pt x 171.26758pt.
  [27 <./Figures/HMM_Rashid.jpg>]
 <Figures/KNN_Hazra.jpg, id=1076, 397.485pt x 247.67531pt>
 File: Figures/KNN_Hazra.jpg Graphic file (type jpg)
 <use Figures/KNN_Hazra.jpg>
-Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 341.
+Package pdftex.def Info: Figures/KNN_Hazra.jpg  used on input line 336.
 (pdftex.def)             Requested size: 333.97972pt x 208.11008pt.
  [28 <./Figures/KNN_Hazra.jpg>]
 <Figures/TM_Hossain.jpg, id=1083, 336.50719pt x 509.65407pt>
 File: Figures/TM_Hossain.jpg Graphic file (type jpg)
 <use Figures/TM_Hossain.jpg>
-Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 358.
+Package pdftex.def Info: Figures/TM_Hossain.jpg  used on input line 353.
 (pdftex.def)             Requested size: 166.98668pt x 252.90556pt.
  [29 <./Figures/TM_Hossain.jpg>] [30]) (Chapters/Chapter3.tex [31]
 Chapter 3.
@@ -1280,7 +1280,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  78i,13n,81p,13205b,1375s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (136 pages, 11420014 bytes).
+Output written on Thesis.pdf (136 pages, 11420209 bytes).
 PDF statistics:
  2064 PDF objects out of 2073 (max. 8388607)
  601 named destinations out of 1000 (max. 500000)

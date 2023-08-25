@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Thesis"] 1692746160 "Thesis.aux" "Thesis.bbl" "Thesis" 1692746891 0
+["bibtex Thesis"] 1692746160 "Thesis.aux" "Thesis.bbl" "Thesis" 1692977902 0
   "./Bibliography.bib" 1691367398 190141 919798a02fda0884a056845453c3f716 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/bibtex/bst/feupphdteses/IEEEtranN.bst" 1363106370 63465 52e4631827d9e4cab8ed25dc93fa95dd ""
-  "Thesis.aux" 1692746890 43733 1dbaed0e16a92442b976793128a51bf4 "pdflatex"
+  "Thesis.aux" 1692977901 43733 1dbaed0e16a92442b976793128a51bf4 "pdflatex"
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
   (rewritten before read)
-["pdflatex"] 1692746882 "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" "Thesis.pdf" "Thesis" 1692746891 0
+["pdflatex"] 1692977892 "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" "Thesis.pdf" "Thesis" 1692977902 0
   "Appendices/AppendixA.tex" 1692740218 16605 2905d1703c521e44d6c301482cb4c98e ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1689871008 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1688685491 12668 06cc73f9aed98107d1bf2c608d369394 ""
@@ -139,7 +139,7 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/vmargin/vmargin.sty" 1090526724 7055 5eae49c3f07fead60d92def0a4f5c30f ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Chapters/Chapter1.tex" 1692746440 11509 c76ae27d4276e17f5c074739c74f80e5 ""
-  "Chapters/Chapter2.tex" 1692746440 38810 fd83f94b5befd865d3da6b1023b1f674 ""
+  "Chapters/Chapter2.tex" 1692977891 37814 232a5c15834ae4f65e63d1272966e052 ""
   "Chapters/Chapter3.tex" 1692746440 63300 0cf5d3d6d67a8b0f3ae4e9ba08e11f85 ""
   "Chapters/Chapter4.tex" 1692745679 16219 1cc51d4d77b09be7f998661016e7522a ""
   "Chapters/Chapter5.tex" 1692746149 27135 65615418e98bf305b70eb6836818f1ac ""
@@ -242,16 +242,16 @@
   "Figures/tesseract_papers/Cakic_2020.jpg" 1689633725 64069 ffc3b702ebfe5bd0136d4fc1a65e65aa ""
   "Figures/tesseract_papers/Giridhar_2019.jpg" 1689630001 103479 2aa8a8b295c3d7748904b20dc2c5d61d ""
   "Figures/tesseract_papers/Robby_2019.jpg" 1689636944 69194 02c5bfba8610cb35ba432cd950d4f365 ""
-  "Thesis.aux" 1692746890 43733 1dbaed0e16a92442b976793128a51bf4 "pdflatex"
+  "Thesis.aux" 1692977901 43733 1dbaed0e16a92442b976793128a51bf4 "pdflatex"
   "Thesis.bbl" 1692746160 13767 56c1a4e8378b0c776219a004496325fd "bibtex Thesis"
   "Thesis.cls" 1689888304 11797 545a370427d4de7e793be3e95c36b3c6 ""
-  "Thesis.lof" 1692746890 8640 f385345f79f9b6c3d1c496f49677b27c "pdflatex"
-  "Thesis.lol" 1692746890 313 5f1fb7bc7a135cfd2f3a748443057dcc "pdflatex"
-  "Thesis.lot" 1692746890 842 b5d58903d115a587c6b80cc97a085081 "pdflatex"
-  "Thesis.out" 1692746890 25931 f1f11d10fb614c9fed651b5cb5b2b19e "pdflatex"
-  "Thesis.tex" 1692746881 13002 bfecb8e68fa37ca33360bbb7006d9120 ""
-  "Thesis.toc" 1692746890 10818 993762782266c6041ea550cf4b8b964e "pdflatex"
-  "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" 1692746881 13002 bfecb8e68fa37ca33360bbb7006d9120 ""
+  "Thesis.lof" 1692977901 8640 f385345f79f9b6c3d1c496f49677b27c "pdflatex"
+  "Thesis.lol" 1692977901 313 5f1fb7bc7a135cfd2f3a748443057dcc "pdflatex"
+  "Thesis.lot" 1692977901 842 b5d58903d115a587c6b80cc97a085081 "pdflatex"
+  "Thesis.out" 1692977901 25931 f1f11d10fb614c9fed651b5cb5b2b19e "pdflatex"
+  "Thesis.tex" 1692799111 13251 7a7064c74c28f2c6757fc75207c3e239 ""
+  "Thesis.toc" 1692977901 10818 993762782266c6041ea550cf4b8b964e "pdflatex"
+  "g:/My Drive/MTU/MSc_Project_Thesis/MSc_Document/Thesis.tex" 1692799111 13251 7a7064c74c28f2c6757fc75207c3e239 ""
   "lstpatch.sty" 1568359168 13038 8661d088ac62bbb6c48610e50ea35872 ""
   "vector.sty" 1568359168 2058 14ffaeb60d4b7735727aae1e2ee54809 ""
   (generated)

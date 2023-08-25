@@ -1,0 +1,161 @@
+commit f791ed6d42c06f6cad0152bb508161674cc3b1f9
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Wed Aug 23 00:32:15 2023 +0100
+
+    Added Reflections and Acknowledgements
+
+commit 69e0ea25df96aeb5efa361ebe98a98f9e9bef24d
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Aug 22 01:47:05 2023 +0100
+
+    Implemented Alex amendments
+
+commit bcde7dfa3579604a33814fbff7a76589f1968d5e
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Mon Aug 21 00:43:01 2023 +0100
+
+    Updated Discussions and change CRNN to fourth sprint
+
+commit 8ebeb25907a2cc0a04e4111c5a3bf1b5759b36f4
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun Aug 20 01:46:50 2023 +0100
+
+    Working through the Discussions and Future Work
+
+commit 3d7b2a87de8a81ddacd414068dd75e2a2c99db5b
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Thu Aug 17 01:00:04 2023 +0100
+
+    started conclusions
+
+commit 537cd53e8cb82e03eb1d96d4e7687523463c5830
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Wed Aug 16 01:13:27 2023 +0100
+
+    updated tables in results and added further analysis charts
+
+commit 52891e114f0a2c116dbbd5453820838a478d6d4c
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Aug 15 00:56:20 2023 +0100
+
+    Updated Results and removed and renamed folders from methodology
+
+commit 9308303249a47277c4a1a0cfc614e6db19d8e54e
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Wed Aug 9 01:12:05 2023 +0100
+
+    More Results
+
+commit d57855a4b9c983ae932d23a678d3d327e6c7b637
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Aug 8 01:25:35 2023 +0100
+
+    Started Results Table
+
+commit bacd58f5a99eded271ad70240a9a593de37e8983
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Mon Aug 7 01:37:32 2023 +0100
+
+    Writing CRNN Methodology
+
+commit df287e8820d715e9da9981c4b4d66f9518433a94
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sat Aug 5 01:00:40 2023 +0100
+
+    Started CRNN Methodology
+
+commit 8a7ba0167fa0966f2656b9372eca3a9f37754ad6
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Fri Aug 4 00:52:02 2023 +0100
+
+    Completed Seperate Folders Methodology
+
+commit 375a096916215a4db0bf0ca9bdf175875a835516
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Thu Aug 3 01:20:23 2023 +0100
+
+    Added further methodology sections - up to folder 7
+
+commit 7a72fcdabc24a83c0c6637bdc9996d16b11b3122
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Aug 1 09:48:40 2023 +0100
+
+    Updates from Alex meeting
+
+commit d962d3065514d5be5dc63d99d339e07eb08f570a
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun Jul 30 23:31:58 2023 +0100
+
+    Added some results graphs and analysis for sipa 2
+
+commit 74987489962fff1aa44d9d9fd15b9de5f478f1be
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun Jul 30 10:30:35 2023 +0100
+
+    Updating Methodology and Results
+
+commit 289853ba366b25eb203bdb737c1779c2808f70e3
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Jul 25 01:05:52 2023 +0100
+
+    Strengthened the Aims and Objectives as per Alex's views
+
+commit 20fa6ba66b731d99535120cc5488bcf6c7d77d65
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Mon Jul 24 10:47:30 2023 +0100
+
+    Added Global first run
+
+commit 6bcffe5861aab3eefeb75e4a12122b125b974867
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun Jul 23 00:56:29 2023 +0100
+
+    Added Analysis of oroginal folders
+
+commit 4b831ed97f0d516c4a378d0628ec5b98edef3c87
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sat Jul 22 01:45:21 2023 +0100
+
+    Added explanation for EDA Charts
+
+commit 1addcf0732e1cd89edcf336f13b7755cdedd0729
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Tue Jul 18 00:56:48 2023 +0100
+
+    Added Literature Review Notes on Tesseract OCR
+
+commit 2397e3664580ae740c35c213d71e8eb4b76f7866
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Mon Jul 17 01:04:02 2023 +0100
+
+    Added Intro to Tesseract and CRNN
+
+commit e7abe919a389b78e8c90f9985cddba3f6f0476a2
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun Jul 16 08:28:12 2023 +0100
+
+    Added Other OCR Research, Aims and Structure
+
+commit 4ace89c5e31e51c7fa08485c8351f65439422912
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Wed Jul 12 01:38:11 2023 +0100
+
+    Added Intro and other research headings
+
+commit 90c0eeb0053fdef9643ef242a5c66c5de0e69c4c
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sat Jul 8 11:13:07 2023 +0100
+
+    Added research papers and abstract
+
+commit 3c2a659261d54178b4ba011e21b5789d847225cd
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun May 14 23:49:23 2023 +0100
+
+    Added Document outline
+
+commit 956588c4596f6cd7b8321d771c23464ff71866ae
+Author: Aidan Dennehy <duinneacha@gmail.com>
+Date:   Sun May 14 23:42:08 2023 +0100
+
+    First commit
